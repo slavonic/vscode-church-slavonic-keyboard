@@ -1,0 +1,52 @@
+{
+    "name": "vscode-church-slavonic-keyboard",
+    "displayName": "vscode-church-slavonic-keyboard",
+    "description": "Standard Church Slavonic keyboard",
+    "version": "0.0.1",
+    "publisher": "pgmmpk",
+    "engines": {
+        "vscode": "^1.23.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [ "*" ],
+    "main": "./extension",
+    "contributes": {
+        "keybindings": [
+            {
+                "key": "ctrl+a",
+                "mac": "ctrl+a",
+                "command": "church-slavonic-keyboard.FE2E",
+                "when": "editorTextFocus"
+            },
+            {
+                "key": "ctrl+x",
+                "mac": "ctrl+x",
+                "command": "church-slavonic-keyboard.0447",
+                "when": "editorTextFocus"
+            }
+        ],
+        "commands": [
+            {
+                "command": "church-slavonic-keyboard.FE2E",
+                "title": "Church Slavonic symbol: FE2E"
+            },
+            {
+                "command": "church-slavonic-keyboard.0447",
+                "title": "Church Slavonic symbol: 0447"
+            }
+        ]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6",
+        "eslint": "^4.11.0",
+        "@types/node": "^7.0.43",
+        "@types/mocha": "^2.2.42"
+    }
+}
