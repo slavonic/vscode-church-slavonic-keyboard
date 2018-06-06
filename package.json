@@ -1,8 +1,12 @@
 {
     "name": "vscode-church-slavonic-keyboard",
     "displayName": "vscode-church-slavonic-keyboard",
-    "description": "Standard Church Slavonic keyboard",
+    "description": "Church Slavonic soft keyboard",
     "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/slavonic/vscode-church-slavonic-keyboard"
+    },
     "publisher": "pgmmpk",
     "engines": {
         "vscode": "^1.23.0"
@@ -10,33 +14,781 @@
     "categories": [
         "Other"
     ],
-    "activationEvents": [ "*" ],
+    "activationEvents": [
+        "*"
+    ],
     "main": "./extension",
     "contributes": {
-        "keybindings": [
-            {
-                "key": "ctrl+a",
-                "mac": "ctrl+a",
-                "command": "church-slavonic-keyboard.FE2E",
-                "when": "editorTextFocus"
-            },
-            {
-                "key": "ctrl+x",
-                "mac": "ctrl+x",
-                "command": "church-slavonic-keyboard.0447",
-                "when": "editorTextFocus"
-            }
-        ],
-        "commands": [
-            {
-                "command": "church-slavonic-keyboard.FE2E",
-                "title": "Church Slavonic symbol: FE2E"
-            },
-            {
-                "command": "church-slavonic-keyboard.0447",
-                "title": "Church Slavonic symbol: 0447"
-            }
-        ]
+        "keybindings":
+[
+    {
+        "key": "ctrl+alt+[Backquote]",
+        "command": "church-slavonic-keyboard.ctrl+alt+[Backquote]",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+[Backquote]",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+[Backquote]",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+1",
+        "command": "church-slavonic-keyboard.ctrl+alt+1",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+1",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+1",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+2",
+        "command": "church-slavonic-keyboard.ctrl+alt+2",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+2",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+2",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+3",
+        "command": "church-slavonic-keyboard.ctrl+alt+3",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+3",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+3",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+4",
+        "command": "church-slavonic-keyboard.ctrl+alt+4",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+4",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+4",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+5",
+        "command": "church-slavonic-keyboard.ctrl+alt+5",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+5",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+5",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+6",
+        "command": "church-slavonic-keyboard.ctrl+alt+6",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+6",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+6",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+7",
+        "command": "church-slavonic-keyboard.ctrl+alt+7",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+7",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+7",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+8",
+        "command": "church-slavonic-keyboard.ctrl+alt+8",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+8",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+8",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+9",
+        "command": "church-slavonic-keyboard.ctrl+alt+9",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+9",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+9",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+0",
+        "command": "church-slavonic-keyboard.ctrl+alt+0",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+0",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+0",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+[Minus]",
+        "command": "church-slavonic-keyboard.ctrl+alt+[Minus]",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+[Minus]",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+[Minus]",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+[Equal]",
+        "command": "church-slavonic-keyboard.ctrl+alt+[Equal]",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+[Equal]",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+[Equal]",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+q",
+        "command": "church-slavonic-keyboard.ctrl+alt+q",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+q",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+q",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+w",
+        "command": "church-slavonic-keyboard.ctrl+alt+w",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+w",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+w",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+e",
+        "command": "church-slavonic-keyboard.ctrl+alt+e",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+e",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+e",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+r",
+        "command": "church-slavonic-keyboard.ctrl+alt+r",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+r",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+r",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+t",
+        "command": "church-slavonic-keyboard.ctrl+alt+t",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+t",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+t",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+y",
+        "command": "church-slavonic-keyboard.ctrl+alt+y",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+u",
+        "command": "church-slavonic-keyboard.ctrl+alt+u",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+i",
+        "command": "church-slavonic-keyboard.ctrl+alt+i",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+o",
+        "command": "church-slavonic-keyboard.ctrl+alt+o",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "church-slavonic-keyboard.ctrl+alt+p",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+p",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+p",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+[BracketLeft]",
+        "command": "church-slavonic-keyboard.ctrl+alt+[BracketLeft]",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+[BracketRight]",
+        "command": "church-slavonic-keyboard.ctrl+alt+[BracketRight]",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+[BracketRight]",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+[BracketRight]",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+[Backslash]",
+        "command": "church-slavonic-keyboard.ctrl+alt+[Backslash]",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+[Backslash]",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+[Backslash]",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+a",
+        "command": "church-slavonic-keyboard.ctrl+alt+a",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+a",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+a",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+s",
+        "command": "church-slavonic-keyboard.ctrl+alt+s",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+s",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+s",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+d",
+        "command": "church-slavonic-keyboard.ctrl+alt+d",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+d",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+d",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+f",
+        "command": "church-slavonic-keyboard.ctrl+alt+f",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+f",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+f",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+g",
+        "command": "church-slavonic-keyboard.ctrl+alt+g",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+g",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+g",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+h",
+        "command": "church-slavonic-keyboard.ctrl+alt+h",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+j",
+        "command": "church-slavonic-keyboard.ctrl+alt+j",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+j",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+j",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+k",
+        "command": "church-slavonic-keyboard.ctrl+alt+k",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "church-slavonic-keyboard.ctrl+alt+l",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+l",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+l",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+[Semicolon]",
+        "command": "church-slavonic-keyboard.ctrl+alt+[Semicolon]",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+[Quote]",
+        "command": "church-slavonic-keyboard.ctrl+alt+[Quote]",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+[Quote]",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+[Quote]",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+z",
+        "command": "church-slavonic-keyboard.ctrl+alt+z",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+z",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+z",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+x",
+        "command": "church-slavonic-keyboard.ctrl+alt+x",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+x",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+x",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+c",
+        "command": "church-slavonic-keyboard.ctrl+alt+c",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+c",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+c",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+v",
+        "command": "church-slavonic-keyboard.ctrl+alt+v",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+b",
+        "command": "church-slavonic-keyboard.ctrl+alt+b",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+b",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+b",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "church-slavonic-keyboard.ctrl+alt+n",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+n",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+n",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+m",
+        "command": "church-slavonic-keyboard.ctrl+alt+m",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+m",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+m",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+[Comma]",
+        "command": "church-slavonic-keyboard.ctrl+alt+[Comma]",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+[Period]",
+        "command": "church-slavonic-keyboard.ctrl+alt+[Period]",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+[Period]",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+[Period]",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+[Slash]",
+        "command": "church-slavonic-keyboard.ctrl+alt+[Slash]",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+[Slash]",
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+[Slash]",
+        "when": "editorTextFocus"
+    }
+],
+        "commands":
+[
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+[Backquote]",
+        "title": "CU Stroke: ctrl+alt+[Backquote]"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+[Backquote]",
+        "title": "CU Stroke: ctrl+alt+shift+[Backquote]"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+1",
+        "title": "CU Stroke: ctrl+alt+1"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+1",
+        "title": "CU Stroke: ctrl+alt+shift+1"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+2",
+        "title": "CU Stroke: ctrl+alt+2"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+2",
+        "title": "CU Stroke: ctrl+alt+shift+2"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+3",
+        "title": "CU Stroke: ctrl+alt+3"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+3",
+        "title": "CU Stroke: ctrl+alt+shift+3"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+4",
+        "title": "CU Stroke: ctrl+alt+4"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+4",
+        "title": "CU Stroke: ctrl+alt+shift+4"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+5",
+        "title": "CU Stroke: ctrl+alt+5"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+5",
+        "title": "CU Stroke: ctrl+alt+shift+5"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+6",
+        "title": "CU Stroke: ctrl+alt+6"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+6",
+        "title": "CU Stroke: ctrl+alt+shift+6"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+7",
+        "title": "CU Stroke: ctrl+alt+7"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+7",
+        "title": "CU Stroke: ctrl+alt+shift+7"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+8",
+        "title": "CU Stroke: ctrl+alt+8"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+8",
+        "title": "CU Stroke: ctrl+alt+shift+8"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+9",
+        "title": "CU Stroke: ctrl+alt+9"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+9",
+        "title": "CU Stroke: ctrl+alt+shift+9"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+0",
+        "title": "CU Stroke: ctrl+alt+0"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+0",
+        "title": "CU Stroke: ctrl+alt+shift+0"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+[Minus]",
+        "title": "CU Stroke: ctrl+alt+[Minus]"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+[Minus]",
+        "title": "CU Stroke: ctrl+alt+shift+[Minus]"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+[Equal]",
+        "title": "CU Stroke: ctrl+alt+[Equal]"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+[Equal]",
+        "title": "CU Stroke: ctrl+alt+shift+[Equal]"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+q",
+        "title": "CU Stroke: ctrl+alt+q"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+q",
+        "title": "CU Stroke: ctrl+alt+shift+q"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+w",
+        "title": "CU Stroke: ctrl+alt+w"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+w",
+        "title": "CU Stroke: ctrl+alt+shift+w"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+e",
+        "title": "CU Stroke: ctrl+alt+e"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+e",
+        "title": "CU Stroke: ctrl+alt+shift+e"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+r",
+        "title": "CU Stroke: ctrl+alt+r"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+r",
+        "title": "CU Stroke: ctrl+alt+shift+r"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+t",
+        "title": "CU Stroke: ctrl+alt+t"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+t",
+        "title": "CU Stroke: ctrl+alt+shift+t"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+y",
+        "title": "CU Stroke: ctrl+alt+y"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+u",
+        "title": "CU Stroke: ctrl+alt+u"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+i",
+        "title": "CU Stroke: ctrl+alt+i"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+o",
+        "title": "CU Stroke: ctrl+alt+o"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+p",
+        "title": "CU Stroke: ctrl+alt+p"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+p",
+        "title": "CU Stroke: ctrl+alt+shift+p"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+[BracketLeft]",
+        "title": "CU Stroke: ctrl+alt+[BracketLeft]"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+[BracketRight]",
+        "title": "CU Stroke: ctrl+alt+[BracketRight]"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+[BracketRight]",
+        "title": "CU Stroke: ctrl+alt+shift+[BracketRight]"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+[Backslash]",
+        "title": "CU Stroke: ctrl+alt+[Backslash]"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+[Backslash]",
+        "title": "CU Stroke: ctrl+alt+shift+[Backslash]"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+a",
+        "title": "CU Stroke: ctrl+alt+a"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+a",
+        "title": "CU Stroke: ctrl+alt+shift+a"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+s",
+        "title": "CU Stroke: ctrl+alt+s"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+s",
+        "title": "CU Stroke: ctrl+alt+shift+s"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+d",
+        "title": "CU Stroke: ctrl+alt+d"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+d",
+        "title": "CU Stroke: ctrl+alt+shift+d"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+f",
+        "title": "CU Stroke: ctrl+alt+f"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+f",
+        "title": "CU Stroke: ctrl+alt+shift+f"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+g",
+        "title": "CU Stroke: ctrl+alt+g"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+g",
+        "title": "CU Stroke: ctrl+alt+shift+g"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+h",
+        "title": "CU Stroke: ctrl+alt+h"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+j",
+        "title": "CU Stroke: ctrl+alt+j"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+j",
+        "title": "CU Stroke: ctrl+alt+shift+j"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+k",
+        "title": "CU Stroke: ctrl+alt+k"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+l",
+        "title": "CU Stroke: ctrl+alt+l"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+l",
+        "title": "CU Stroke: ctrl+alt+shift+l"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+[Semicolon]",
+        "title": "CU Stroke: ctrl+alt+[Semicolon]"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+[Quote]",
+        "title": "CU Stroke: ctrl+alt+[Quote]"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+[Quote]",
+        "title": "CU Stroke: ctrl+alt+shift+[Quote]"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+z",
+        "title": "CU Stroke: ctrl+alt+z"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+z",
+        "title": "CU Stroke: ctrl+alt+shift+z"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+x",
+        "title": "CU Stroke: ctrl+alt+x"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+x",
+        "title": "CU Stroke: ctrl+alt+shift+x"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+c",
+        "title": "CU Stroke: ctrl+alt+c"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+c",
+        "title": "CU Stroke: ctrl+alt+shift+c"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+v",
+        "title": "CU Stroke: ctrl+alt+v"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+b",
+        "title": "CU Stroke: ctrl+alt+b"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+b",
+        "title": "CU Stroke: ctrl+alt+shift+b"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+n",
+        "title": "CU Stroke: ctrl+alt+n"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+n",
+        "title": "CU Stroke: ctrl+alt+shift+n"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+m",
+        "title": "CU Stroke: ctrl+alt+m"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+m",
+        "title": "CU Stroke: ctrl+alt+shift+m"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+[Comma]",
+        "title": "CU Stroke: ctrl+alt+[Comma]"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+[Period]",
+        "title": "CU Stroke: ctrl+alt+[Period]"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+[Period]",
+        "title": "CU Stroke: ctrl+alt+shift+[Period]"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+[Slash]",
+        "title": "CU Stroke: ctrl+alt+[Slash]"
+    },
+    {
+        "command": "church-slavonic-keyboard.ctrl+alt+shift+[Slash]",
+        "title": "CU Stroke: ctrl+alt+shift+[Slash]"
+    },
+    {
+        "command": "church-slavonic-toggle",
+        "title": "Church Slavonic Keyboard: Toggle"
+    },
+    {
+        "command": "church-slavonic-activate-dead",
+        "title": "Church Slavonic Keyboard: Activate Dead Key"
+    }
+]
     },
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install",
@@ -48,5 +800,8 @@
         "eslint": "^4.11.0",
         "@types/node": "^7.0.43",
         "@types/mocha": "^2.2.42"
+    },
+    "dependencies": {
+        "vsce": "^1.41.0"
     }
 }

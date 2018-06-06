@@ -1,46 +1,69 @@
 const vscode = require('vscode');
+const symbolMap = require('./symbol-map');
+const keyMap = require('./key-map');
+
+var active = false;
+var dead = false;
+var statusBarItem = null;
 
 function insertSymbol(symbol) {
-    const editor = vscode.window.activeTextEditor;
-    if (!editor) return;
-
-    if (editor.selection.isEmpty) {
-        editor.edit(function (editBuilder) {
-            editor.selections.forEach(function (selection, idx) {
-                editBuilder.insert(selection.active, symbol)
-            })
-        })
-    } else {
-        var newSelections;
-        editor.edit(function (editBuilder) {
-            newSelections = editor.selections.map(function (selection) {
-                editBuilder.replace(selection, symbol)
-
-                const position = selection.start;
-                const newPosition = position.with(position.line, position.character + 1);
-                return new vscode.Selection(newPosition, newPosition);
-            })
-        })
-        editor.selections = newSelections;
-    }
+    vscode.commands.executeCommand('type', {
+        text: symbol
+    });
 }
-
-const symbolMap = [
-    ['church-slavonic-keyboard.FE2E', '\ufe2e'],
-    ['church-slavonic-keyboard.0447', '\u0447'],
-]
 
 function activate(context) {
-    symbolMap.forEach(function(pair) {
-        const [commandName, symbol] = pair;
 
-        let disposable = vscode.commands.registerCommand(
+    for (var commandName in symbolMap) {
+        const seat = symbolMap[commandName]
+
+        const disposable = vscode.commands.registerCommand(
             commandName,
-            function() { insertSymbol(symbol); }
+            function() {
+                if (active) {
+                    if (dead) {
+                        if (seat.dead !== undefined) {
+                            insertSymbol(seat.dead)
+                        }
+                    } else {
+                        if (seat.normal !== undefined) {
+                            insertSymbol(seat.normal)
+                        }
+                    }
+                }
+                if (dead) {
+                    dead = false;
+                    statusBarItem.text = active ? 'cu: ON' : 'cu: OFF'
+                    statusBarItem.show()
+                }
+
+                return true
+            }
         );
         context.subscriptions.push(disposable);
-    })
+    }
+
+    statusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Left);
+    statusBarItem.text = 'cu: OFF'
+    statusBarItem.show()
+    context.subscriptions.push(statusBarItem)
+
+    var disposable = vscode.commands.registerCommand('church-slavonic-toggle', function () {
+        active = !active;
+        statusBarItem.text = active ? 'cu: ON' : 'cu: OFF'
+        statusBarItem.show()
+    });
+    context.subscriptions.push(disposable);
+
+    var disposable = vscode.commands.registerCommand('church-slavonic-activate-dead', function () {
+        active = true;
+        dead = true;
+        statusBarItem.text = 'cu: ^^'
+        statusBarItem.show()
+    });
+    context.subscriptions.push(disposable);
 }
+
 exports.activate = activate;
 
 function deactivate() { }

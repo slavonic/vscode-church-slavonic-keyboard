@@ -1,0 +1,682 @@
+[
+    {
+        "key": "ctrl+alt+`",
+        "command": "church-slavonic-keyboard.451",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+`",
+        "command": "church-slavonic-keyboard.401",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+1",
+        "command": "church-slavonic-keyboard.482",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+1",
+        "command": "church-slavonic-keyboard.200d",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+2",
+        "command": "church-slavonic-keyboard.483",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+2",
+        "command": "church-slavonic-keyboard.a67e",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+3",
+        "command": "church-slavonic-keyboard.300",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+3",
+        "command": "church-slavonic-keyboard.486.300",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+4",
+        "command": "church-slavonic-keyboard.487",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+4",
+        "command": "church-slavonic-keyboard.a67c",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+5",
+        "command": "church-slavonic-keyboard.486",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+5",
+        "command": "church-slavonic-keyboard.311",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+6",
+        "command": "church-slavonic-keyboard.30f",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+6",
+        "command": "church-slavonic-keyboard.1dc0",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+7",
+        "command": "church-slavonic-keyboard.301",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+7",
+        "command": "church-slavonic-keyboard.486.301",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+8",
+        "command": "church-slavonic-keyboard.47f",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+8",
+        "command": "church-slavonic-keyboard.47e",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+9",
+        "command": "church-slavonic-keyboard.461",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+9",
+        "command": "church-slavonic-keyboard.460",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+0",
+        "command": "church-slavonic-keyboard.1c82",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+0",
+        "command": "church-slavonic-keyboard.2dea.487",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+-",
+        "command": "church-slavonic-keyboard.a64d",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+-",
+        "command": "church-slavonic-keyboard.a64c",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+=",
+        "command": "church-slavonic-keyboard.a673",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+=",
+        "command": "church-slavonic-keyboard.2720",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+q",
+        "command": "church-slavonic-keyboard.456.308",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+q",
+        "command": "church-slavonic-keyboard.406.308",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+w",
+        "command": "church-slavonic-keyboard.a641",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+w",
+        "command": "church-slavonic-keyboard.a640",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+e",
+        "command": "church-slavonic-keyboard.a64b",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+e",
+        "command": "church-slavonic-keyboard.a64a",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+r",
+        "command": "church-slavonic-keyboard.46f",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+r",
+        "command": "church-slavonic-keyboard.46e",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+t",
+        "command": "church-slavonic-keyboard.454",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+t",
+        "command": "church-slavonic-keyboard.404",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+y",
+        "command": "church-slavonic-keyboard.2de9.487",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+y",
+        "command": "church-slavonic-keyboard.",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+u",
+        "command": "church-slavonic-keyboard.2de2.487",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+u",
+        "command": "church-slavonic-keyboard.",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+i",
+        "command": "church-slavonic-keyboard.2df9.487",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+i",
+        "command": "church-slavonic-keyboard.",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+o",
+        "command": "church-slavonic-keyboard.2df3.487",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+o",
+        "command": "church-slavonic-keyboard.",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "church-slavonic-keyboard.455",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+p",
+        "command": "church-slavonic-keyboard.405",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+[",
+        "command": "church-slavonic-keyboard.2def",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+[",
+        "command": "church-slavonic-keyboard.",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+]",
+        "command": "church-slavonic-keyboard.33e",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+]",
+        "command": "church-slavonic-keyboard.2e2f",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+\\",
+        "command": "church-slavonic-keyboard.47d",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+\\",
+        "command": "church-slavonic-keyboard.47c",
+        "when": "editorTextFocus"
+    }
+]
+[
+    {
+        "command": "church-slavonic-keyboard.451",
+        "title": "Church Slavonic Symbol: ё"
+    },
+    {
+        "command": "church-slavonic-keyboard.401",
+        "title": "Church Slavonic Symbol: Ё"
+    },
+    {
+        "command": "church-slavonic-keyboard.482",
+        "title": "Church Slavonic Symbol: ҂"
+    },
+    {
+        "command": "church-slavonic-keyboard.200d",
+        "title": "Church Slavonic Symbol: ‍"
+    },
+    {
+        "command": "church-slavonic-keyboard.483",
+        "title": "Church Slavonic Symbol: ҃"
+    },
+    {
+        "command": "church-slavonic-keyboard.a67e",
+        "title": "Church Slavonic Symbol: ꙾"
+    },
+    {
+        "command": "church-slavonic-keyboard.300",
+        "title": "Church Slavonic Symbol: ̀"
+    },
+    {
+        "command": "church-slavonic-keyboard.486.300",
+        "title": "Church Slavonic Symbol: ҆̀"
+    },
+    {
+        "command": "church-slavonic-keyboard.487",
+        "title": "Church Slavonic Symbol: ҇"
+    },
+    {
+        "command": "church-slavonic-keyboard.a67c",
+        "title": "Church Slavonic Symbol: ꙼"
+    },
+    {
+        "command": "church-slavonic-keyboard.486",
+        "title": "Church Slavonic Symbol: ҆"
+    },
+    {
+        "command": "church-slavonic-keyboard.311",
+        "title": "Church Slavonic Symbol: ̑"
+    },
+    {
+        "command": "church-slavonic-keyboard.30f",
+        "title": "Church Slavonic Symbol: ̏"
+    },
+    {
+        "command": "church-slavonic-keyboard.1dc0",
+        "title": "Church Slavonic Symbol: ᷀"
+    },
+    {
+        "command": "church-slavonic-keyboard.301",
+        "title": "Church Slavonic Symbol: ́"
+    },
+    {
+        "command": "church-slavonic-keyboard.486.301",
+        "title": "Church Slavonic Symbol: ҆́"
+    },
+    {
+        "command": "church-slavonic-keyboard.47f",
+        "title": "Church Slavonic Symbol: ѿ"
+    },
+    {
+        "command": "church-slavonic-keyboard.47e",
+        "title": "Church Slavonic Symbol: Ѿ"
+    },
+    {
+        "command": "church-slavonic-keyboard.461",
+        "title": "Church Slavonic Symbol: ѡ"
+    },
+    {
+        "command": "church-slavonic-keyboard.460",
+        "title": "Church Slavonic Symbol: Ѡ"
+    },
+    {
+        "command": "church-slavonic-keyboard.1c82",
+        "title": "Church Slavonic Symbol: ᲂ"
+    },
+    {
+        "command": "church-slavonic-keyboard.2dea.487",
+        "title": "Church Slavonic Symbol: ⷪ҇"
+    },
+    {
+        "command": "church-slavonic-keyboard.a64d",
+        "title": "Church Slavonic Symbol: ꙍ"
+    },
+    {
+        "command": "church-slavonic-keyboard.a64c",
+        "title": "Church Slavonic Symbol: Ꙍ"
+    },
+    {
+        "command": "church-slavonic-keyboard.a673",
+        "title": "Church Slavonic Symbol: ꙳"
+    },
+    {
+        "command": "church-slavonic-keyboard.2720",
+        "title": "Church Slavonic Symbol: ✠"
+    },
+    {
+        "command": "church-slavonic-keyboard.456.308",
+        "title": "Church Slavonic Symbol: ї"
+    },
+    {
+        "command": "church-slavonic-keyboard.406.308",
+        "title": "Church Slavonic Symbol: Ї"
+    },
+    {
+        "command": "church-slavonic-keyboard.a641",
+        "title": "Church Slavonic Symbol: ꙁ"
+    },
+    {
+        "command": "church-slavonic-keyboard.a640",
+        "title": "Church Slavonic Symbol: Ꙁ"
+    },
+    {
+        "command": "church-slavonic-keyboard.a64b",
+        "title": "Church Slavonic Symbol: ꙋ"
+    },
+    {
+        "command": "church-slavonic-keyboard.a64a",
+        "title": "Church Slavonic Symbol: Ꙋ"
+    },
+    {
+        "command": "church-slavonic-keyboard.46f",
+        "title": "Church Slavonic Symbol: ѯ"
+    },
+    {
+        "command": "church-slavonic-keyboard.46e",
+        "title": "Church Slavonic Symbol: Ѯ"
+    },
+    {
+        "command": "church-slavonic-keyboard.454",
+        "title": "Church Slavonic Symbol: є"
+    },
+    {
+        "command": "church-slavonic-keyboard.404",
+        "title": "Church Slavonic Symbol: Є"
+    },
+    {
+        "command": "church-slavonic-keyboard.2de9.487",
+        "title": "Church Slavonic Symbol: ⷩ҇"
+    },
+    {
+        "command": "church-slavonic-keyboard.",
+        "title": "Church Slavonic Symbol: "
+    },
+    {
+        "command": "church-slavonic-keyboard.2de2.487",
+        "title": "Church Slavonic Symbol: ⷢ҇"
+    },
+    {
+        "command": "church-slavonic-keyboard.",
+        "title": "Church Slavonic Symbol: "
+    },
+    {
+        "command": "church-slavonic-keyboard.2df9.487",
+        "title": "Church Slavonic Symbol: ⷹ҇"
+    },
+    {
+        "command": "church-slavonic-keyboard.",
+        "title": "Church Slavonic Symbol: "
+    },
+    {
+        "command": "church-slavonic-keyboard.2df3.487",
+        "title": "Church Slavonic Symbol: ⷳ҇"
+    },
+    {
+        "command": "church-slavonic-keyboard.",
+        "title": "Church Slavonic Symbol: "
+    },
+    {
+        "command": "church-slavonic-keyboard.455",
+        "title": "Church Slavonic Symbol: ѕ"
+    },
+    {
+        "command": "church-slavonic-keyboard.405",
+        "title": "Church Slavonic Symbol: Ѕ"
+    },
+    {
+        "command": "church-slavonic-keyboard.2def",
+        "title": "Church Slavonic Symbol: ⷯ"
+    },
+    {
+        "command": "church-slavonic-keyboard.",
+        "title": "Church Slavonic Symbol: "
+    },
+    {
+        "command": "church-slavonic-keyboard.33e",
+        "title": "Church Slavonic Symbol: ̾"
+    },
+    {
+        "command": "church-slavonic-keyboard.2e2f",
+        "title": "Church Slavonic Symbol: ⸯ"
+    },
+    {
+        "command": "church-slavonic-keyboard.47d",
+        "title": "Church Slavonic Symbol: ѽ"
+    },
+    {
+        "command": "church-slavonic-keyboard.47c",
+        "title": "Church Slavonic Symbol: Ѽ"
+    }
+]
+[
+    [
+        "church-slavonic-keyboard.451",
+        "ё"
+    ],
+    [
+        "church-slavonic-keyboard.401",
+        "Ё"
+    ],
+    [
+        "church-slavonic-keyboard.482",
+        "҂"
+    ],
+    [
+        "church-slavonic-keyboard.200d",
+        "‍"
+    ],
+    [
+        "church-slavonic-keyboard.483",
+        "҃"
+    ],
+    [
+        "church-slavonic-keyboard.a67e",
+        "꙾"
+    ],
+    [
+        "church-slavonic-keyboard.300",
+        "̀"
+    ],
+    [
+        "church-slavonic-keyboard.486.300",
+        "҆̀"
+    ],
+    [
+        "church-slavonic-keyboard.487",
+        "҇"
+    ],
+    [
+        "church-slavonic-keyboard.a67c",
+        "꙼"
+    ],
+    [
+        "church-slavonic-keyboard.486",
+        "҆"
+    ],
+    [
+        "church-slavonic-keyboard.311",
+        "̑"
+    ],
+    [
+        "church-slavonic-keyboard.30f",
+        "̏"
+    ],
+    [
+        "church-slavonic-keyboard.1dc0",
+        "᷀"
+    ],
+    [
+        "church-slavonic-keyboard.301",
+        "́"
+    ],
+    [
+        "church-slavonic-keyboard.486.301",
+        "҆́"
+    ],
+    [
+        "church-slavonic-keyboard.47f",
+        "ѿ"
+    ],
+    [
+        "church-slavonic-keyboard.47e",
+        "Ѿ"
+    ],
+    [
+        "church-slavonic-keyboard.461",
+        "ѡ"
+    ],
+    [
+        "church-slavonic-keyboard.460",
+        "Ѡ"
+    ],
+    [
+        "church-slavonic-keyboard.1c82",
+        "ᲂ"
+    ],
+    [
+        "church-slavonic-keyboard.2dea.487",
+        "ⷪ҇"
+    ],
+    [
+        "church-slavonic-keyboard.a64d",
+        "ꙍ"
+    ],
+    [
+        "church-slavonic-keyboard.a64c",
+        "Ꙍ"
+    ],
+    [
+        "church-slavonic-keyboard.a673",
+        "꙳"
+    ],
+    [
+        "church-slavonic-keyboard.2720",
+        "✠"
+    ],
+    [
+        "church-slavonic-keyboard.456.308",
+        "ї"
+    ],
+    [
+        "church-slavonic-keyboard.406.308",
+        "Ї"
+    ],
+    [
+        "church-slavonic-keyboard.a641",
+        "ꙁ"
+    ],
+    [
+        "church-slavonic-keyboard.a640",
+        "Ꙁ"
+    ],
+    [
+        "church-slavonic-keyboard.a64b",
+        "ꙋ"
+    ],
+    [
+        "church-slavonic-keyboard.a64a",
+        "Ꙋ"
+    ],
+    [
+        "church-slavonic-keyboard.46f",
+        "ѯ"
+    ],
+    [
+        "church-slavonic-keyboard.46e",
+        "Ѯ"
+    ],
+    [
+        "church-slavonic-keyboard.454",
+        "є"
+    ],
+    [
+        "church-slavonic-keyboard.404",
+        "Є"
+    ],
+    [
+        "church-slavonic-keyboard.2de9.487",
+        "ⷩ҇"
+    ],
+    [
+        "church-slavonic-keyboard.",
+        ""
+    ],
+    [
+        "church-slavonic-keyboard.2de2.487",
+        "ⷢ҇"
+    ],
+    [
+        "church-slavonic-keyboard.",
+        ""
+    ],
+    [
+        "church-slavonic-keyboard.2df9.487",
+        "ⷹ҇"
+    ],
+    [
+        "church-slavonic-keyboard.",
+        ""
+    ],
+    [
+        "church-slavonic-keyboard.2df3.487",
+        "ⷳ҇"
+    ],
+    [
+        "church-slavonic-keyboard.",
+        ""
+    ],
+    [
+        "church-slavonic-keyboard.455",
+        "ѕ"
+    ],
+    [
+        "church-slavonic-keyboard.405",
+        "Ѕ"
+    ],
+    [
+        "church-slavonic-keyboard.2def",
+        "ⷯ"
+    ],
+    [
+        "church-slavonic-keyboard.",
+        ""
+    ],
+    [
+        "church-slavonic-keyboard.33e",
+        "̾"
+    ],
+    [
+        "church-slavonic-keyboard.2e2f",
+        "ⸯ"
+    ],
+    [
+        "church-slavonic-keyboard.47d",
+        "ѽ"
+    ],
+    [
+        "church-slavonic-keyboard.47c",
+        "Ѽ"
+    ]
+]

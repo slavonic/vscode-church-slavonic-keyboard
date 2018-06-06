@@ -1,8 +1,20 @@
 # VSCode Church Slavonic keyboard
 
-Church Slavonic keyboard for VSCode
+Adds `cu:ON` and `cu:OFF` status indicator.
 
-Currently defined two sample symbols (to check feasibility):
+Initially keyboard is off. To toggle, use command palette (`Ctrl+Shift+P`) and
+activate `Church Slavonic Keyboard: Toggle` command.
 
-Ctrl+A ==> 0xfe2e
-Ctrl+X ==> 0x0447
+When activated, use `Ctrl+Alt+<key>` and `Ctrl+Alt+Shift+<key>` to enter
+symbols of the AltGr plane of the extended russian keyboard.
+
+# Церковно-славянская клавиатура для VSCode
+
+Добавляет в строку состояния индикаторы `cu:ON` и `cu:OFF`.
+
+Изначально клавиатура отключена. Чтобы включить/выключить, используйте
+палитру команд (`Ctrl+Shift+P`) и выберете команду
+`Church Slavonic Keyboard: Toggle`.
+
+При включенной клавиатуре комбинации клавиш `Ctrl+Alt+<key>` и `Ctrl+Alt+Shift+<key>` вводят символы
+слоя AltGr расширенной русской раскладки.
