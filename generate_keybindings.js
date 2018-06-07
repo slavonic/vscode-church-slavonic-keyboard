@@ -35,7 +35,7 @@ function makeIt(mod, defs, subkey) {
         const k1 = {
             key: mod + kb,
             command: 'church-slavonic-keyboard.' + mod + kb,
-            when: 'editorTextFocus'
+            when: 'editorTextFocus && cu.active'
         }
 
         if (seen[k1.command] === undefined) {
@@ -52,7 +52,7 @@ function makeIt(mod, defs, subkey) {
             const k2 = {
                 key: mod + 'shift+' + kb,
                 command: 'church-slavonic-keyboard.' + mod + 'shift+' + kb,
-                when: 'editorTextFocus'
+                when: 'editorTextFocus && cu.active'
             }
 
             if (seen[k2.command] === undefined) {
@@ -63,14 +63,14 @@ function makeIt(mod, defs, subkey) {
                 })
                 seen[k2.command] = true
             }
-            setSymbolMap(k2.command, subkey, val)
+            setSymbolMap(k2.command, subkey, valShift)
         }
     })
 }
 
-//makeIt('alt+', cudef.plain, 'normal')
+makeIt('', cudef.plain, 'normal')
 makeIt('ctrl+alt+', cudef.mod, 'normal')
-//makeIt('alt+', cudef.deadPlain, 'dead')
+makeIt('', cudef.deadPlain, 'dead')
 makeIt('ctrl+alt+', cudef.deadMod, 'dead')
 
 commands.push({

@@ -14,33 +14,33 @@ function insertSymbol(symbol) {
 
 function activate(context) {
 
+    function registerCommand(name, func) {
+        const disposable = vscode.commands.registerCommand(name, func);
+        context.subscriptions.push(disposable);
+    }
+
     for (var commandName in symbolMap) {
         const seat = symbolMap[commandName]
 
-        const disposable = vscode.commands.registerCommand(
-            commandName,
-            function() {
-                if (active) {
-                    if (dead) {
-                        if (seat.dead !== undefined) {
-                            insertSymbol(seat.dead)
-                        }
-                    } else {
-                        if (seat.normal !== undefined) {
-                            insertSymbol(seat.normal)
-                        }
+        registerCommand(commandName, function() {
+            if (active) {
+                if (dead) {
+                    if (seat.dead !== undefined) {
+                        insertSymbol(seat.dead)
+                    }
+                } else {
+                    if (seat.normal !== undefined) {
+                        insertSymbol(seat.normal)
                     }
                 }
-                if (dead) {
-                    dead = false;
-                    statusBarItem.text = active ? 'cu: ON' : 'cu: OFF'
-                    statusBarItem.show()
-                }
-
-                return true
             }
-        );
-        context.subscriptions.push(disposable);
+            if (dead) {
+                dead = false;
+                statusBarItem.text = active ? 'cu: ON' : 'cu: OFF'
+            }
+
+            return false
+        });
     }
 
     statusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Left);
@@ -48,20 +48,24 @@ function activate(context) {
     statusBarItem.show()
     context.subscriptions.push(statusBarItem)
 
-    var disposable = vscode.commands.registerCommand('church-slavonic-toggle', function () {
+    registerCommand('church-slavonic-toggle', function () {
         active = !active;
         statusBarItem.text = active ? 'cu: ON' : 'cu: OFF'
-        statusBarItem.show()
+        vscode.commands.executeCommand('setContext', 'cu.active', active);
     });
-    context.subscriptions.push(disposable);
 
-    var disposable = vscode.commands.registerCommand('church-slavonic-activate-dead', function () {
+    registerCommand('church-slavonic-activate-dead', function () {
         active = true;
         dead = true;
         statusBarItem.text = 'cu: ^^'
-        statusBarItem.show()
     });
-    context.subscriptions.push(disposable);
+
+    registerCommand('type', function(args, cb) {
+        console.log(args);
+        return vscode.commands.executeCommand('default:type', args, cb);
+    });
+
+    vscode.commands.executeCommand('setContext', 'cu.active', active);
 }
 
 exports.activate = activate;

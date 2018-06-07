@@ -1,6 +1,7 @@
 const plain = [
     // row 0
-    ['[Backquote]', '`', '~'],
+
+    ['OEM_3', '`', '~'],
     ['1', '1', '!'],
     ['2', '2', '"'],
     ['3', '3', '№'],
@@ -11,8 +12,8 @@ const plain = [
     ['8', '8', '*'],
     ['9', '(', '('],
     ['0', ')', ')'],
-    ['[Minus]', '-', '_'],
-    ['[Equal]', '=', '+'],
+    ['OEM_MINUS', '-', '_'],
+    ['OEM_PLUS', '=', '+'],
 
     // row 1
     ['q', 'й', 'Й'],
@@ -25,9 +26,9 @@ const plain = [
     ['i', 'ш', 'Ш'],
     ['o', 'щ', 'Щ'],
     ['p', 'з', 'З'],
-    ['[BracketLeft]', 'х', 'Х'],
-    ['[BracketRight]', 'ъ', 'Ъ'],
-    ['[Backslash]', '\\', '/'],
+    ['OEM_4', 'х', 'Х'],
+    ['OEM_6', 'ъ', 'Ъ'],
+    ['OEM_5', '\\', '/'],
 
     // row 2
     ['a', 'ф', 'Ф'],
@@ -39,8 +40,8 @@ const plain = [
     ['j', 'о', 'О'],
     ['k', 'л', 'Л'],
     ['l', 'д', 'Д'],
-    ['[Semicolon]', 'ж', 'Ж'],
-    ["[Quote]", 'э', 'Э'],
+    ['OEM_1', 'ж', 'Ж'],
+    ['OEM_7', 'э', 'Э'],
 
     // row 3
     ['z', 'я', 'Я'],
@@ -50,14 +51,14 @@ const plain = [
     ['b', 'и', 'И'],
     ['n', 'т', 'Т'],
     ['m', 'ь', 'Ь'],
-    ['[Comma]', 'б', 'Б'],
-    ['[Period]', 'ю', 'Ю'],
-    ['[Slash]', '.', ','],
+    ['OEM_COMMA', 'б', 'Б'],
+    ['OEM_PERIOD', 'ю', 'Ю'],
+    ['OEM_2', '.', ','],
 ];
 
 const mod = [
     // row 0
-    ['[Backquote]', '\u0451', '\u0401'],
+    ['OEM_3', '\u0451', '\u0401'],
     ['1', '\u0482', '\u200D'],
     ['2', '\u0483', '\uA67E'],
     ['3', '\u0300', '\u0486\u0300'],
@@ -68,8 +69,8 @@ const mod = [
     ['8', '\u047F', '\u047E'],
     ['9', '\u0461', '\u0460'],
     ['0', '\u1C82', '\u2DEA\u0487'],
-    ['[Minus]', '\uA64D', '\uA64C'],
-    ['[Equal]', '\uA673', '\u2720'],
+    ['OEM_MINUS', '\uA64D', '\uA64C'],
+    ['OEM_PLUS', '\uA673', '\u2720'],
 
     // row 1
     ['q', '\u0456\u0308', '\u0406\u0308'],
@@ -82,9 +83,9 @@ const mod = [
     ['i', '\u2DF9\u0487', ''],  //FIXME: no 4-byte unicode?
     ['o', '\u2DF3\u0487', ''],  //FIXME: no 4-byte unicode?
     ['p', '\u0455', '\u0405'],
-    ['[BracketLeft]', '\u2DEF', ''],  //FIXME: no 4-byte unicode?
-    ['[BracketRight]', '\u033e', '\u2E2F'],
-    ['[Backslash]', '\u047D', '\u047C'],
+    ['OEM_4', '\u2DEF', ''],  //FIXME: no 4-byte unicode?
+    ['OEM_6', '\u033e', '\u2E2F'],
+    ['OEM_5', '\u047D', '\u047C'],
 
     // row 2
     ['a', '\u0473', '\U0472'],
@@ -96,8 +97,8 @@ const mod = [
     ['j', '\u047B', '\u047A'],
     ['k', '\u2DE7\u0487', ''],
     ['l', '\u2DE3', '\u1C81'],
-    ['[Semicolon]', '\u2DE4', ''],
-    ["[Quote]", '\u0463', '\u0462'],
+    ['OEM_1', '\u2DE4', ''],
+    ['OEM_7', '\u0463', '\u0462'],
 
     // row 3
     ['z', '\u0467', '\u0466'],
@@ -107,20 +108,20 @@ const mod = [
     ['b', '\u0456', '\u0406'],
     ['n', '\u1C85', '\u1C84'],
     ['m', '\uA67D', '\uA67F'],
-    ['[Comma]', '\u2DE0\u0487', ''],
-    ['[Period]', '\u045B', '\u046A'],
-    ['[Slash]', '\uA65F', '\uA65E'],
+    ['OEM_COMMA', '\u2DE0\u0487', ''],
+    ['OEM_PERIOD', '\u045B', '\u046A'],
+    ['OEM_2', '\uA65F', '\uA65E'],
 
 ];
 
 const deadPlain = [
     ['f', '\u2DF6', '\u2DF6'],
-    ['[Comma]', '\u2DE0', '\u2DE0'],
+    ['OEM_COMMA', '\u2DE0', '\u2DE0'],
     ['d', '\u2DE1', '\u2DE1'],
     ['u', '\u2DE2', '\u2DE2'],
     ['l', '\u2DE3', '\u2DE3'],
     ['t', '\u2DF7', '\u2DF7'],
-    ['[Semicolon]', '\u2DE4', '\u2DE4'],
+    ['OEM_1', '\u2DE4', '\u2DE4'],
     ['p', '\u2DE5', '\u2DE5'],
     ['b', '\uA675', '\uA675'],
     ['q', '\uA675', '\uA675'],
@@ -135,15 +136,15 @@ const deadPlain = [
     ['n', '\u2DEE', '\u2DEE'],
     ['e', '\uA677', '\uA677'],
     ['a', '\uA69E', '\uA69E'],
-    ['[BracketLeft]', '\u2DEF', '\u2DEF'],
+    ['OEM_4', '\u2DEF', '\u2DEF'],
     ['w', '\u2DF0', '\u2DF0'],
     ['x', '\u2DF1', '\u2DF1'],
     ['i', '\u2DF2', '\u2DF2'],
     ['o', '\u2DF3', '\u2DF3'],
-    ['[BracketRight]', '\uA678', '\uA678'],
+    ['OEM_6', '\uA678', '\uA678'],
     ['s', '\uA679', '\uA679'],
     ['m', '\uA67A', '\uA67A'],
-    ['[Period]', '\u2DBF', '\u2DBF'],
+    ['OEM_PERIOD', '\u2DBF', '\u2DBF'],
 ];
 
 const deadMod = [
@@ -152,13 +153,13 @@ const deadMod = [
     ['j', '\u2DEA', '\u2DEA'],
     ['0', '\u2DEA', '\u2DEA'],
     ['9', '\uA67B', '\uA67B'],
-    ['[Minus]', '\uA67B', '\uA67B'],
+    ['OEM_MINUS', '\uA67B', '\uA67B'],
     ['n', '\u2DEE', '\u2DEE'],
     ['e', '\u2DF9', '\u2DF9'],
-    ['[Quote]', '\u2DFA', '\u2DFA'],
+    ['OEM_7', '\u2DFA', '\u2DFA'],
     ['z', '\u2DFD', '\u2DFD'],
     ['f', '\u2DFC', '\u2DFC'],
-    ['[Period]', '\u2DFE', '\u2DFE'],
+    ['OEM_PERIOD', '\u2DFE', '\u2DFE'],
     ['a', '\u2DF4', '\u2DF4'],
     ['c', '\u2DED', '\u2DED'],
 ]

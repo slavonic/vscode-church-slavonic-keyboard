@@ -1,64 +1,406 @@
 module.exports = {
-    "church-slavonic-keyboard.ctrl+alt+[Backquote]": {
+    "church-slavonic-keyboard.OEM_3": {
+        "normal": "`"
+    },
+    "church-slavonic-keyboard.shift+OEM_3": {
+        "normal": "~"
+    },
+    "church-slavonic-keyboard.1": {
+        "normal": "1"
+    },
+    "church-slavonic-keyboard.shift+1": {
+        "normal": "!"
+    },
+    "church-slavonic-keyboard.2": {
+        "normal": "2"
+    },
+    "church-slavonic-keyboard.shift+2": {
+        "normal": "\""
+    },
+    "church-slavonic-keyboard.3": {
+        "normal": "3"
+    },
+    "church-slavonic-keyboard.shift+3": {
+        "normal": "№"
+    },
+    "church-slavonic-keyboard.4": {
+        "normal": "4"
+    },
+    "church-slavonic-keyboard.shift+4": {
+        "normal": ";"
+    },
+    "church-slavonic-keyboard.5": {
+        "normal": "5"
+    },
+    "church-slavonic-keyboard.shift+5": {
+        "normal": "%"
+    },
+    "church-slavonic-keyboard.6": {
+        "normal": "6"
+    },
+    "church-slavonic-keyboard.shift+6": {
+        "normal": ":"
+    },
+    "church-slavonic-keyboard.7": {
+        "normal": "7"
+    },
+    "church-slavonic-keyboard.shift+7": {
+        "normal": "?"
+    },
+    "church-slavonic-keyboard.8": {
+        "normal": "8"
+    },
+    "church-slavonic-keyboard.shift+8": {
+        "normal": "*"
+    },
+    "church-slavonic-keyboard.9": {
+        "normal": "("
+    },
+    "church-slavonic-keyboard.shift+9": {
+        "normal": "("
+    },
+    "church-slavonic-keyboard.0": {
+        "normal": ")"
+    },
+    "church-slavonic-keyboard.shift+0": {
+        "normal": ")"
+    },
+    "church-slavonic-keyboard.OEM_MINUS": {
+        "normal": "-"
+    },
+    "church-slavonic-keyboard.shift+OEM_MINUS": {
+        "normal": "_"
+    },
+    "church-slavonic-keyboard.OEM_PLUS": {
+        "normal": "="
+    },
+    "church-slavonic-keyboard.shift+OEM_PLUS": {
+        "normal": "+"
+    },
+    "church-slavonic-keyboard.q": {
+        "normal": "й",
+        "dead": "ꙵ"
+    },
+    "church-slavonic-keyboard.shift+q": {
+        "normal": "Й",
+        "dead": "ꙵ"
+    },
+    "church-slavonic-keyboard.w": {
+        "normal": "ц",
+        "dead": "ⷰ"
+    },
+    "church-slavonic-keyboard.shift+w": {
+        "normal": "Ц",
+        "dead": "ⷰ"
+    },
+    "church-slavonic-keyboard.e": {
+        "normal": "у",
+        "dead": "ꙷ"
+    },
+    "church-slavonic-keyboard.shift+e": {
+        "normal": "У",
+        "dead": "ꙷ"
+    },
+    "church-slavonic-keyboard.r": {
+        "normal": "к",
+        "dead": "ⷦ"
+    },
+    "church-slavonic-keyboard.shift+r": {
+        "normal": "К",
+        "dead": "ⷦ"
+    },
+    "church-slavonic-keyboard.t": {
+        "normal": "е",
+        "dead": "ⷷ"
+    },
+    "church-slavonic-keyboard.shift+t": {
+        "normal": "Е",
+        "dead": "ⷷ"
+    },
+    "church-slavonic-keyboard.y": {
+        "normal": "н",
+        "dead": "ⷩ"
+    },
+    "church-slavonic-keyboard.shift+y": {
+        "normal": "Н",
+        "dead": "ⷩ"
+    },
+    "church-slavonic-keyboard.u": {
+        "normal": "г",
+        "dead": "ⷢ"
+    },
+    "church-slavonic-keyboard.shift+u": {
+        "normal": "Г",
+        "dead": "ⷢ"
+    },
+    "church-slavonic-keyboard.i": {
+        "normal": "ш",
+        "dead": "ⷲ"
+    },
+    "church-slavonic-keyboard.shift+i": {
+        "normal": "Ш",
+        "dead": "ⷲ"
+    },
+    "church-slavonic-keyboard.o": {
+        "normal": "щ",
+        "dead": "ⷳ"
+    },
+    "church-slavonic-keyboard.shift+o": {
+        "normal": "Щ",
+        "dead": "ⷳ"
+    },
+    "church-slavonic-keyboard.p": {
+        "normal": "з",
+        "dead": "ⷥ"
+    },
+    "church-slavonic-keyboard.shift+p": {
+        "normal": "З",
+        "dead": "ⷥ"
+    },
+    "church-slavonic-keyboard.OEM_4": {
+        "normal": "х",
+        "dead": "ⷯ"
+    },
+    "church-slavonic-keyboard.shift+OEM_4": {
+        "normal": "Х",
+        "dead": "ⷯ"
+    },
+    "church-slavonic-keyboard.OEM_6": {
+        "normal": "ъ",
+        "dead": "ꙸ"
+    },
+    "church-slavonic-keyboard.shift+OEM_6": {
+        "normal": "Ъ",
+        "dead": "ꙸ"
+    },
+    "church-slavonic-keyboard.OEM_5": {
+        "normal": "\\"
+    },
+    "church-slavonic-keyboard.shift+OEM_5": {
+        "normal": "/"
+    },
+    "church-slavonic-keyboard.a": {
+        "normal": "ф",
+        "dead": "ꚞ"
+    },
+    "church-slavonic-keyboard.shift+a": {
+        "normal": "Ф",
+        "dead": "ꚞ"
+    },
+    "church-slavonic-keyboard.s": {
+        "normal": "ы",
+        "dead": "ꙹ"
+    },
+    "church-slavonic-keyboard.shift+s": {
+        "normal": "Ы",
+        "dead": "ꙹ"
+    },
+    "church-slavonic-keyboard.d": {
+        "normal": "в",
+        "dead": "ⷡ"
+    },
+    "church-slavonic-keyboard.shift+d": {
+        "normal": "В",
+        "dead": "ⷡ"
+    },
+    "church-slavonic-keyboard.f": {
+        "normal": "а",
+        "dead": "ⷶ"
+    },
+    "church-slavonic-keyboard.shift+f": {
+        "normal": "А",
+        "dead": "ⷶ"
+    },
+    "church-slavonic-keyboard.g": {
+        "normal": "п",
+        "dead": "ⷫ"
+    },
+    "church-slavonic-keyboard.shift+g": {
+        "normal": "П",
+        "dead": "ⷫ"
+    },
+    "church-slavonic-keyboard.h": {
+        "normal": "р",
+        "dead": "ⷬ"
+    },
+    "church-slavonic-keyboard.shift+h": {
+        "normal": "Р",
+        "dead": "ⷬ"
+    },
+    "church-slavonic-keyboard.j": {
+        "normal": "о",
+        "dead": "ⷪ"
+    },
+    "church-slavonic-keyboard.shift+j": {
+        "normal": "О",
+        "dead": "ⷪ"
+    },
+    "church-slavonic-keyboard.k": {
+        "normal": "л",
+        "dead": "ⷧ"
+    },
+    "church-slavonic-keyboard.shift+k": {
+        "normal": "Л",
+        "dead": "ⷧ"
+    },
+    "church-slavonic-keyboard.l": {
+        "normal": "д",
+        "dead": "ⷣ"
+    },
+    "church-slavonic-keyboard.shift+l": {
+        "normal": "Д",
+        "dead": "ⷣ"
+    },
+    "church-slavonic-keyboard.OEM_1": {
+        "normal": "ж",
+        "dead": "ⷤ"
+    },
+    "church-slavonic-keyboard.shift+OEM_1": {
+        "normal": "Ж",
+        "dead": "ⷤ"
+    },
+    "church-slavonic-keyboard.OEM_7": {
+        "normal": "э"
+    },
+    "church-slavonic-keyboard.shift+OEM_7": {
+        "normal": "Э"
+    },
+    "church-slavonic-keyboard.z": {
+        "normal": "я"
+    },
+    "church-slavonic-keyboard.shift+z": {
+        "normal": "Я"
+    },
+    "church-slavonic-keyboard.x": {
+        "normal": "ч",
+        "dead": "ⷱ"
+    },
+    "church-slavonic-keyboard.shift+x": {
+        "normal": "Ч",
+        "dead": "ⷱ"
+    },
+    "church-slavonic-keyboard.c": {
+        "normal": "с",
+        "dead": "ⷭ"
+    },
+    "church-slavonic-keyboard.shift+c": {
+        "normal": "С",
+        "dead": "ⷭ"
+    },
+    "church-slavonic-keyboard.v": {
+        "normal": "м",
+        "dead": "ⷨ"
+    },
+    "church-slavonic-keyboard.shift+v": {
+        "normal": "М",
+        "dead": "ⷨ"
+    },
+    "church-slavonic-keyboard.b": {
+        "normal": "и",
+        "dead": "ꙵ"
+    },
+    "church-slavonic-keyboard.shift+b": {
+        "normal": "И",
+        "dead": "ꙵ"
+    },
+    "church-slavonic-keyboard.n": {
+        "normal": "т",
+        "dead": "ⷮ"
+    },
+    "church-slavonic-keyboard.shift+n": {
+        "normal": "Т",
+        "dead": "ⷮ"
+    },
+    "church-slavonic-keyboard.m": {
+        "normal": "ь",
+        "dead": "ꙺ"
+    },
+    "church-slavonic-keyboard.shift+m": {
+        "normal": "Ь",
+        "dead": "ꙺ"
+    },
+    "church-slavonic-keyboard.OEM_COMMA": {
+        "normal": "б",
+        "dead": "ⷠ"
+    },
+    "church-slavonic-keyboard.shift+OEM_COMMA": {
+        "normal": "Б",
+        "dead": "ⷠ"
+    },
+    "church-slavonic-keyboard.OEM_PERIOD": {
+        "normal": "ю",
+        "dead": "⶿"
+    },
+    "church-slavonic-keyboard.shift+OEM_PERIOD": {
+        "normal": "Ю",
+        "dead": "⶿"
+    },
+    "church-slavonic-keyboard.OEM_2": {
+        "normal": "."
+    },
+    "church-slavonic-keyboard.shift+OEM_2": {
+        "normal": ","
+    },
+    "church-slavonic-keyboard.ctrl+alt+OEM_3": {
         "normal": "ё"
     },
-    "church-slavonic-keyboard.ctrl+alt+shift+[Backquote]": {
-        "normal": "ё"
+    "church-slavonic-keyboard.ctrl+alt+shift+OEM_3": {
+        "normal": "Ё"
     },
     "church-slavonic-keyboard.ctrl+alt+1": {
         "normal": "҂"
     },
     "church-slavonic-keyboard.ctrl+alt+shift+1": {
-        "normal": "҂"
+        "normal": "‍"
     },
     "church-slavonic-keyboard.ctrl+alt+2": {
         "normal": "҃"
     },
     "church-slavonic-keyboard.ctrl+alt+shift+2": {
-        "normal": "҃"
+        "normal": "꙾"
     },
     "church-slavonic-keyboard.ctrl+alt+3": {
         "normal": "̀"
     },
     "church-slavonic-keyboard.ctrl+alt+shift+3": {
-        "normal": "̀"
+        "normal": "҆̀"
     },
     "church-slavonic-keyboard.ctrl+alt+4": {
         "normal": "҇"
     },
     "church-slavonic-keyboard.ctrl+alt+shift+4": {
-        "normal": "҇"
+        "normal": "꙼"
     },
     "church-slavonic-keyboard.ctrl+alt+5": {
         "normal": "҆"
     },
     "church-slavonic-keyboard.ctrl+alt+shift+5": {
-        "normal": "҆"
+        "normal": "̑"
     },
     "church-slavonic-keyboard.ctrl+alt+6": {
         "normal": "̏"
     },
     "church-slavonic-keyboard.ctrl+alt+shift+6": {
-        "normal": "̏"
+        "normal": "᷀"
     },
     "church-slavonic-keyboard.ctrl+alt+7": {
         "normal": "́"
     },
     "church-slavonic-keyboard.ctrl+alt+shift+7": {
-        "normal": "́"
+        "normal": "҆́"
     },
     "church-slavonic-keyboard.ctrl+alt+8": {
         "normal": "ѿ"
     },
     "church-slavonic-keyboard.ctrl+alt+shift+8": {
-        "normal": "ѿ"
+        "normal": "Ѿ"
     },
     "church-slavonic-keyboard.ctrl+alt+9": {
         "normal": "ѡ",
         "dead": "ꙻ"
     },
     "church-slavonic-keyboard.ctrl+alt+shift+9": {
-        "normal": "ѡ",
+        "normal": "Ѡ",
         "dead": "ꙻ"
     },
     "church-slavonic-keyboard.ctrl+alt+0": {
@@ -66,55 +408,55 @@ module.exports = {
         "dead": "ⷪ"
     },
     "church-slavonic-keyboard.ctrl+alt+shift+0": {
-        "normal": "ᲂ",
+        "normal": "ⷪ҇",
         "dead": "ⷪ"
     },
-    "church-slavonic-keyboard.ctrl+alt+[Minus]": {
+    "church-slavonic-keyboard.ctrl+alt+OEM_MINUS": {
         "normal": "ꙍ",
         "dead": "ꙻ"
     },
-    "church-slavonic-keyboard.ctrl+alt+shift+[Minus]": {
-        "normal": "ꙍ",
+    "church-slavonic-keyboard.ctrl+alt+shift+OEM_MINUS": {
+        "normal": "Ꙍ",
         "dead": "ꙻ"
     },
-    "church-slavonic-keyboard.ctrl+alt+[Equal]": {
+    "church-slavonic-keyboard.ctrl+alt+OEM_PLUS": {
         "normal": "꙳"
     },
-    "church-slavonic-keyboard.ctrl+alt+shift+[Equal]": {
-        "normal": "꙳"
+    "church-slavonic-keyboard.ctrl+alt+shift+OEM_PLUS": {
+        "normal": "✠"
     },
     "church-slavonic-keyboard.ctrl+alt+q": {
         "normal": "ї"
     },
     "church-slavonic-keyboard.ctrl+alt+shift+q": {
-        "normal": "ї"
+        "normal": "Ї"
     },
     "church-slavonic-keyboard.ctrl+alt+w": {
         "normal": "ꙁ"
     },
     "church-slavonic-keyboard.ctrl+alt+shift+w": {
-        "normal": "ꙁ"
+        "normal": "Ꙁ"
     },
     "church-slavonic-keyboard.ctrl+alt+e": {
         "normal": "ꙋ",
         "dead": "ⷹ"
     },
     "church-slavonic-keyboard.ctrl+alt+shift+e": {
-        "normal": "ꙋ",
+        "normal": "Ꙋ",
         "dead": "ⷹ"
     },
     "church-slavonic-keyboard.ctrl+alt+r": {
         "normal": "ѯ"
     },
     "church-slavonic-keyboard.ctrl+alt+shift+r": {
-        "normal": "ѯ"
+        "normal": "Ѯ"
     },
     "church-slavonic-keyboard.ctrl+alt+t": {
         "normal": "є",
         "dead": "ꙴ"
     },
     "church-slavonic-keyboard.ctrl+alt+shift+t": {
-        "normal": "є",
+        "normal": "Є",
         "dead": "ꙴ"
     },
     "church-slavonic-keyboard.ctrl+alt+y": {
@@ -133,56 +475,56 @@ module.exports = {
         "normal": "ѕ"
     },
     "church-slavonic-keyboard.ctrl+alt+shift+p": {
-        "normal": "ѕ"
+        "normal": "Ѕ"
     },
-    "church-slavonic-keyboard.ctrl+alt+[BracketLeft]": {
+    "church-slavonic-keyboard.ctrl+alt+OEM_4": {
         "normal": "ⷯ"
     },
-    "church-slavonic-keyboard.ctrl+alt+[BracketRight]": {
+    "church-slavonic-keyboard.ctrl+alt+OEM_6": {
         "normal": "̾"
     },
-    "church-slavonic-keyboard.ctrl+alt+shift+[BracketRight]": {
-        "normal": "̾"
+    "church-slavonic-keyboard.ctrl+alt+shift+OEM_6": {
+        "normal": "ⸯ"
     },
-    "church-slavonic-keyboard.ctrl+alt+[Backslash]": {
+    "church-slavonic-keyboard.ctrl+alt+OEM_5": {
         "normal": "ѽ"
     },
-    "church-slavonic-keyboard.ctrl+alt+shift+[Backslash]": {
-        "normal": "ѽ"
+    "church-slavonic-keyboard.ctrl+alt+shift+OEM_5": {
+        "normal": "Ѽ"
     },
     "church-slavonic-keyboard.ctrl+alt+a": {
         "normal": "ѳ",
         "dead": "ⷴ"
     },
     "church-slavonic-keyboard.ctrl+alt+shift+a": {
-        "normal": "ѳ",
+        "normal": "U0472",
         "dead": "ⷴ"
     },
     "church-slavonic-keyboard.ctrl+alt+s": {
         "normal": "ѵ"
     },
     "church-slavonic-keyboard.ctrl+alt+shift+s": {
-        "normal": "ѵ"
+        "normal": "U0474"
     },
     "church-slavonic-keyboard.ctrl+alt+d": {
         "normal": "ⷡ҇"
     },
     "church-slavonic-keyboard.ctrl+alt+shift+d": {
-        "normal": "ⷡ҇"
+        "normal": "ᲀ"
     },
     "church-slavonic-keyboard.ctrl+alt+f": {
         "normal": "ꙗ",
         "dead": "ⷼ"
     },
     "church-slavonic-keyboard.ctrl+alt+shift+f": {
-        "normal": "ꙗ",
+        "normal": "Ꙗ",
         "dead": "ⷼ"
     },
     "church-slavonic-keyboard.ctrl+alt+g": {
         "normal": "ѱ"
     },
     "church-slavonic-keyboard.ctrl+alt+shift+g": {
-        "normal": "ѱ"
+        "normal": "Ѱ"
     },
     "church-slavonic-keyboard.ctrl+alt+h": {
         "normal": "ⷬ҇"
@@ -192,7 +534,7 @@ module.exports = {
         "dead": "ⷪ"
     },
     "church-slavonic-keyboard.ctrl+alt+shift+j": {
-        "normal": "ѻ",
+        "normal": "Ѻ",
         "dead": "ⷪ"
     },
     "church-slavonic-keyboard.ctrl+alt+k": {
@@ -202,17 +544,17 @@ module.exports = {
         "normal": "ⷣ"
     },
     "church-slavonic-keyboard.ctrl+alt+shift+l": {
-        "normal": "ⷣ"
+        "normal": "ᲁ"
     },
-    "church-slavonic-keyboard.ctrl+alt+[Semicolon]": {
+    "church-slavonic-keyboard.ctrl+alt+OEM_1": {
         "normal": "ⷤ"
     },
-    "church-slavonic-keyboard.ctrl+alt+[Quote]": {
+    "church-slavonic-keyboard.ctrl+alt+OEM_7": {
         "normal": "ѣ",
         "dead": "ⷺ"
     },
-    "church-slavonic-keyboard.ctrl+alt+shift+[Quote]": {
-        "normal": "ѣ",
+    "church-slavonic-keyboard.ctrl+alt+shift+OEM_7": {
+        "normal": "Ѣ",
         "dead": "ⷺ"
     },
     "church-slavonic-keyboard.ctrl+alt+z": {
@@ -220,21 +562,21 @@ module.exports = {
         "dead": "ⷽ"
     },
     "church-slavonic-keyboard.ctrl+alt+shift+z": {
-        "normal": "ѧ",
+        "normal": "Ѧ",
         "dead": "ⷽ"
     },
     "church-slavonic-keyboard.ctrl+alt+x": {
         "normal": "џ"
     },
     "church-slavonic-keyboard.ctrl+alt+shift+x": {
-        "normal": "џ"
+        "normal": "Џ"
     },
     "church-slavonic-keyboard.ctrl+alt+c": {
         "normal": "ⷭ҇",
         "dead": "ⷭ"
     },
     "church-slavonic-keyboard.ctrl+alt+shift+c": {
-        "normal": "ⷭ҇",
+        "normal": "ᲃ",
         "dead": "ⷭ"
     },
     "church-slavonic-keyboard.ctrl+alt+v": {
@@ -245,7 +587,7 @@ module.exports = {
         "dead": "ꙶ"
     },
     "church-slavonic-keyboard.ctrl+alt+shift+b": {
-        "normal": "і",
+        "normal": "І",
         "dead": "ꙶ"
     },
     "church-slavonic-keyboard.ctrl+alt+n": {
@@ -253,30 +595,30 @@ module.exports = {
         "dead": "ⷮ"
     },
     "church-slavonic-keyboard.ctrl+alt+shift+n": {
-        "normal": "ᲅ",
+        "normal": "ᲄ",
         "dead": "ⷮ"
     },
     "church-slavonic-keyboard.ctrl+alt+m": {
         "normal": "꙽"
     },
     "church-slavonic-keyboard.ctrl+alt+shift+m": {
-        "normal": "꙽"
+        "normal": "ꙿ"
     },
-    "church-slavonic-keyboard.ctrl+alt+[Comma]": {
+    "church-slavonic-keyboard.ctrl+alt+OEM_COMMA": {
         "normal": "ⷠ҇"
     },
-    "church-slavonic-keyboard.ctrl+alt+[Period]": {
+    "church-slavonic-keyboard.ctrl+alt+OEM_PERIOD": {
         "normal": "ћ",
         "dead": "ⷾ"
     },
-    "church-slavonic-keyboard.ctrl+alt+shift+[Period]": {
-        "normal": "ћ",
+    "church-slavonic-keyboard.ctrl+alt+shift+OEM_PERIOD": {
+        "normal": "Ѫ",
         "dead": "ⷾ"
     },
-    "church-slavonic-keyboard.ctrl+alt+[Slash]": {
+    "church-slavonic-keyboard.ctrl+alt+OEM_2": {
         "normal": "ꙟ"
     },
-    "church-slavonic-keyboard.ctrl+alt+shift+[Slash]": {
-        "normal": "ꙟ"
+    "church-slavonic-keyboard.ctrl+alt+shift+OEM_2": {
+        "normal": "Ꙟ"
     }
 };
