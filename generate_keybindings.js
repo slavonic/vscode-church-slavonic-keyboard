@@ -69,9 +69,9 @@ function makeIt(mod, defs, subkey) {
 }
 
 makeIt('', cudef.plain, 'normal')
-makeIt('ctrl+alt+', cudef.mod, 'normal')
+makeIt('meta+', cudef.mod, 'normal')
 makeIt('', cudef.deadPlain, 'dead')
-makeIt('ctrl+alt+', cudef.deadMod, 'dead')
+makeIt('meta+', cudef.deadMod, 'dead')
 
 commands.push({
     command: 'church-slavonic-toggle',

@@ -80,7 +80,7 @@ const mod = [
     ['t', '\u0454', '\u0404'],
     ['y', '\u2DE9\u0487', ''],  //FIXME: no 4-byte unicode?
     ['u', '\u2DE2\u0487', ''],  //FIXME: no 4-byte unicode?
-    ['i', '\u2DF9\u0487', ''],  //FIXME: no 4-byte unicode?
+    ['i', '\u2DF2\u0487', ''],  //FIXME: no 4-byte unicode?
     ['o', '\u2DF3\u0487', ''],  //FIXME: no 4-byte unicode?
     ['p', '\u0455', '\u0405'],
     ['OEM_4', '\u2DEF', ''],  //FIXME: no 4-byte unicode?
@@ -88,8 +88,8 @@ const mod = [
     ['OEM_5', '\u047D', '\u047C'],
 
     // row 2
-    ['a', '\u0473', '\U0472'],
-    ['s', '\u0475', '\U0474'],
+    ['a', '\u0473', '\u0472'],
+    ['s', '\u0475', '\u0474'],
     ['d', '\u2DE1\u0487', '\u1C80'],
     ['f', '\uA657', '\uA656'],
     ['g', '\u0471', '\u0470'],
@@ -109,7 +109,7 @@ const mod = [
     ['n', '\u1C85', '\u1C84'],
     ['m', '\uA67D', '\uA67F'],
     ['OEM_COMMA', '\u2DE0\u0487', ''],
-    ['OEM_PERIOD', '\u045B', '\u046A'],
+    ['OEM_PERIOD', '\u046B', '\u046A'],
     ['OEM_2', '\uA65F', '\uA65E'],
 
 ];
