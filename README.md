@@ -2,29 +2,28 @@
 
 Adds `cu:ON` and `cu:OFF` status indicator.
 
-Initially keyboard is off. To toggle, use command palette (`Ctrl+Shift+P`) and
-activate `Church Slavonic Keyboard: Toggle` command.
+Initially keyboard is off. To toggle, use shortcut `Ctrl+Alt+Space`
+(on Linux its `Meta+Space`) or command `Church Slavonic Keyboard: Toggle`
+in the palette.
 
-When activated, use `Ctrl+Alt+<key>` and `Ctrl+Alt+Shift+<key>` to enter
-symbols of the AltGr plane of the extended russian keyboard.
+To enter symbols of the AltGr plane, use `Ctrl+Alt+<key>` combination (`Meta+<key>` on Linux).
 
-To get to the special symbol combining plane, use "dead key mode", activated via
-command palette (`Ctrl+Shift+P`) - select `Church Slavonic: Activate Dead Key` command.
-Dead mode is indicated with `cu:^^` status and
-has the effect of turning the next entered character into accent over the previous symbol.
+To get to the special symbol combining plane, use "dead key mode", activated with Backtick
+symbol (or `Church Slavonic: Activate Dead Key` command in the palette).
+Dead mode has the effect of turning the next entered character into accent over the previous symbol.
 
 # Церковно-славянская клавиатура для VSCode
 
 Добавляет в строку состояния индикаторы `cu:ON` и `cu:OFF`.
 
 Изначально клавиатура отключена. Чтобы включить/выключить, используйте
-палитру команд (`Ctrl+Shift+P`) и выберете команду
-`Church Slavonic Keyboard: Toggle`.
+комбинацию `Ctrl+Alt+Space` (на Линуксах `Meta+Space`), или
+выберете команду `Church Slavonic Keyboard: Toggle` в палитре (`Ctrl+Shift+P`).
 
-При включенной клавиатуре комбинации клавиш `Ctrl+Alt+<key>` и `Ctrl+Alt+Shift+<key>` вводят символы
-слоя AltGr расширенной русской раскладки.
+Для доступа к слою AltGr расширенной русской раскладки используйте комбинацию клавиш
+`Ctrl+Alt+<key>` (на Линуксах `Meta+<key>`).
 
 Комбинирующая функциональность доступна через специальную моду "дохлый ключ". Чтобы активировать
-"дохлый ключ" используйте команду `Church Slavonic: Activate Dead Key` из палитры. Строка состояния
-показывает `cu:^^` когда "дохлый ключ" активен. Эффект этой моды заключается в превращении следующего
-вводимого символа в надстрочный.
+"дохлый ключ" нажмите клавишу обратной одиночной кавычки (Backtick), или
+используйте команду `Church Slavonic: Activate Dead Key` из палитры.
+Эффект этой моды заключается в превращении следующего вводимого символа в надстрочный.

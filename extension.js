@@ -3,7 +3,6 @@ const symbolMap = require('./symbol-map');
 const keyMap = require('./key-map');
 
 var active = false;
-var dead = false;
 var statusBarItem = null;
 
 function insertSymbol(symbol) {
@@ -20,26 +19,12 @@ function activate(context) {
     }
 
     for (var commandName in symbolMap) {
-        const seat = symbolMap[commandName]
+        const symbol = symbolMap[commandName]
 
         registerCommand(commandName, function() {
             if (active) {
-                if (dead) {
-                    if (seat.dead !== undefined) {
-                        insertSymbol(seat.dead)
-                    }
-                } else {
-                    if (seat.normal !== undefined) {
-                        insertSymbol(seat.normal)
-                    }
-                }
+                insertSymbol(symbol)
             }
-            if (dead) {
-                dead = false;
-                statusBarItem.text = active ? 'cu: ON' : 'cu: OFF'
-            }
-
-            return false
         });
     }
 
@@ -52,17 +37,6 @@ function activate(context) {
         active = !active;
         statusBarItem.text = active ? 'cu: ON' : 'cu: OFF'
         vscode.commands.executeCommand('setContext', 'cu.active', active);
-    });
-
-    registerCommand('church-slavonic-activate-dead', function () {
-        active = true;
-        dead = true;
-        statusBarItem.text = 'cu: ^^'
-    });
-
-    registerCommand('type', function(args, cb) {
-        console.log(args);
-        return vscode.commands.executeCommand('default:type', args, cb);
     });
 
     vscode.commands.executeCommand('setContext', 'cu.active', active);

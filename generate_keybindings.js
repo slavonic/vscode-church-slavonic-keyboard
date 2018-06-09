@@ -23,35 +23,35 @@ function asString(val) {
 
 const seen = {}
 
-function setSymbolMap(key, subkey, val) {
-    if (symbolMap[key] === undefined) {
-        symbolMap[key] = {}
-    }
-    symbolMap[key][subkey] = val;
-}
-
-function makeIt(mod, defs, subkey) {
+function makeIt(mod, defs) {
     defs.forEach(function([kb, val, valShift]) {
-        const k1 = {
-            key: mod + kb,
-            command: 'church-slavonic-keyboard.' + mod + kb,
-            when: 'editorTextFocus && cu.active'
-        }
+        if (val !== '') {
+            const k1 = {
+                key: mod.key + kb,
+                win: mod.win + kb,
+                mac: mod.mac + kb,
+                command: 'church-slavonic-keyboard:' + mod.title + kb,
+                when: 'editorTextFocus && cu.active'
+            }
 
-        if (seen[k1.command] === undefined) {
-            keybindings.push(k1)
-            commands.push({
-                command: k1.command,
-                title: 'CU Stroke: ' + mod + kb
-            })
-            seen[k1.command] = true
+            if (seen[k1.command] === undefined) {
+                keybindings.push(k1)
+                commands.push({
+                    command: k1.command,
+                    title: 'CU Stroke: ' + mod.title + kb
+                })
+                seen[k1.command] = true
+            }
+            symbolMap[k1.command] = val;
+
         }
-        setSymbolMap(k1.command, subkey, val)
 
         if (valShift !== '') {
             const k2 = {
-                key: mod + 'shift+' + kb,
-                command: 'church-slavonic-keyboard.' + mod + 'shift+' + kb,
+                key: mod.key + 'shift+' + kb,
+                win: mod.win + 'shift+' + kb,
+                mac: mod.mac + 'shift+' + kb,
+                command: 'church-slavonic-keyboard:' + mod.title + 'shift+' + kb,
                 when: 'editorTextFocus && cu.active'
             }
 
@@ -59,29 +59,56 @@ function makeIt(mod, defs, subkey) {
                 keybindings.push(k2)
                 commands.push({
                     command: k2.command,
-                    title: 'CU Stroke: ' + mod + 'shift+' + kb
+                    title: 'CU Stroke: ' + mod.title + 'shift+' + kb
                 })
                 seen[k2.command] = true
             }
-            setSymbolMap(k2.command, subkey, valShift)
+            symbolMap[k2.command] = valShift
         }
     })
 }
 
-makeIt('', cudef.plain, 'normal')
-makeIt('meta+', cudef.mod, 'normal')
-makeIt('', cudef.deadPlain, 'dead')
-makeIt('meta+', cudef.deadMod, 'dead')
+makeIt({
+    title: '',
+    key: '',
+    win: '',
+    mac: '',
+},
+    cudef.plain
+)
+makeIt({
+    title: 'meta+',
+    key: 'meta+',
+    win: 'ctrl+alt+',
+    mac: 'ctrl+alt+',
+},
+    cudef.mod
+)
+makeIt({
+    title: 'dead',
+    key: '` ',
+    win: '` ',
+    mac: '` ',
+}, cudef.deadPlain)
+makeIt({
+    title: 'dead+meta+',
+    key: '` meta+',
+    win: '` ctrl+alt+',
+    mac: '` ctrl+atl+',
+}, cudef.deadMod
+)
+
+keybindings.push({
+    key: 'meta+space',
+    mac: 'ctrl+alt+space',
+    win: 'ctrl+alt+space',
+    command: 'church-slavonic-toggle'
+})
 
 commands.push({
     command: 'church-slavonic-toggle',
     title: 'Church Slavonic Keyboard: Toggle'
 })
-commands.push({
-    command: 'church-slavonic-activate-dead',
-    title: 'Church Slavonic Keyboard: Activate Dead Key'
-})
-
 
 var text = {
     keybindings: JSON.stringify(keybindings, null, 4),

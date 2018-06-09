@@ -1,7 +1,7 @@
 const plain = [
     // row 0
 
-    ['OEM_3', '`', '~'],
+    ['OEM_3', '', '~'],
     ['1', '1', '!'],
     ['2', '2', '"'],
     ['3', '3', '№'],
@@ -78,12 +78,12 @@ const mod = [
     ['e', '\uA64B', '\uA64A'],
     ['r', '\u046F', '\u046E'],
     ['t', '\u0454', '\u0404'],
-    ['y', '\u2DE9\u0487', ''],  //FIXME: no 4-byte unicode?
-    ['u', '\u2DE2\u0487', ''],  //FIXME: no 4-byte unicode?
-    ['i', '\u2DF2\u0487', ''],  //FIXME: no 4-byte unicode?
-    ['o', '\u2DF3\u0487', ''],  //FIXME: no 4-byte unicode?
+    ['y', '\u2DE9\u0487', '\uD83D\uDD40'],
+    ['u', '\u2DE2\u0487', '\uD83D\uDD41'],
+    ['i', '\u2DF2\u0487', '\uD83D\uDD42'],
+    ['o', '\u2DF3\u0487', '\uD83D\uDD43'],
     ['p', '\u0455', '\u0405'],
-    ['OEM_4', '\u2DEF', ''],  //FIXME: no 4-byte unicode?
+    ['OEM_4', '\u2DEF', '\uD83D\uDD40'],
     ['OEM_6', '\u033e', '\u2E2F'],
     ['OEM_5', '\u047D', '\u047C'],
 
