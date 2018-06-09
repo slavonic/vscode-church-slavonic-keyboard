@@ -170,6 +170,7 @@ module.exports = {
     "church-slavonic-keyboard:meta+c": "ⷭ҇",
     "church-slavonic-keyboard:meta+shift+c": "ᲃ",
     "church-slavonic-keyboard:meta+v": "ⷨ",
+    "church-slavonic-keyboard:meta+shift+v": "🕅",
     "church-slavonic-keyboard:meta+b": "і",
     "church-slavonic-keyboard:meta+shift+b": "І",
     "church-slavonic-keyboard:meta+n": "ᲅ",

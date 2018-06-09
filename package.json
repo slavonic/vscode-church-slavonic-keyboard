@@ -2,7 +2,7 @@
     "name": "vscode-church-slavonic-keyboard",
     "displayName": "vscode-church-slavonic-keyboard",
     "description": "Church Slavonic soft keyboard",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "repository": {
         "type": "git",
         "url": "https://github.com/slavonic/vscode-church-slavonic-keyboard"
@@ -1216,6 +1216,13 @@
         "win": "ctrl+alt+v",
         "mac": "ctrl+alt+v",
         "command": "church-slavonic-keyboard:meta+v",
+        "when": "editorTextFocus && cu.active"
+    },
+    {
+        "key": "meta+shift+v",
+        "win": "ctrl+alt+shift+v",
+        "mac": "ctrl+alt+shift+v",
+        "command": "church-slavonic-keyboard:meta+shift+v",
         "when": "editorTextFocus && cu.active"
     },
     {
@@ -2603,6 +2610,10 @@
     {
         "command": "church-slavonic-keyboard:meta+v",
         "title": "CU Stroke: meta+v"
+    },
+    {
+        "command": "church-slavonic-keyboard:meta+shift+v",
+        "title": "CU Stroke: meta+shift+v"
     },
     {
         "command": "church-slavonic-keyboard:meta+b",

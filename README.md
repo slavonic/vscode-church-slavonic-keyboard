@@ -12,6 +12,8 @@ To get to the special symbol combining plane, use "dead key mode", activated wit
 symbol (or `Church Slavonic: Activate Dead Key` command in the palette).
 Dead mode has the effect of turning the next entered character into accent over the previous symbol.
 
+This project is part of [Slavonic Compiting Initiative](https://sci.ponomar.net).
+
 # Церковно-славянская клавиатура для VSCode
 
 Добавляет в строку состояния индикаторы `cu:ON` и `cu:OFF`.
@@ -27,3 +29,5 @@ Dead mode has the effect of turning the next entered character into accent over 
 "дохлый ключ" нажмите клавишу обратной одиночной кавычки (Backtick), или
 используйте команду `Church Slavonic: Activate Dead Key` из палитры.
 Эффект этой моды заключается в превращении следующего вводимого символа в надстрочный.
+
+Проект является частью программы [Славянская Информатика](https://sci.ponomar.net/ru).
