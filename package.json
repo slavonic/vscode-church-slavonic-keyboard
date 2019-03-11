@@ -8,6 +8,7 @@
         "url": "https://github.com/slavonic/vscode-church-slavonic-keyboard"
     },
     "publisher": "pgmmpk",
+    "license": "MIT",
     "engines": {
         "vscode": "^1.23.0"
     },
@@ -19,3003 +20,3001 @@
     ],
     "main": "./extension",
     "contributes": {
-        "keybindings":
-[
-    {
-        "key": "shift+OEM_3",
-        "win": "shift+OEM_3",
-        "mac": "shift+OEM_3",
-        "command": "church-slavonic-keyboard:shift+OEM_3",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "1",
-        "win": "1",
-        "mac": "1",
-        "command": "church-slavonic-keyboard:1",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+1",
-        "win": "shift+1",
-        "mac": "shift+1",
-        "command": "church-slavonic-keyboard:shift+1",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "2",
-        "win": "2",
-        "mac": "2",
-        "command": "church-slavonic-keyboard:2",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+2",
-        "win": "shift+2",
-        "mac": "shift+2",
-        "command": "church-slavonic-keyboard:shift+2",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "3",
-        "win": "3",
-        "mac": "3",
-        "command": "church-slavonic-keyboard:3",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+3",
-        "win": "shift+3",
-        "mac": "shift+3",
-        "command": "church-slavonic-keyboard:shift+3",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "4",
-        "win": "4",
-        "mac": "4",
-        "command": "church-slavonic-keyboard:4",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+4",
-        "win": "shift+4",
-        "mac": "shift+4",
-        "command": "church-slavonic-keyboard:shift+4",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "5",
-        "win": "5",
-        "mac": "5",
-        "command": "church-slavonic-keyboard:5",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+5",
-        "win": "shift+5",
-        "mac": "shift+5",
-        "command": "church-slavonic-keyboard:shift+5",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "6",
-        "win": "6",
-        "mac": "6",
-        "command": "church-slavonic-keyboard:6",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+6",
-        "win": "shift+6",
-        "mac": "shift+6",
-        "command": "church-slavonic-keyboard:shift+6",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "7",
-        "win": "7",
-        "mac": "7",
-        "command": "church-slavonic-keyboard:7",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+7",
-        "win": "shift+7",
-        "mac": "shift+7",
-        "command": "church-slavonic-keyboard:shift+7",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "8",
-        "win": "8",
-        "mac": "8",
-        "command": "church-slavonic-keyboard:8",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+8",
-        "win": "shift+8",
-        "mac": "shift+8",
-        "command": "church-slavonic-keyboard:shift+8",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "9",
-        "win": "9",
-        "mac": "9",
-        "command": "church-slavonic-keyboard:9",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+9",
-        "win": "shift+9",
-        "mac": "shift+9",
-        "command": "church-slavonic-keyboard:shift+9",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "0",
-        "win": "0",
-        "mac": "0",
-        "command": "church-slavonic-keyboard:0",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+0",
-        "win": "shift+0",
-        "mac": "shift+0",
-        "command": "church-slavonic-keyboard:shift+0",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "OEM_MINUS",
-        "win": "OEM_MINUS",
-        "mac": "OEM_MINUS",
-        "command": "church-slavonic-keyboard:OEM_MINUS",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+OEM_MINUS",
-        "win": "shift+OEM_MINUS",
-        "mac": "shift+OEM_MINUS",
-        "command": "church-slavonic-keyboard:shift+OEM_MINUS",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "OEM_PLUS",
-        "win": "OEM_PLUS",
-        "mac": "OEM_PLUS",
-        "command": "church-slavonic-keyboard:OEM_PLUS",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+OEM_PLUS",
-        "win": "shift+OEM_PLUS",
-        "mac": "shift+OEM_PLUS",
-        "command": "church-slavonic-keyboard:shift+OEM_PLUS",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "q",
-        "win": "q",
-        "mac": "q",
-        "command": "church-slavonic-keyboard:q",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+q",
-        "win": "shift+q",
-        "mac": "shift+q",
-        "command": "church-slavonic-keyboard:shift+q",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "w",
-        "win": "w",
-        "mac": "w",
-        "command": "church-slavonic-keyboard:w",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+w",
-        "win": "shift+w",
-        "mac": "shift+w",
-        "command": "church-slavonic-keyboard:shift+w",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "e",
-        "win": "e",
-        "mac": "e",
-        "command": "church-slavonic-keyboard:e",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+e",
-        "win": "shift+e",
-        "mac": "shift+e",
-        "command": "church-slavonic-keyboard:shift+e",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "r",
-        "win": "r",
-        "mac": "r",
-        "command": "church-slavonic-keyboard:r",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+r",
-        "win": "shift+r",
-        "mac": "shift+r",
-        "command": "church-slavonic-keyboard:shift+r",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "t",
-        "win": "t",
-        "mac": "t",
-        "command": "church-slavonic-keyboard:t",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+t",
-        "win": "shift+t",
-        "mac": "shift+t",
-        "command": "church-slavonic-keyboard:shift+t",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "y",
-        "win": "y",
-        "mac": "y",
-        "command": "church-slavonic-keyboard:y",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+y",
-        "win": "shift+y",
-        "mac": "shift+y",
-        "command": "church-slavonic-keyboard:shift+y",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "u",
-        "win": "u",
-        "mac": "u",
-        "command": "church-slavonic-keyboard:u",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+u",
-        "win": "shift+u",
-        "mac": "shift+u",
-        "command": "church-slavonic-keyboard:shift+u",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "i",
-        "win": "i",
-        "mac": "i",
-        "command": "church-slavonic-keyboard:i",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+i",
-        "win": "shift+i",
-        "mac": "shift+i",
-        "command": "church-slavonic-keyboard:shift+i",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "o",
-        "win": "o",
-        "mac": "o",
-        "command": "church-slavonic-keyboard:o",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+o",
-        "win": "shift+o",
-        "mac": "shift+o",
-        "command": "church-slavonic-keyboard:shift+o",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "p",
-        "win": "p",
-        "mac": "p",
-        "command": "church-slavonic-keyboard:p",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+p",
-        "win": "shift+p",
-        "mac": "shift+p",
-        "command": "church-slavonic-keyboard:shift+p",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "OEM_4",
-        "win": "OEM_4",
-        "mac": "OEM_4",
-        "command": "church-slavonic-keyboard:OEM_4",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+OEM_4",
-        "win": "shift+OEM_4",
-        "mac": "shift+OEM_4",
-        "command": "church-slavonic-keyboard:shift+OEM_4",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "OEM_6",
-        "win": "OEM_6",
-        "mac": "OEM_6",
-        "command": "church-slavonic-keyboard:OEM_6",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+OEM_6",
-        "win": "shift+OEM_6",
-        "mac": "shift+OEM_6",
-        "command": "church-slavonic-keyboard:shift+OEM_6",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "OEM_5",
-        "win": "OEM_5",
-        "mac": "OEM_5",
-        "command": "church-slavonic-keyboard:OEM_5",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+OEM_5",
-        "win": "shift+OEM_5",
-        "mac": "shift+OEM_5",
-        "command": "church-slavonic-keyboard:shift+OEM_5",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "a",
-        "win": "a",
-        "mac": "a",
-        "command": "church-slavonic-keyboard:a",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+a",
-        "win": "shift+a",
-        "mac": "shift+a",
-        "command": "church-slavonic-keyboard:shift+a",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "s",
-        "win": "s",
-        "mac": "s",
-        "command": "church-slavonic-keyboard:s",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+s",
-        "win": "shift+s",
-        "mac": "shift+s",
-        "command": "church-slavonic-keyboard:shift+s",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "d",
-        "win": "d",
-        "mac": "d",
-        "command": "church-slavonic-keyboard:d",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+d",
-        "win": "shift+d",
-        "mac": "shift+d",
-        "command": "church-slavonic-keyboard:shift+d",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "f",
-        "win": "f",
-        "mac": "f",
-        "command": "church-slavonic-keyboard:f",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+f",
-        "win": "shift+f",
-        "mac": "shift+f",
-        "command": "church-slavonic-keyboard:shift+f",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "g",
-        "win": "g",
-        "mac": "g",
-        "command": "church-slavonic-keyboard:g",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+g",
-        "win": "shift+g",
-        "mac": "shift+g",
-        "command": "church-slavonic-keyboard:shift+g",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "h",
-        "win": "h",
-        "mac": "h",
-        "command": "church-slavonic-keyboard:h",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+h",
-        "win": "shift+h",
-        "mac": "shift+h",
-        "command": "church-slavonic-keyboard:shift+h",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "j",
-        "win": "j",
-        "mac": "j",
-        "command": "church-slavonic-keyboard:j",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+j",
-        "win": "shift+j",
-        "mac": "shift+j",
-        "command": "church-slavonic-keyboard:shift+j",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "k",
-        "win": "k",
-        "mac": "k",
-        "command": "church-slavonic-keyboard:k",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+k",
-        "win": "shift+k",
-        "mac": "shift+k",
-        "command": "church-slavonic-keyboard:shift+k",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "l",
-        "win": "l",
-        "mac": "l",
-        "command": "church-slavonic-keyboard:l",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+l",
-        "win": "shift+l",
-        "mac": "shift+l",
-        "command": "church-slavonic-keyboard:shift+l",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "OEM_1",
-        "win": "OEM_1",
-        "mac": "OEM_1",
-        "command": "church-slavonic-keyboard:OEM_1",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+OEM_1",
-        "win": "shift+OEM_1",
-        "mac": "shift+OEM_1",
-        "command": "church-slavonic-keyboard:shift+OEM_1",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "OEM_7",
-        "win": "OEM_7",
-        "mac": "OEM_7",
-        "command": "church-slavonic-keyboard:OEM_7",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+OEM_7",
-        "win": "shift+OEM_7",
-        "mac": "shift+OEM_7",
-        "command": "church-slavonic-keyboard:shift+OEM_7",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "z",
-        "win": "z",
-        "mac": "z",
-        "command": "church-slavonic-keyboard:z",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+z",
-        "win": "shift+z",
-        "mac": "shift+z",
-        "command": "church-slavonic-keyboard:shift+z",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "x",
-        "win": "x",
-        "mac": "x",
-        "command": "church-slavonic-keyboard:x",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+x",
-        "win": "shift+x",
-        "mac": "shift+x",
-        "command": "church-slavonic-keyboard:shift+x",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "c",
-        "win": "c",
-        "mac": "c",
-        "command": "church-slavonic-keyboard:c",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+c",
-        "win": "shift+c",
-        "mac": "shift+c",
-        "command": "church-slavonic-keyboard:shift+c",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "v",
-        "win": "v",
-        "mac": "v",
-        "command": "church-slavonic-keyboard:v",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+v",
-        "win": "shift+v",
-        "mac": "shift+v",
-        "command": "church-slavonic-keyboard:shift+v",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "b",
-        "win": "b",
-        "mac": "b",
-        "command": "church-slavonic-keyboard:b",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+b",
-        "win": "shift+b",
-        "mac": "shift+b",
-        "command": "church-slavonic-keyboard:shift+b",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "n",
-        "win": "n",
-        "mac": "n",
-        "command": "church-slavonic-keyboard:n",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+n",
-        "win": "shift+n",
-        "mac": "shift+n",
-        "command": "church-slavonic-keyboard:shift+n",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "m",
-        "win": "m",
-        "mac": "m",
-        "command": "church-slavonic-keyboard:m",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+m",
-        "win": "shift+m",
-        "mac": "shift+m",
-        "command": "church-slavonic-keyboard:shift+m",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "OEM_COMMA",
-        "win": "OEM_COMMA",
-        "mac": "OEM_COMMA",
-        "command": "church-slavonic-keyboard:OEM_COMMA",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+OEM_COMMA",
-        "win": "shift+OEM_COMMA",
-        "mac": "shift+OEM_COMMA",
-        "command": "church-slavonic-keyboard:shift+OEM_COMMA",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "OEM_PERIOD",
-        "win": "OEM_PERIOD",
-        "mac": "OEM_PERIOD",
-        "command": "church-slavonic-keyboard:OEM_PERIOD",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+OEM_PERIOD",
-        "win": "shift+OEM_PERIOD",
-        "mac": "shift+OEM_PERIOD",
-        "command": "church-slavonic-keyboard:shift+OEM_PERIOD",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "OEM_2",
-        "win": "OEM_2",
-        "mac": "OEM_2",
-        "command": "church-slavonic-keyboard:OEM_2",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "shift+OEM_2",
-        "win": "shift+OEM_2",
-        "mac": "shift+OEM_2",
-        "command": "church-slavonic-keyboard:shift+OEM_2",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+OEM_3",
-        "win": "ctrl+alt+OEM_3",
-        "mac": "ctrl+alt+OEM_3",
-        "command": "church-slavonic-keyboard:meta+OEM_3",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+OEM_3",
-        "win": "ctrl+alt+shift+OEM_3",
-        "mac": "ctrl+alt+shift+OEM_3",
-        "command": "church-slavonic-keyboard:meta+shift+OEM_3",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+1",
-        "win": "ctrl+alt+1",
-        "mac": "ctrl+alt+1",
-        "command": "church-slavonic-keyboard:meta+1",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+1",
-        "win": "ctrl+alt+shift+1",
-        "mac": "ctrl+alt+shift+1",
-        "command": "church-slavonic-keyboard:meta+shift+1",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+2",
-        "win": "ctrl+alt+2",
-        "mac": "ctrl+alt+2",
-        "command": "church-slavonic-keyboard:meta+2",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+2",
-        "win": "ctrl+alt+shift+2",
-        "mac": "ctrl+alt+shift+2",
-        "command": "church-slavonic-keyboard:meta+shift+2",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+3",
-        "win": "ctrl+alt+3",
-        "mac": "ctrl+alt+3",
-        "command": "church-slavonic-keyboard:meta+3",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+3",
-        "win": "ctrl+alt+shift+3",
-        "mac": "ctrl+alt+shift+3",
-        "command": "church-slavonic-keyboard:meta+shift+3",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+4",
-        "win": "ctrl+alt+4",
-        "mac": "ctrl+alt+4",
-        "command": "church-slavonic-keyboard:meta+4",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+4",
-        "win": "ctrl+alt+shift+4",
-        "mac": "ctrl+alt+shift+4",
-        "command": "church-slavonic-keyboard:meta+shift+4",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+5",
-        "win": "ctrl+alt+5",
-        "mac": "ctrl+alt+5",
-        "command": "church-slavonic-keyboard:meta+5",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+5",
-        "win": "ctrl+alt+shift+5",
-        "mac": "ctrl+alt+shift+5",
-        "command": "church-slavonic-keyboard:meta+shift+5",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+6",
-        "win": "ctrl+alt+6",
-        "mac": "ctrl+alt+6",
-        "command": "church-slavonic-keyboard:meta+6",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+6",
-        "win": "ctrl+alt+shift+6",
-        "mac": "ctrl+alt+shift+6",
-        "command": "church-slavonic-keyboard:meta+shift+6",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+7",
-        "win": "ctrl+alt+7",
-        "mac": "ctrl+alt+7",
-        "command": "church-slavonic-keyboard:meta+7",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+7",
-        "win": "ctrl+alt+shift+7",
-        "mac": "ctrl+alt+shift+7",
-        "command": "church-slavonic-keyboard:meta+shift+7",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+8",
-        "win": "ctrl+alt+8",
-        "mac": "ctrl+alt+8",
-        "command": "church-slavonic-keyboard:meta+8",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+8",
-        "win": "ctrl+alt+shift+8",
-        "mac": "ctrl+alt+shift+8",
-        "command": "church-slavonic-keyboard:meta+shift+8",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+9",
-        "win": "ctrl+alt+9",
-        "mac": "ctrl+alt+9",
-        "command": "church-slavonic-keyboard:meta+9",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+9",
-        "win": "ctrl+alt+shift+9",
-        "mac": "ctrl+alt+shift+9",
-        "command": "church-slavonic-keyboard:meta+shift+9",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+0",
-        "win": "ctrl+alt+0",
-        "mac": "ctrl+alt+0",
-        "command": "church-slavonic-keyboard:meta+0",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+0",
-        "win": "ctrl+alt+shift+0",
-        "mac": "ctrl+alt+shift+0",
-        "command": "church-slavonic-keyboard:meta+shift+0",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+OEM_MINUS",
-        "win": "ctrl+alt+OEM_MINUS",
-        "mac": "ctrl+alt+OEM_MINUS",
-        "command": "church-slavonic-keyboard:meta+OEM_MINUS",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+OEM_MINUS",
-        "win": "ctrl+alt+shift+OEM_MINUS",
-        "mac": "ctrl+alt+shift+OEM_MINUS",
-        "command": "church-slavonic-keyboard:meta+shift+OEM_MINUS",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+OEM_PLUS",
-        "win": "ctrl+alt+OEM_PLUS",
-        "mac": "ctrl+alt+OEM_PLUS",
-        "command": "church-slavonic-keyboard:meta+OEM_PLUS",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+OEM_PLUS",
-        "win": "ctrl+alt+shift+OEM_PLUS",
-        "mac": "ctrl+alt+shift+OEM_PLUS",
-        "command": "church-slavonic-keyboard:meta+shift+OEM_PLUS",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+q",
-        "win": "ctrl+alt+q",
-        "mac": "ctrl+alt+q",
-        "command": "church-slavonic-keyboard:meta+q",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+q",
-        "win": "ctrl+alt+shift+q",
-        "mac": "ctrl+alt+shift+q",
-        "command": "church-slavonic-keyboard:meta+shift+q",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+w",
-        "win": "ctrl+alt+w",
-        "mac": "ctrl+alt+w",
-        "command": "church-slavonic-keyboard:meta+w",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+w",
-        "win": "ctrl+alt+shift+w",
-        "mac": "ctrl+alt+shift+w",
-        "command": "church-slavonic-keyboard:meta+shift+w",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+e",
-        "win": "ctrl+alt+e",
-        "mac": "ctrl+alt+e",
-        "command": "church-slavonic-keyboard:meta+e",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+e",
-        "win": "ctrl+alt+shift+e",
-        "mac": "ctrl+alt+shift+e",
-        "command": "church-slavonic-keyboard:meta+shift+e",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+r",
-        "win": "ctrl+alt+r",
-        "mac": "ctrl+alt+r",
-        "command": "church-slavonic-keyboard:meta+r",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+r",
-        "win": "ctrl+alt+shift+r",
-        "mac": "ctrl+alt+shift+r",
-        "command": "church-slavonic-keyboard:meta+shift+r",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+t",
-        "win": "ctrl+alt+t",
-        "mac": "ctrl+alt+t",
-        "command": "church-slavonic-keyboard:meta+t",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+t",
-        "win": "ctrl+alt+shift+t",
-        "mac": "ctrl+alt+shift+t",
-        "command": "church-slavonic-keyboard:meta+shift+t",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+y",
-        "win": "ctrl+alt+y",
-        "mac": "ctrl+alt+y",
-        "command": "church-slavonic-keyboard:meta+y",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+y",
-        "win": "ctrl+alt+shift+y",
-        "mac": "ctrl+alt+shift+y",
-        "command": "church-slavonic-keyboard:meta+shift+y",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+u",
-        "win": "ctrl+alt+u",
-        "mac": "ctrl+alt+u",
-        "command": "church-slavonic-keyboard:meta+u",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+u",
-        "win": "ctrl+alt+shift+u",
-        "mac": "ctrl+alt+shift+u",
-        "command": "church-slavonic-keyboard:meta+shift+u",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+i",
-        "win": "ctrl+alt+i",
-        "mac": "ctrl+alt+i",
-        "command": "church-slavonic-keyboard:meta+i",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+i",
-        "win": "ctrl+alt+shift+i",
-        "mac": "ctrl+alt+shift+i",
-        "command": "church-slavonic-keyboard:meta+shift+i",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+o",
-        "win": "ctrl+alt+o",
-        "mac": "ctrl+alt+o",
-        "command": "church-slavonic-keyboard:meta+o",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+o",
-        "win": "ctrl+alt+shift+o",
-        "mac": "ctrl+alt+shift+o",
-        "command": "church-slavonic-keyboard:meta+shift+o",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+p",
-        "win": "ctrl+alt+p",
-        "mac": "ctrl+alt+p",
-        "command": "church-slavonic-keyboard:meta+p",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+p",
-        "win": "ctrl+alt+shift+p",
-        "mac": "ctrl+alt+shift+p",
-        "command": "church-slavonic-keyboard:meta+shift+p",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+OEM_4",
-        "win": "ctrl+alt+OEM_4",
-        "mac": "ctrl+alt+OEM_4",
-        "command": "church-slavonic-keyboard:meta+OEM_4",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+OEM_4",
-        "win": "ctrl+alt+shift+OEM_4",
-        "mac": "ctrl+alt+shift+OEM_4",
-        "command": "church-slavonic-keyboard:meta+shift+OEM_4",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+OEM_6",
-        "win": "ctrl+alt+OEM_6",
-        "mac": "ctrl+alt+OEM_6",
-        "command": "church-slavonic-keyboard:meta+OEM_6",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+OEM_6",
-        "win": "ctrl+alt+shift+OEM_6",
-        "mac": "ctrl+alt+shift+OEM_6",
-        "command": "church-slavonic-keyboard:meta+shift+OEM_6",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+OEM_5",
-        "win": "ctrl+alt+OEM_5",
-        "mac": "ctrl+alt+OEM_5",
-        "command": "church-slavonic-keyboard:meta+OEM_5",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+OEM_5",
-        "win": "ctrl+alt+shift+OEM_5",
-        "mac": "ctrl+alt+shift+OEM_5",
-        "command": "church-slavonic-keyboard:meta+shift+OEM_5",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+a",
-        "win": "ctrl+alt+a",
-        "mac": "ctrl+alt+a",
-        "command": "church-slavonic-keyboard:meta+a",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+a",
-        "win": "ctrl+alt+shift+a",
-        "mac": "ctrl+alt+shift+a",
-        "command": "church-slavonic-keyboard:meta+shift+a",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+s",
-        "win": "ctrl+alt+s",
-        "mac": "ctrl+alt+s",
-        "command": "church-slavonic-keyboard:meta+s",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+s",
-        "win": "ctrl+alt+shift+s",
-        "mac": "ctrl+alt+shift+s",
-        "command": "church-slavonic-keyboard:meta+shift+s",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+d",
-        "win": "ctrl+alt+d",
-        "mac": "ctrl+alt+d",
-        "command": "church-slavonic-keyboard:meta+d",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+d",
-        "win": "ctrl+alt+shift+d",
-        "mac": "ctrl+alt+shift+d",
-        "command": "church-slavonic-keyboard:meta+shift+d",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+f",
-        "win": "ctrl+alt+f",
-        "mac": "ctrl+alt+f",
-        "command": "church-slavonic-keyboard:meta+f",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+f",
-        "win": "ctrl+alt+shift+f",
-        "mac": "ctrl+alt+shift+f",
-        "command": "church-slavonic-keyboard:meta+shift+f",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+g",
-        "win": "ctrl+alt+g",
-        "mac": "ctrl+alt+g",
-        "command": "church-slavonic-keyboard:meta+g",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+g",
-        "win": "ctrl+alt+shift+g",
-        "mac": "ctrl+alt+shift+g",
-        "command": "church-slavonic-keyboard:meta+shift+g",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+h",
-        "win": "ctrl+alt+h",
-        "mac": "ctrl+alt+h",
-        "command": "church-slavonic-keyboard:meta+h",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+j",
-        "win": "ctrl+alt+j",
-        "mac": "ctrl+alt+j",
-        "command": "church-slavonic-keyboard:meta+j",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+j",
-        "win": "ctrl+alt+shift+j",
-        "mac": "ctrl+alt+shift+j",
-        "command": "church-slavonic-keyboard:meta+shift+j",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+k",
-        "win": "ctrl+alt+k",
-        "mac": "ctrl+alt+k",
-        "command": "church-slavonic-keyboard:meta+k",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+l",
-        "win": "ctrl+alt+l",
-        "mac": "ctrl+alt+l",
-        "command": "church-slavonic-keyboard:meta+l",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+l",
-        "win": "ctrl+alt+shift+l",
-        "mac": "ctrl+alt+shift+l",
-        "command": "church-slavonic-keyboard:meta+shift+l",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+OEM_1",
-        "win": "ctrl+alt+OEM_1",
-        "mac": "ctrl+alt+OEM_1",
-        "command": "church-slavonic-keyboard:meta+OEM_1",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+OEM_7",
-        "win": "ctrl+alt+OEM_7",
-        "mac": "ctrl+alt+OEM_7",
-        "command": "church-slavonic-keyboard:meta+OEM_7",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+OEM_7",
-        "win": "ctrl+alt+shift+OEM_7",
-        "mac": "ctrl+alt+shift+OEM_7",
-        "command": "church-slavonic-keyboard:meta+shift+OEM_7",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+z",
-        "win": "ctrl+alt+z",
-        "mac": "ctrl+alt+z",
-        "command": "church-slavonic-keyboard:meta+z",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+z",
-        "win": "ctrl+alt+shift+z",
-        "mac": "ctrl+alt+shift+z",
-        "command": "church-slavonic-keyboard:meta+shift+z",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+x",
-        "win": "ctrl+alt+x",
-        "mac": "ctrl+alt+x",
-        "command": "church-slavonic-keyboard:meta+x",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+x",
-        "win": "ctrl+alt+shift+x",
-        "mac": "ctrl+alt+shift+x",
-        "command": "church-slavonic-keyboard:meta+shift+x",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+c",
-        "win": "ctrl+alt+c",
-        "mac": "ctrl+alt+c",
-        "command": "church-slavonic-keyboard:meta+c",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+c",
-        "win": "ctrl+alt+shift+c",
-        "mac": "ctrl+alt+shift+c",
-        "command": "church-slavonic-keyboard:meta+shift+c",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+v",
-        "win": "ctrl+alt+v",
-        "mac": "ctrl+alt+v",
-        "command": "church-slavonic-keyboard:meta+v",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+v",
-        "win": "ctrl+alt+shift+v",
-        "mac": "ctrl+alt+shift+v",
-        "command": "church-slavonic-keyboard:meta+shift+v",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+b",
-        "win": "ctrl+alt+b",
-        "mac": "ctrl+alt+b",
-        "command": "church-slavonic-keyboard:meta+b",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+b",
-        "win": "ctrl+alt+shift+b",
-        "mac": "ctrl+alt+shift+b",
-        "command": "church-slavonic-keyboard:meta+shift+b",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+n",
-        "win": "ctrl+alt+n",
-        "mac": "ctrl+alt+n",
-        "command": "church-slavonic-keyboard:meta+n",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+n",
-        "win": "ctrl+alt+shift+n",
-        "mac": "ctrl+alt+shift+n",
-        "command": "church-slavonic-keyboard:meta+shift+n",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+m",
-        "win": "ctrl+alt+m",
-        "mac": "ctrl+alt+m",
-        "command": "church-slavonic-keyboard:meta+m",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+m",
-        "win": "ctrl+alt+shift+m",
-        "mac": "ctrl+alt+shift+m",
-        "command": "church-slavonic-keyboard:meta+shift+m",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+OEM_COMMA",
-        "win": "ctrl+alt+OEM_COMMA",
-        "mac": "ctrl+alt+OEM_COMMA",
-        "command": "church-slavonic-keyboard:meta+OEM_COMMA",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+OEM_PERIOD",
-        "win": "ctrl+alt+OEM_PERIOD",
-        "mac": "ctrl+alt+OEM_PERIOD",
-        "command": "church-slavonic-keyboard:meta+OEM_PERIOD",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+OEM_PERIOD",
-        "win": "ctrl+alt+shift+OEM_PERIOD",
-        "mac": "ctrl+alt+shift+OEM_PERIOD",
-        "command": "church-slavonic-keyboard:meta+shift+OEM_PERIOD",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+OEM_2",
-        "win": "ctrl+alt+OEM_2",
-        "mac": "ctrl+alt+OEM_2",
-        "command": "church-slavonic-keyboard:meta+OEM_2",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+shift+OEM_2",
-        "win": "ctrl+alt+shift+OEM_2",
-        "mac": "ctrl+alt+shift+OEM_2",
-        "command": "church-slavonic-keyboard:meta+shift+OEM_2",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` f",
-        "win": "` f",
-        "mac": "` f",
-        "command": "church-slavonic-keyboard:deadf",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` shift+f",
-        "win": "` shift+f",
-        "mac": "` shift+f",
-        "command": "church-slavonic-keyboard:deadshift+f",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` OEM_COMMA",
-        "win": "` OEM_COMMA",
-        "mac": "` OEM_COMMA",
-        "command": "church-slavonic-keyboard:deadOEM_COMMA",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` shift+OEM_COMMA",
-        "win": "` shift+OEM_COMMA",
-        "mac": "` shift+OEM_COMMA",
-        "command": "church-slavonic-keyboard:deadshift+OEM_COMMA",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` d",
-        "win": "` d",
-        "mac": "` d",
-        "command": "church-slavonic-keyboard:deadd",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` shift+d",
-        "win": "` shift+d",
-        "mac": "` shift+d",
-        "command": "church-slavonic-keyboard:deadshift+d",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` u",
-        "win": "` u",
-        "mac": "` u",
-        "command": "church-slavonic-keyboard:deadu",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` shift+u",
-        "win": "` shift+u",
-        "mac": "` shift+u",
-        "command": "church-slavonic-keyboard:deadshift+u",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` l",
-        "win": "` l",
-        "mac": "` l",
-        "command": "church-slavonic-keyboard:deadl",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` shift+l",
-        "win": "` shift+l",
-        "mac": "` shift+l",
-        "command": "church-slavonic-keyboard:deadshift+l",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` t",
-        "win": "` t",
-        "mac": "` t",
-        "command": "church-slavonic-keyboard:deadt",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` shift+t",
-        "win": "` shift+t",
-        "mac": "` shift+t",
-        "command": "church-slavonic-keyboard:deadshift+t",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` OEM_1",
-        "win": "` OEM_1",
-        "mac": "` OEM_1",
-        "command": "church-slavonic-keyboard:deadOEM_1",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` shift+OEM_1",
-        "win": "` shift+OEM_1",
-        "mac": "` shift+OEM_1",
-        "command": "church-slavonic-keyboard:deadshift+OEM_1",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` p",
-        "win": "` p",
-        "mac": "` p",
-        "command": "church-slavonic-keyboard:deadp",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` shift+p",
-        "win": "` shift+p",
-        "mac": "` shift+p",
-        "command": "church-slavonic-keyboard:deadshift+p",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` b",
-        "win": "` b",
-        "mac": "` b",
-        "command": "church-slavonic-keyboard:deadb",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` shift+b",
-        "win": "` shift+b",
-        "mac": "` shift+b",
-        "command": "church-slavonic-keyboard:deadshift+b",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` q",
-        "win": "` q",
-        "mac": "` q",
-        "command": "church-slavonic-keyboard:deadq",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` shift+q",
-        "win": "` shift+q",
-        "mac": "` shift+q",
-        "command": "church-slavonic-keyboard:deadshift+q",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` r",
-        "win": "` r",
-        "mac": "` r",
-        "command": "church-slavonic-keyboard:deadr",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` shift+r",
-        "win": "` shift+r",
-        "mac": "` shift+r",
-        "command": "church-slavonic-keyboard:deadshift+r",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` k",
-        "win": "` k",
-        "mac": "` k",
-        "command": "church-slavonic-keyboard:deadk",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` shift+k",
-        "win": "` shift+k",
-        "mac": "` shift+k",
-        "command": "church-slavonic-keyboard:deadshift+k",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` v",
-        "win": "` v",
-        "mac": "` v",
-        "command": "church-slavonic-keyboard:deadv",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` shift+v",
-        "win": "` shift+v",
-        "mac": "` shift+v",
-        "command": "church-slavonic-keyboard:deadshift+v",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` y",
-        "win": "` y",
-        "mac": "` y",
-        "command": "church-slavonic-keyboard:deady",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` shift+y",
-        "win": "` shift+y",
-        "mac": "` shift+y",
-        "command": "church-slavonic-keyboard:deadshift+y",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` j",
-        "win": "` j",
-        "mac": "` j",
-        "command": "church-slavonic-keyboard:deadj",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` shift+j",
-        "win": "` shift+j",
-        "mac": "` shift+j",
-        "command": "church-slavonic-keyboard:deadshift+j",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` g",
-        "win": "` g",
-        "mac": "` g",
-        "command": "church-slavonic-keyboard:deadg",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` shift+g",
-        "win": "` shift+g",
-        "mac": "` shift+g",
-        "command": "church-slavonic-keyboard:deadshift+g",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` h",
-        "win": "` h",
-        "mac": "` h",
-        "command": "church-slavonic-keyboard:deadh",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` shift+h",
-        "win": "` shift+h",
-        "mac": "` shift+h",
-        "command": "church-slavonic-keyboard:deadshift+h",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` c",
-        "win": "` c",
-        "mac": "` c",
-        "command": "church-slavonic-keyboard:deadc",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` shift+c",
-        "win": "` shift+c",
-        "mac": "` shift+c",
-        "command": "church-slavonic-keyboard:deadshift+c",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` n",
-        "win": "` n",
-        "mac": "` n",
-        "command": "church-slavonic-keyboard:deadn",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` shift+n",
-        "win": "` shift+n",
-        "mac": "` shift+n",
-        "command": "church-slavonic-keyboard:deadshift+n",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` e",
-        "win": "` e",
-        "mac": "` e",
-        "command": "church-slavonic-keyboard:deade",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` shift+e",
-        "win": "` shift+e",
-        "mac": "` shift+e",
-        "command": "church-slavonic-keyboard:deadshift+e",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` a",
-        "win": "` a",
-        "mac": "` a",
-        "command": "church-slavonic-keyboard:deada",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` shift+a",
-        "win": "` shift+a",
-        "mac": "` shift+a",
-        "command": "church-slavonic-keyboard:deadshift+a",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` OEM_4",
-        "win": "` OEM_4",
-        "mac": "` OEM_4",
-        "command": "church-slavonic-keyboard:deadOEM_4",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` shift+OEM_4",
-        "win": "` shift+OEM_4",
-        "mac": "` shift+OEM_4",
-        "command": "church-slavonic-keyboard:deadshift+OEM_4",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` w",
-        "win": "` w",
-        "mac": "` w",
-        "command": "church-slavonic-keyboard:deadw",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` shift+w",
-        "win": "` shift+w",
-        "mac": "` shift+w",
-        "command": "church-slavonic-keyboard:deadshift+w",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` x",
-        "win": "` x",
-        "mac": "` x",
-        "command": "church-slavonic-keyboard:deadx",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` shift+x",
-        "win": "` shift+x",
-        "mac": "` shift+x",
-        "command": "church-slavonic-keyboard:deadshift+x",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` i",
-        "win": "` i",
-        "mac": "` i",
-        "command": "church-slavonic-keyboard:deadi",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` shift+i",
-        "win": "` shift+i",
-        "mac": "` shift+i",
-        "command": "church-slavonic-keyboard:deadshift+i",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` o",
-        "win": "` o",
-        "mac": "` o",
-        "command": "church-slavonic-keyboard:deado",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` shift+o",
-        "win": "` shift+o",
-        "mac": "` shift+o",
-        "command": "church-slavonic-keyboard:deadshift+o",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` OEM_6",
-        "win": "` OEM_6",
-        "mac": "` OEM_6",
-        "command": "church-slavonic-keyboard:deadOEM_6",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` shift+OEM_6",
-        "win": "` shift+OEM_6",
-        "mac": "` shift+OEM_6",
-        "command": "church-slavonic-keyboard:deadshift+OEM_6",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` s",
-        "win": "` s",
-        "mac": "` s",
-        "command": "church-slavonic-keyboard:deads",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` shift+s",
-        "win": "` shift+s",
-        "mac": "` shift+s",
-        "command": "church-slavonic-keyboard:deadshift+s",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` m",
-        "win": "` m",
-        "mac": "` m",
-        "command": "church-slavonic-keyboard:deadm",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` shift+m",
-        "win": "` shift+m",
-        "mac": "` shift+m",
-        "command": "church-slavonic-keyboard:deadshift+m",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` OEM_PERIOD",
-        "win": "` OEM_PERIOD",
-        "mac": "` OEM_PERIOD",
-        "command": "church-slavonic-keyboard:deadOEM_PERIOD",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` shift+OEM_PERIOD",
-        "win": "` shift+OEM_PERIOD",
-        "mac": "` shift+OEM_PERIOD",
-        "command": "church-slavonic-keyboard:deadshift+OEM_PERIOD",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` meta+t",
-        "win": "` ctrl+alt+t",
-        "mac": "` ctrl+atl+t",
-        "command": "church-slavonic-keyboard:dead+meta+t",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` meta+shift+t",
-        "win": "` ctrl+alt+shift+t",
-        "mac": "` ctrl+atl+shift+t",
-        "command": "church-slavonic-keyboard:dead+meta+shift+t",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` meta+b",
-        "win": "` ctrl+alt+b",
-        "mac": "` ctrl+atl+b",
-        "command": "church-slavonic-keyboard:dead+meta+b",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` meta+shift+b",
-        "win": "` ctrl+alt+shift+b",
-        "mac": "` ctrl+atl+shift+b",
-        "command": "church-slavonic-keyboard:dead+meta+shift+b",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` meta+j",
-        "win": "` ctrl+alt+j",
-        "mac": "` ctrl+atl+j",
-        "command": "church-slavonic-keyboard:dead+meta+j",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` meta+shift+j",
-        "win": "` ctrl+alt+shift+j",
-        "mac": "` ctrl+atl+shift+j",
-        "command": "church-slavonic-keyboard:dead+meta+shift+j",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` meta+0",
-        "win": "` ctrl+alt+0",
-        "mac": "` ctrl+atl+0",
-        "command": "church-slavonic-keyboard:dead+meta+0",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` meta+shift+0",
-        "win": "` ctrl+alt+shift+0",
-        "mac": "` ctrl+atl+shift+0",
-        "command": "church-slavonic-keyboard:dead+meta+shift+0",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` meta+9",
-        "win": "` ctrl+alt+9",
-        "mac": "` ctrl+atl+9",
-        "command": "church-slavonic-keyboard:dead+meta+9",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` meta+shift+9",
-        "win": "` ctrl+alt+shift+9",
-        "mac": "` ctrl+atl+shift+9",
-        "command": "church-slavonic-keyboard:dead+meta+shift+9",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` meta+OEM_MINUS",
-        "win": "` ctrl+alt+OEM_MINUS",
-        "mac": "` ctrl+atl+OEM_MINUS",
-        "command": "church-slavonic-keyboard:dead+meta+OEM_MINUS",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` meta+shift+OEM_MINUS",
-        "win": "` ctrl+alt+shift+OEM_MINUS",
-        "mac": "` ctrl+atl+shift+OEM_MINUS",
-        "command": "church-slavonic-keyboard:dead+meta+shift+OEM_MINUS",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` meta+n",
-        "win": "` ctrl+alt+n",
-        "mac": "` ctrl+atl+n",
-        "command": "church-slavonic-keyboard:dead+meta+n",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` meta+shift+n",
-        "win": "` ctrl+alt+shift+n",
-        "mac": "` ctrl+atl+shift+n",
-        "command": "church-slavonic-keyboard:dead+meta+shift+n",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` meta+e",
-        "win": "` ctrl+alt+e",
-        "mac": "` ctrl+atl+e",
-        "command": "church-slavonic-keyboard:dead+meta+e",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` meta+shift+e",
-        "win": "` ctrl+alt+shift+e",
-        "mac": "` ctrl+atl+shift+e",
-        "command": "church-slavonic-keyboard:dead+meta+shift+e",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` meta+OEM_7",
-        "win": "` ctrl+alt+OEM_7",
-        "mac": "` ctrl+atl+OEM_7",
-        "command": "church-slavonic-keyboard:dead+meta+OEM_7",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` meta+shift+OEM_7",
-        "win": "` ctrl+alt+shift+OEM_7",
-        "mac": "` ctrl+atl+shift+OEM_7",
-        "command": "church-slavonic-keyboard:dead+meta+shift+OEM_7",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` meta+z",
-        "win": "` ctrl+alt+z",
-        "mac": "` ctrl+atl+z",
-        "command": "church-slavonic-keyboard:dead+meta+z",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` meta+shift+z",
-        "win": "` ctrl+alt+shift+z",
-        "mac": "` ctrl+atl+shift+z",
-        "command": "church-slavonic-keyboard:dead+meta+shift+z",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` meta+f",
-        "win": "` ctrl+alt+f",
-        "mac": "` ctrl+atl+f",
-        "command": "church-slavonic-keyboard:dead+meta+f",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` meta+shift+f",
-        "win": "` ctrl+alt+shift+f",
-        "mac": "` ctrl+atl+shift+f",
-        "command": "church-slavonic-keyboard:dead+meta+shift+f",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` meta+OEM_PERIOD",
-        "win": "` ctrl+alt+OEM_PERIOD",
-        "mac": "` ctrl+atl+OEM_PERIOD",
-        "command": "church-slavonic-keyboard:dead+meta+OEM_PERIOD",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` meta+shift+OEM_PERIOD",
-        "win": "` ctrl+alt+shift+OEM_PERIOD",
-        "mac": "` ctrl+atl+shift+OEM_PERIOD",
-        "command": "church-slavonic-keyboard:dead+meta+shift+OEM_PERIOD",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` meta+a",
-        "win": "` ctrl+alt+a",
-        "mac": "` ctrl+atl+a",
-        "command": "church-slavonic-keyboard:dead+meta+a",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` meta+shift+a",
-        "win": "` ctrl+alt+shift+a",
-        "mac": "` ctrl+atl+shift+a",
-        "command": "church-slavonic-keyboard:dead+meta+shift+a",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` meta+c",
-        "win": "` ctrl+alt+c",
-        "mac": "` ctrl+atl+c",
-        "command": "church-slavonic-keyboard:dead+meta+c",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "` meta+shift+c",
-        "win": "` ctrl+alt+shift+c",
-        "mac": "` ctrl+atl+shift+c",
-        "command": "church-slavonic-keyboard:dead+meta+shift+c",
-        "when": "editorTextFocus && cu.active"
-    },
-    {
-        "key": "meta+space",
-        "mac": "ctrl+alt+space",
-        "win": "ctrl+alt+space",
-        "command": "church-slavonic-toggle"
-    }
-],
-        "commands":
-[
-    {
-        "command": "church-slavonic-keyboard:shift+OEM_3",
-        "title": "CU Stroke: shift+OEM_3"
-    },
-    {
-        "command": "church-slavonic-keyboard:1",
-        "title": "CU Stroke: 1"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+1",
-        "title": "CU Stroke: shift+1"
-    },
-    {
-        "command": "church-slavonic-keyboard:2",
-        "title": "CU Stroke: 2"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+2",
-        "title": "CU Stroke: shift+2"
-    },
-    {
-        "command": "church-slavonic-keyboard:3",
-        "title": "CU Stroke: 3"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+3",
-        "title": "CU Stroke: shift+3"
-    },
-    {
-        "command": "church-slavonic-keyboard:4",
-        "title": "CU Stroke: 4"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+4",
-        "title": "CU Stroke: shift+4"
-    },
-    {
-        "command": "church-slavonic-keyboard:5",
-        "title": "CU Stroke: 5"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+5",
-        "title": "CU Stroke: shift+5"
-    },
-    {
-        "command": "church-slavonic-keyboard:6",
-        "title": "CU Stroke: 6"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+6",
-        "title": "CU Stroke: shift+6"
-    },
-    {
-        "command": "church-slavonic-keyboard:7",
-        "title": "CU Stroke: 7"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+7",
-        "title": "CU Stroke: shift+7"
-    },
-    {
-        "command": "church-slavonic-keyboard:8",
-        "title": "CU Stroke: 8"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+8",
-        "title": "CU Stroke: shift+8"
-    },
-    {
-        "command": "church-slavonic-keyboard:9",
-        "title": "CU Stroke: 9"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+9",
-        "title": "CU Stroke: shift+9"
-    },
-    {
-        "command": "church-slavonic-keyboard:0",
-        "title": "CU Stroke: 0"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+0",
-        "title": "CU Stroke: shift+0"
-    },
-    {
-        "command": "church-slavonic-keyboard:OEM_MINUS",
-        "title": "CU Stroke: OEM_MINUS"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+OEM_MINUS",
-        "title": "CU Stroke: shift+OEM_MINUS"
-    },
-    {
-        "command": "church-slavonic-keyboard:OEM_PLUS",
-        "title": "CU Stroke: OEM_PLUS"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+OEM_PLUS",
-        "title": "CU Stroke: shift+OEM_PLUS"
-    },
-    {
-        "command": "church-slavonic-keyboard:q",
-        "title": "CU Stroke: q"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+q",
-        "title": "CU Stroke: shift+q"
-    },
-    {
-        "command": "church-slavonic-keyboard:w",
-        "title": "CU Stroke: w"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+w",
-        "title": "CU Stroke: shift+w"
-    },
-    {
-        "command": "church-slavonic-keyboard:e",
-        "title": "CU Stroke: e"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+e",
-        "title": "CU Stroke: shift+e"
-    },
-    {
-        "command": "church-slavonic-keyboard:r",
-        "title": "CU Stroke: r"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+r",
-        "title": "CU Stroke: shift+r"
-    },
-    {
-        "command": "church-slavonic-keyboard:t",
-        "title": "CU Stroke: t"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+t",
-        "title": "CU Stroke: shift+t"
-    },
-    {
-        "command": "church-slavonic-keyboard:y",
-        "title": "CU Stroke: y"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+y",
-        "title": "CU Stroke: shift+y"
-    },
-    {
-        "command": "church-slavonic-keyboard:u",
-        "title": "CU Stroke: u"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+u",
-        "title": "CU Stroke: shift+u"
-    },
-    {
-        "command": "church-slavonic-keyboard:i",
-        "title": "CU Stroke: i"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+i",
-        "title": "CU Stroke: shift+i"
-    },
-    {
-        "command": "church-slavonic-keyboard:o",
-        "title": "CU Stroke: o"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+o",
-        "title": "CU Stroke: shift+o"
-    },
-    {
-        "command": "church-slavonic-keyboard:p",
-        "title": "CU Stroke: p"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+p",
-        "title": "CU Stroke: shift+p"
-    },
-    {
-        "command": "church-slavonic-keyboard:OEM_4",
-        "title": "CU Stroke: OEM_4"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+OEM_4",
-        "title": "CU Stroke: shift+OEM_4"
-    },
-    {
-        "command": "church-slavonic-keyboard:OEM_6",
-        "title": "CU Stroke: OEM_6"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+OEM_6",
-        "title": "CU Stroke: shift+OEM_6"
-    },
-    {
-        "command": "church-slavonic-keyboard:OEM_5",
-        "title": "CU Stroke: OEM_5"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+OEM_5",
-        "title": "CU Stroke: shift+OEM_5"
-    },
-    {
-        "command": "church-slavonic-keyboard:a",
-        "title": "CU Stroke: a"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+a",
-        "title": "CU Stroke: shift+a"
-    },
-    {
-        "command": "church-slavonic-keyboard:s",
-        "title": "CU Stroke: s"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+s",
-        "title": "CU Stroke: shift+s"
-    },
-    {
-        "command": "church-slavonic-keyboard:d",
-        "title": "CU Stroke: d"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+d",
-        "title": "CU Stroke: shift+d"
-    },
-    {
-        "command": "church-slavonic-keyboard:f",
-        "title": "CU Stroke: f"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+f",
-        "title": "CU Stroke: shift+f"
-    },
-    {
-        "command": "church-slavonic-keyboard:g",
-        "title": "CU Stroke: g"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+g",
-        "title": "CU Stroke: shift+g"
-    },
-    {
-        "command": "church-slavonic-keyboard:h",
-        "title": "CU Stroke: h"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+h",
-        "title": "CU Stroke: shift+h"
-    },
-    {
-        "command": "church-slavonic-keyboard:j",
-        "title": "CU Stroke: j"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+j",
-        "title": "CU Stroke: shift+j"
-    },
-    {
-        "command": "church-slavonic-keyboard:k",
-        "title": "CU Stroke: k"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+k",
-        "title": "CU Stroke: shift+k"
-    },
-    {
-        "command": "church-slavonic-keyboard:l",
-        "title": "CU Stroke: l"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+l",
-        "title": "CU Stroke: shift+l"
-    },
-    {
-        "command": "church-slavonic-keyboard:OEM_1",
-        "title": "CU Stroke: OEM_1"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+OEM_1",
-        "title": "CU Stroke: shift+OEM_1"
-    },
-    {
-        "command": "church-slavonic-keyboard:OEM_7",
-        "title": "CU Stroke: OEM_7"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+OEM_7",
-        "title": "CU Stroke: shift+OEM_7"
-    },
-    {
-        "command": "church-slavonic-keyboard:z",
-        "title": "CU Stroke: z"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+z",
-        "title": "CU Stroke: shift+z"
-    },
-    {
-        "command": "church-slavonic-keyboard:x",
-        "title": "CU Stroke: x"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+x",
-        "title": "CU Stroke: shift+x"
-    },
-    {
-        "command": "church-slavonic-keyboard:c",
-        "title": "CU Stroke: c"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+c",
-        "title": "CU Stroke: shift+c"
-    },
-    {
-        "command": "church-slavonic-keyboard:v",
-        "title": "CU Stroke: v"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+v",
-        "title": "CU Stroke: shift+v"
-    },
-    {
-        "command": "church-slavonic-keyboard:b",
-        "title": "CU Stroke: b"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+b",
-        "title": "CU Stroke: shift+b"
-    },
-    {
-        "command": "church-slavonic-keyboard:n",
-        "title": "CU Stroke: n"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+n",
-        "title": "CU Stroke: shift+n"
-    },
-    {
-        "command": "church-slavonic-keyboard:m",
-        "title": "CU Stroke: m"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+m",
-        "title": "CU Stroke: shift+m"
-    },
-    {
-        "command": "church-slavonic-keyboard:OEM_COMMA",
-        "title": "CU Stroke: OEM_COMMA"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+OEM_COMMA",
-        "title": "CU Stroke: shift+OEM_COMMA"
-    },
-    {
-        "command": "church-slavonic-keyboard:OEM_PERIOD",
-        "title": "CU Stroke: OEM_PERIOD"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+OEM_PERIOD",
-        "title": "CU Stroke: shift+OEM_PERIOD"
-    },
-    {
-        "command": "church-slavonic-keyboard:OEM_2",
-        "title": "CU Stroke: OEM_2"
-    },
-    {
-        "command": "church-slavonic-keyboard:shift+OEM_2",
-        "title": "CU Stroke: shift+OEM_2"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+OEM_3",
-        "title": "CU Stroke: meta+OEM_3"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+OEM_3",
-        "title": "CU Stroke: meta+shift+OEM_3"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+1",
-        "title": "CU Stroke: meta+1"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+1",
-        "title": "CU Stroke: meta+shift+1"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+2",
-        "title": "CU Stroke: meta+2"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+2",
-        "title": "CU Stroke: meta+shift+2"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+3",
-        "title": "CU Stroke: meta+3"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+3",
-        "title": "CU Stroke: meta+shift+3"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+4",
-        "title": "CU Stroke: meta+4"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+4",
-        "title": "CU Stroke: meta+shift+4"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+5",
-        "title": "CU Stroke: meta+5"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+5",
-        "title": "CU Stroke: meta+shift+5"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+6",
-        "title": "CU Stroke: meta+6"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+6",
-        "title": "CU Stroke: meta+shift+6"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+7",
-        "title": "CU Stroke: meta+7"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+7",
-        "title": "CU Stroke: meta+shift+7"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+8",
-        "title": "CU Stroke: meta+8"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+8",
-        "title": "CU Stroke: meta+shift+8"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+9",
-        "title": "CU Stroke: meta+9"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+9",
-        "title": "CU Stroke: meta+shift+9"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+0",
-        "title": "CU Stroke: meta+0"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+0",
-        "title": "CU Stroke: meta+shift+0"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+OEM_MINUS",
-        "title": "CU Stroke: meta+OEM_MINUS"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+OEM_MINUS",
-        "title": "CU Stroke: meta+shift+OEM_MINUS"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+OEM_PLUS",
-        "title": "CU Stroke: meta+OEM_PLUS"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+OEM_PLUS",
-        "title": "CU Stroke: meta+shift+OEM_PLUS"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+q",
-        "title": "CU Stroke: meta+q"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+q",
-        "title": "CU Stroke: meta+shift+q"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+w",
-        "title": "CU Stroke: meta+w"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+w",
-        "title": "CU Stroke: meta+shift+w"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+e",
-        "title": "CU Stroke: meta+e"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+e",
-        "title": "CU Stroke: meta+shift+e"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+r",
-        "title": "CU Stroke: meta+r"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+r",
-        "title": "CU Stroke: meta+shift+r"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+t",
-        "title": "CU Stroke: meta+t"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+t",
-        "title": "CU Stroke: meta+shift+t"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+y",
-        "title": "CU Stroke: meta+y"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+y",
-        "title": "CU Stroke: meta+shift+y"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+u",
-        "title": "CU Stroke: meta+u"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+u",
-        "title": "CU Stroke: meta+shift+u"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+i",
-        "title": "CU Stroke: meta+i"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+i",
-        "title": "CU Stroke: meta+shift+i"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+o",
-        "title": "CU Stroke: meta+o"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+o",
-        "title": "CU Stroke: meta+shift+o"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+p",
-        "title": "CU Stroke: meta+p"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+p",
-        "title": "CU Stroke: meta+shift+p"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+OEM_4",
-        "title": "CU Stroke: meta+OEM_4"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+OEM_4",
-        "title": "CU Stroke: meta+shift+OEM_4"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+OEM_6",
-        "title": "CU Stroke: meta+OEM_6"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+OEM_6",
-        "title": "CU Stroke: meta+shift+OEM_6"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+OEM_5",
-        "title": "CU Stroke: meta+OEM_5"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+OEM_5",
-        "title": "CU Stroke: meta+shift+OEM_5"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+a",
-        "title": "CU Stroke: meta+a"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+a",
-        "title": "CU Stroke: meta+shift+a"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+s",
-        "title": "CU Stroke: meta+s"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+s",
-        "title": "CU Stroke: meta+shift+s"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+d",
-        "title": "CU Stroke: meta+d"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+d",
-        "title": "CU Stroke: meta+shift+d"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+f",
-        "title": "CU Stroke: meta+f"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+f",
-        "title": "CU Stroke: meta+shift+f"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+g",
-        "title": "CU Stroke: meta+g"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+g",
-        "title": "CU Stroke: meta+shift+g"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+h",
-        "title": "CU Stroke: meta+h"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+j",
-        "title": "CU Stroke: meta+j"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+j",
-        "title": "CU Stroke: meta+shift+j"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+k",
-        "title": "CU Stroke: meta+k"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+l",
-        "title": "CU Stroke: meta+l"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+l",
-        "title": "CU Stroke: meta+shift+l"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+OEM_1",
-        "title": "CU Stroke: meta+OEM_1"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+OEM_7",
-        "title": "CU Stroke: meta+OEM_7"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+OEM_7",
-        "title": "CU Stroke: meta+shift+OEM_7"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+z",
-        "title": "CU Stroke: meta+z"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+z",
-        "title": "CU Stroke: meta+shift+z"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+x",
-        "title": "CU Stroke: meta+x"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+x",
-        "title": "CU Stroke: meta+shift+x"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+c",
-        "title": "CU Stroke: meta+c"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+c",
-        "title": "CU Stroke: meta+shift+c"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+v",
-        "title": "CU Stroke: meta+v"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+v",
-        "title": "CU Stroke: meta+shift+v"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+b",
-        "title": "CU Stroke: meta+b"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+b",
-        "title": "CU Stroke: meta+shift+b"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+n",
-        "title": "CU Stroke: meta+n"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+n",
-        "title": "CU Stroke: meta+shift+n"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+m",
-        "title": "CU Stroke: meta+m"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+m",
-        "title": "CU Stroke: meta+shift+m"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+OEM_COMMA",
-        "title": "CU Stroke: meta+OEM_COMMA"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+OEM_PERIOD",
-        "title": "CU Stroke: meta+OEM_PERIOD"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+OEM_PERIOD",
-        "title": "CU Stroke: meta+shift+OEM_PERIOD"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+OEM_2",
-        "title": "CU Stroke: meta+OEM_2"
-    },
-    {
-        "command": "church-slavonic-keyboard:meta+shift+OEM_2",
-        "title": "CU Stroke: meta+shift+OEM_2"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadf",
-        "title": "CU Stroke: deadf"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadshift+f",
-        "title": "CU Stroke: deadshift+f"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadOEM_COMMA",
-        "title": "CU Stroke: deadOEM_COMMA"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadshift+OEM_COMMA",
-        "title": "CU Stroke: deadshift+OEM_COMMA"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadd",
-        "title": "CU Stroke: deadd"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadshift+d",
-        "title": "CU Stroke: deadshift+d"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadu",
-        "title": "CU Stroke: deadu"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadshift+u",
-        "title": "CU Stroke: deadshift+u"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadl",
-        "title": "CU Stroke: deadl"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadshift+l",
-        "title": "CU Stroke: deadshift+l"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadt",
-        "title": "CU Stroke: deadt"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadshift+t",
-        "title": "CU Stroke: deadshift+t"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadOEM_1",
-        "title": "CU Stroke: deadOEM_1"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadshift+OEM_1",
-        "title": "CU Stroke: deadshift+OEM_1"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadp",
-        "title": "CU Stroke: deadp"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadshift+p",
-        "title": "CU Stroke: deadshift+p"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadb",
-        "title": "CU Stroke: deadb"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadshift+b",
-        "title": "CU Stroke: deadshift+b"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadq",
-        "title": "CU Stroke: deadq"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadshift+q",
-        "title": "CU Stroke: deadshift+q"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadr",
-        "title": "CU Stroke: deadr"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadshift+r",
-        "title": "CU Stroke: deadshift+r"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadk",
-        "title": "CU Stroke: deadk"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadshift+k",
-        "title": "CU Stroke: deadshift+k"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadv",
-        "title": "CU Stroke: deadv"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadshift+v",
-        "title": "CU Stroke: deadshift+v"
-    },
-    {
-        "command": "church-slavonic-keyboard:deady",
-        "title": "CU Stroke: deady"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadshift+y",
-        "title": "CU Stroke: deadshift+y"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadj",
-        "title": "CU Stroke: deadj"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadshift+j",
-        "title": "CU Stroke: deadshift+j"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadg",
-        "title": "CU Stroke: deadg"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadshift+g",
-        "title": "CU Stroke: deadshift+g"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadh",
-        "title": "CU Stroke: deadh"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadshift+h",
-        "title": "CU Stroke: deadshift+h"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadc",
-        "title": "CU Stroke: deadc"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadshift+c",
-        "title": "CU Stroke: deadshift+c"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadn",
-        "title": "CU Stroke: deadn"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadshift+n",
-        "title": "CU Stroke: deadshift+n"
-    },
-    {
-        "command": "church-slavonic-keyboard:deade",
-        "title": "CU Stroke: deade"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadshift+e",
-        "title": "CU Stroke: deadshift+e"
-    },
-    {
-        "command": "church-slavonic-keyboard:deada",
-        "title": "CU Stroke: deada"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadshift+a",
-        "title": "CU Stroke: deadshift+a"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadOEM_4",
-        "title": "CU Stroke: deadOEM_4"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadshift+OEM_4",
-        "title": "CU Stroke: deadshift+OEM_4"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadw",
-        "title": "CU Stroke: deadw"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadshift+w",
-        "title": "CU Stroke: deadshift+w"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadx",
-        "title": "CU Stroke: deadx"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadshift+x",
-        "title": "CU Stroke: deadshift+x"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadi",
-        "title": "CU Stroke: deadi"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadshift+i",
-        "title": "CU Stroke: deadshift+i"
-    },
-    {
-        "command": "church-slavonic-keyboard:deado",
-        "title": "CU Stroke: deado"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadshift+o",
-        "title": "CU Stroke: deadshift+o"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadOEM_6",
-        "title": "CU Stroke: deadOEM_6"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadshift+OEM_6",
-        "title": "CU Stroke: deadshift+OEM_6"
-    },
-    {
-        "command": "church-slavonic-keyboard:deads",
-        "title": "CU Stroke: deads"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadshift+s",
-        "title": "CU Stroke: deadshift+s"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadm",
-        "title": "CU Stroke: deadm"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadshift+m",
-        "title": "CU Stroke: deadshift+m"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadOEM_PERIOD",
-        "title": "CU Stroke: deadOEM_PERIOD"
-    },
-    {
-        "command": "church-slavonic-keyboard:deadshift+OEM_PERIOD",
-        "title": "CU Stroke: deadshift+OEM_PERIOD"
-    },
-    {
-        "command": "church-slavonic-keyboard:dead+meta+t",
-        "title": "CU Stroke: dead+meta+t"
-    },
-    {
-        "command": "church-slavonic-keyboard:dead+meta+shift+t",
-        "title": "CU Stroke: dead+meta+shift+t"
-    },
-    {
-        "command": "church-slavonic-keyboard:dead+meta+b",
-        "title": "CU Stroke: dead+meta+b"
-    },
-    {
-        "command": "church-slavonic-keyboard:dead+meta+shift+b",
-        "title": "CU Stroke: dead+meta+shift+b"
-    },
-    {
-        "command": "church-slavonic-keyboard:dead+meta+j",
-        "title": "CU Stroke: dead+meta+j"
-    },
-    {
-        "command": "church-slavonic-keyboard:dead+meta+shift+j",
-        "title": "CU Stroke: dead+meta+shift+j"
-    },
-    {
-        "command": "church-slavonic-keyboard:dead+meta+0",
-        "title": "CU Stroke: dead+meta+0"
-    },
-    {
-        "command": "church-slavonic-keyboard:dead+meta+shift+0",
-        "title": "CU Stroke: dead+meta+shift+0"
-    },
-    {
-        "command": "church-slavonic-keyboard:dead+meta+9",
-        "title": "CU Stroke: dead+meta+9"
-    },
-    {
-        "command": "church-slavonic-keyboard:dead+meta+shift+9",
-        "title": "CU Stroke: dead+meta+shift+9"
-    },
-    {
-        "command": "church-slavonic-keyboard:dead+meta+OEM_MINUS",
-        "title": "CU Stroke: dead+meta+OEM_MINUS"
-    },
-    {
-        "command": "church-slavonic-keyboard:dead+meta+shift+OEM_MINUS",
-        "title": "CU Stroke: dead+meta+shift+OEM_MINUS"
-    },
-    {
-        "command": "church-slavonic-keyboard:dead+meta+n",
-        "title": "CU Stroke: dead+meta+n"
-    },
-    {
-        "command": "church-slavonic-keyboard:dead+meta+shift+n",
-        "title": "CU Stroke: dead+meta+shift+n"
-    },
-    {
-        "command": "church-slavonic-keyboard:dead+meta+e",
-        "title": "CU Stroke: dead+meta+e"
-    },
-    {
-        "command": "church-slavonic-keyboard:dead+meta+shift+e",
-        "title": "CU Stroke: dead+meta+shift+e"
-    },
-    {
-        "command": "church-slavonic-keyboard:dead+meta+OEM_7",
-        "title": "CU Stroke: dead+meta+OEM_7"
-    },
-    {
-        "command": "church-slavonic-keyboard:dead+meta+shift+OEM_7",
-        "title": "CU Stroke: dead+meta+shift+OEM_7"
-    },
-    {
-        "command": "church-slavonic-keyboard:dead+meta+z",
-        "title": "CU Stroke: dead+meta+z"
-    },
-    {
-        "command": "church-slavonic-keyboard:dead+meta+shift+z",
-        "title": "CU Stroke: dead+meta+shift+z"
-    },
-    {
-        "command": "church-slavonic-keyboard:dead+meta+f",
-        "title": "CU Stroke: dead+meta+f"
-    },
-    {
-        "command": "church-slavonic-keyboard:dead+meta+shift+f",
-        "title": "CU Stroke: dead+meta+shift+f"
-    },
-    {
-        "command": "church-slavonic-keyboard:dead+meta+OEM_PERIOD",
-        "title": "CU Stroke: dead+meta+OEM_PERIOD"
-    },
-    {
-        "command": "church-slavonic-keyboard:dead+meta+shift+OEM_PERIOD",
-        "title": "CU Stroke: dead+meta+shift+OEM_PERIOD"
-    },
-    {
-        "command": "church-slavonic-keyboard:dead+meta+a",
-        "title": "CU Stroke: dead+meta+a"
-    },
-    {
-        "command": "church-slavonic-keyboard:dead+meta+shift+a",
-        "title": "CU Stroke: dead+meta+shift+a"
-    },
-    {
-        "command": "church-slavonic-keyboard:dead+meta+c",
-        "title": "CU Stroke: dead+meta+c"
-    },
-    {
-        "command": "church-slavonic-keyboard:dead+meta+shift+c",
-        "title": "CU Stroke: dead+meta+shift+c"
-    },
-    {
-        "command": "church-slavonic-toggle",
-        "title": "Church Slavonic Keyboard: Toggle"
-    }
-]
+        "keybindings": [
+            {
+                "key": "shift+OEM_3",
+                "win": "shift+OEM_3",
+                "mac": "shift+OEM_3",
+                "command": "church-slavonic-keyboard:shift+OEM_3",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "1",
+                "win": "1",
+                "mac": "1",
+                "command": "church-slavonic-keyboard:1",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+1",
+                "win": "shift+1",
+                "mac": "shift+1",
+                "command": "church-slavonic-keyboard:shift+1",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "2",
+                "win": "2",
+                "mac": "2",
+                "command": "church-slavonic-keyboard:2",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+2",
+                "win": "shift+2",
+                "mac": "shift+2",
+                "command": "church-slavonic-keyboard:shift+2",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "3",
+                "win": "3",
+                "mac": "3",
+                "command": "church-slavonic-keyboard:3",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+3",
+                "win": "shift+3",
+                "mac": "shift+3",
+                "command": "church-slavonic-keyboard:shift+3",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "4",
+                "win": "4",
+                "mac": "4",
+                "command": "church-slavonic-keyboard:4",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+4",
+                "win": "shift+4",
+                "mac": "shift+4",
+                "command": "church-slavonic-keyboard:shift+4",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "5",
+                "win": "5",
+                "mac": "5",
+                "command": "church-slavonic-keyboard:5",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+5",
+                "win": "shift+5",
+                "mac": "shift+5",
+                "command": "church-slavonic-keyboard:shift+5",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "6",
+                "win": "6",
+                "mac": "6",
+                "command": "church-slavonic-keyboard:6",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+6",
+                "win": "shift+6",
+                "mac": "shift+6",
+                "command": "church-slavonic-keyboard:shift+6",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "7",
+                "win": "7",
+                "mac": "7",
+                "command": "church-slavonic-keyboard:7",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+7",
+                "win": "shift+7",
+                "mac": "shift+7",
+                "command": "church-slavonic-keyboard:shift+7",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "8",
+                "win": "8",
+                "mac": "8",
+                "command": "church-slavonic-keyboard:8",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+8",
+                "win": "shift+8",
+                "mac": "shift+8",
+                "command": "church-slavonic-keyboard:shift+8",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "9",
+                "win": "9",
+                "mac": "9",
+                "command": "church-slavonic-keyboard:9",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+9",
+                "win": "shift+9",
+                "mac": "shift+9",
+                "command": "church-slavonic-keyboard:shift+9",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "0",
+                "win": "0",
+                "mac": "0",
+                "command": "church-slavonic-keyboard:0",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+0",
+                "win": "shift+0",
+                "mac": "shift+0",
+                "command": "church-slavonic-keyboard:shift+0",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "OEM_MINUS",
+                "win": "OEM_MINUS",
+                "mac": "OEM_MINUS",
+                "command": "church-slavonic-keyboard:OEM_MINUS",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+OEM_MINUS",
+                "win": "shift+OEM_MINUS",
+                "mac": "shift+OEM_MINUS",
+                "command": "church-slavonic-keyboard:shift+OEM_MINUS",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "OEM_PLUS",
+                "win": "OEM_PLUS",
+                "mac": "OEM_PLUS",
+                "command": "church-slavonic-keyboard:OEM_PLUS",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+OEM_PLUS",
+                "win": "shift+OEM_PLUS",
+                "mac": "shift+OEM_PLUS",
+                "command": "church-slavonic-keyboard:shift+OEM_PLUS",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "q",
+                "win": "q",
+                "mac": "q",
+                "command": "church-slavonic-keyboard:q",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+q",
+                "win": "shift+q",
+                "mac": "shift+q",
+                "command": "church-slavonic-keyboard:shift+q",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "w",
+                "win": "w",
+                "mac": "w",
+                "command": "church-slavonic-keyboard:w",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+w",
+                "win": "shift+w",
+                "mac": "shift+w",
+                "command": "church-slavonic-keyboard:shift+w",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "e",
+                "win": "e",
+                "mac": "e",
+                "command": "church-slavonic-keyboard:e",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+e",
+                "win": "shift+e",
+                "mac": "shift+e",
+                "command": "church-slavonic-keyboard:shift+e",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "r",
+                "win": "r",
+                "mac": "r",
+                "command": "church-slavonic-keyboard:r",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+r",
+                "win": "shift+r",
+                "mac": "shift+r",
+                "command": "church-slavonic-keyboard:shift+r",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "t",
+                "win": "t",
+                "mac": "t",
+                "command": "church-slavonic-keyboard:t",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+t",
+                "win": "shift+t",
+                "mac": "shift+t",
+                "command": "church-slavonic-keyboard:shift+t",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "y",
+                "win": "y",
+                "mac": "y",
+                "command": "church-slavonic-keyboard:y",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+y",
+                "win": "shift+y",
+                "mac": "shift+y",
+                "command": "church-slavonic-keyboard:shift+y",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "u",
+                "win": "u",
+                "mac": "u",
+                "command": "church-slavonic-keyboard:u",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+u",
+                "win": "shift+u",
+                "mac": "shift+u",
+                "command": "church-slavonic-keyboard:shift+u",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "i",
+                "win": "i",
+                "mac": "i",
+                "command": "church-slavonic-keyboard:i",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+i",
+                "win": "shift+i",
+                "mac": "shift+i",
+                "command": "church-slavonic-keyboard:shift+i",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "o",
+                "win": "o",
+                "mac": "o",
+                "command": "church-slavonic-keyboard:o",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+o",
+                "win": "shift+o",
+                "mac": "shift+o",
+                "command": "church-slavonic-keyboard:shift+o",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "p",
+                "win": "p",
+                "mac": "p",
+                "command": "church-slavonic-keyboard:p",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+p",
+                "win": "shift+p",
+                "mac": "shift+p",
+                "command": "church-slavonic-keyboard:shift+p",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "OEM_4",
+                "win": "OEM_4",
+                "mac": "OEM_4",
+                "command": "church-slavonic-keyboard:OEM_4",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+OEM_4",
+                "win": "shift+OEM_4",
+                "mac": "shift+OEM_4",
+                "command": "church-slavonic-keyboard:shift+OEM_4",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "OEM_6",
+                "win": "OEM_6",
+                "mac": "OEM_6",
+                "command": "church-slavonic-keyboard:OEM_6",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+OEM_6",
+                "win": "shift+OEM_6",
+                "mac": "shift+OEM_6",
+                "command": "church-slavonic-keyboard:shift+OEM_6",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "OEM_5",
+                "win": "OEM_5",
+                "mac": "OEM_5",
+                "command": "church-slavonic-keyboard:OEM_5",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+OEM_5",
+                "win": "shift+OEM_5",
+                "mac": "shift+OEM_5",
+                "command": "church-slavonic-keyboard:shift+OEM_5",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "a",
+                "win": "a",
+                "mac": "a",
+                "command": "church-slavonic-keyboard:a",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+a",
+                "win": "shift+a",
+                "mac": "shift+a",
+                "command": "church-slavonic-keyboard:shift+a",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "s",
+                "win": "s",
+                "mac": "s",
+                "command": "church-slavonic-keyboard:s",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+s",
+                "win": "shift+s",
+                "mac": "shift+s",
+                "command": "church-slavonic-keyboard:shift+s",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "d",
+                "win": "d",
+                "mac": "d",
+                "command": "church-slavonic-keyboard:d",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+d",
+                "win": "shift+d",
+                "mac": "shift+d",
+                "command": "church-slavonic-keyboard:shift+d",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "f",
+                "win": "f",
+                "mac": "f",
+                "command": "church-slavonic-keyboard:f",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+f",
+                "win": "shift+f",
+                "mac": "shift+f",
+                "command": "church-slavonic-keyboard:shift+f",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "g",
+                "win": "g",
+                "mac": "g",
+                "command": "church-slavonic-keyboard:g",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+g",
+                "win": "shift+g",
+                "mac": "shift+g",
+                "command": "church-slavonic-keyboard:shift+g",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "h",
+                "win": "h",
+                "mac": "h",
+                "command": "church-slavonic-keyboard:h",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+h",
+                "win": "shift+h",
+                "mac": "shift+h",
+                "command": "church-slavonic-keyboard:shift+h",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "j",
+                "win": "j",
+                "mac": "j",
+                "command": "church-slavonic-keyboard:j",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+j",
+                "win": "shift+j",
+                "mac": "shift+j",
+                "command": "church-slavonic-keyboard:shift+j",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "k",
+                "win": "k",
+                "mac": "k",
+                "command": "church-slavonic-keyboard:k",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+k",
+                "win": "shift+k",
+                "mac": "shift+k",
+                "command": "church-slavonic-keyboard:shift+k",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "l",
+                "win": "l",
+                "mac": "l",
+                "command": "church-slavonic-keyboard:l",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+l",
+                "win": "shift+l",
+                "mac": "shift+l",
+                "command": "church-slavonic-keyboard:shift+l",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "OEM_1",
+                "win": "OEM_1",
+                "mac": "OEM_1",
+                "command": "church-slavonic-keyboard:OEM_1",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+OEM_1",
+                "win": "shift+OEM_1",
+                "mac": "shift+OEM_1",
+                "command": "church-slavonic-keyboard:shift+OEM_1",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "OEM_7",
+                "win": "OEM_7",
+                "mac": "OEM_7",
+                "command": "church-slavonic-keyboard:OEM_7",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+OEM_7",
+                "win": "shift+OEM_7",
+                "mac": "shift+OEM_7",
+                "command": "church-slavonic-keyboard:shift+OEM_7",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "z",
+                "win": "z",
+                "mac": "z",
+                "command": "church-slavonic-keyboard:z",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+z",
+                "win": "shift+z",
+                "mac": "shift+z",
+                "command": "church-slavonic-keyboard:shift+z",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "x",
+                "win": "x",
+                "mac": "x",
+                "command": "church-slavonic-keyboard:x",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+x",
+                "win": "shift+x",
+                "mac": "shift+x",
+                "command": "church-slavonic-keyboard:shift+x",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "c",
+                "win": "c",
+                "mac": "c",
+                "command": "church-slavonic-keyboard:c",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+c",
+                "win": "shift+c",
+                "mac": "shift+c",
+                "command": "church-slavonic-keyboard:shift+c",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "v",
+                "win": "v",
+                "mac": "v",
+                "command": "church-slavonic-keyboard:v",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+v",
+                "win": "shift+v",
+                "mac": "shift+v",
+                "command": "church-slavonic-keyboard:shift+v",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "b",
+                "win": "b",
+                "mac": "b",
+                "command": "church-slavonic-keyboard:b",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+b",
+                "win": "shift+b",
+                "mac": "shift+b",
+                "command": "church-slavonic-keyboard:shift+b",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "n",
+                "win": "n",
+                "mac": "n",
+                "command": "church-slavonic-keyboard:n",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+n",
+                "win": "shift+n",
+                "mac": "shift+n",
+                "command": "church-slavonic-keyboard:shift+n",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "m",
+                "win": "m",
+                "mac": "m",
+                "command": "church-slavonic-keyboard:m",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+m",
+                "win": "shift+m",
+                "mac": "shift+m",
+                "command": "church-slavonic-keyboard:shift+m",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "OEM_COMMA",
+                "win": "OEM_COMMA",
+                "mac": "OEM_COMMA",
+                "command": "church-slavonic-keyboard:OEM_COMMA",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+OEM_COMMA",
+                "win": "shift+OEM_COMMA",
+                "mac": "shift+OEM_COMMA",
+                "command": "church-slavonic-keyboard:shift+OEM_COMMA",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "OEM_PERIOD",
+                "win": "OEM_PERIOD",
+                "mac": "OEM_PERIOD",
+                "command": "church-slavonic-keyboard:OEM_PERIOD",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+OEM_PERIOD",
+                "win": "shift+OEM_PERIOD",
+                "mac": "shift+OEM_PERIOD",
+                "command": "church-slavonic-keyboard:shift+OEM_PERIOD",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "OEM_2",
+                "win": "OEM_2",
+                "mac": "OEM_2",
+                "command": "church-slavonic-keyboard:OEM_2",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "shift+OEM_2",
+                "win": "shift+OEM_2",
+                "mac": "shift+OEM_2",
+                "command": "church-slavonic-keyboard:shift+OEM_2",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+OEM_3",
+                "win": "ctrl+alt+OEM_3",
+                "mac": "ctrl+alt+OEM_3",
+                "command": "church-slavonic-keyboard:meta+OEM_3",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+OEM_3",
+                "win": "ctrl+alt+shift+OEM_3",
+                "mac": "ctrl+alt+shift+OEM_3",
+                "command": "church-slavonic-keyboard:meta+shift+OEM_3",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+1",
+                "win": "ctrl+alt+1",
+                "mac": "ctrl+alt+1",
+                "command": "church-slavonic-keyboard:meta+1",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+1",
+                "win": "ctrl+alt+shift+1",
+                "mac": "ctrl+alt+shift+1",
+                "command": "church-slavonic-keyboard:meta+shift+1",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+2",
+                "win": "ctrl+alt+2",
+                "mac": "ctrl+alt+2",
+                "command": "church-slavonic-keyboard:meta+2",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+2",
+                "win": "ctrl+alt+shift+2",
+                "mac": "ctrl+alt+shift+2",
+                "command": "church-slavonic-keyboard:meta+shift+2",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+3",
+                "win": "ctrl+alt+3",
+                "mac": "ctrl+alt+3",
+                "command": "church-slavonic-keyboard:meta+3",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+3",
+                "win": "ctrl+alt+shift+3",
+                "mac": "ctrl+alt+shift+3",
+                "command": "church-slavonic-keyboard:meta+shift+3",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+4",
+                "win": "ctrl+alt+4",
+                "mac": "ctrl+alt+4",
+                "command": "church-slavonic-keyboard:meta+4",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+4",
+                "win": "ctrl+alt+shift+4",
+                "mac": "ctrl+alt+shift+4",
+                "command": "church-slavonic-keyboard:meta+shift+4",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+5",
+                "win": "ctrl+alt+5",
+                "mac": "ctrl+alt+5",
+                "command": "church-slavonic-keyboard:meta+5",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+5",
+                "win": "ctrl+alt+shift+5",
+                "mac": "ctrl+alt+shift+5",
+                "command": "church-slavonic-keyboard:meta+shift+5",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+6",
+                "win": "ctrl+alt+6",
+                "mac": "ctrl+alt+6",
+                "command": "church-slavonic-keyboard:meta+6",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+6",
+                "win": "ctrl+alt+shift+6",
+                "mac": "ctrl+alt+shift+6",
+                "command": "church-slavonic-keyboard:meta+shift+6",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+7",
+                "win": "ctrl+alt+7",
+                "mac": "ctrl+alt+7",
+                "command": "church-slavonic-keyboard:meta+7",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+7",
+                "win": "ctrl+alt+shift+7",
+                "mac": "ctrl+alt+shift+7",
+                "command": "church-slavonic-keyboard:meta+shift+7",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+8",
+                "win": "ctrl+alt+8",
+                "mac": "ctrl+alt+8",
+                "command": "church-slavonic-keyboard:meta+8",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+8",
+                "win": "ctrl+alt+shift+8",
+                "mac": "ctrl+alt+shift+8",
+                "command": "church-slavonic-keyboard:meta+shift+8",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+9",
+                "win": "ctrl+alt+9",
+                "mac": "ctrl+alt+9",
+                "command": "church-slavonic-keyboard:meta+9",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+9",
+                "win": "ctrl+alt+shift+9",
+                "mac": "ctrl+alt+shift+9",
+                "command": "church-slavonic-keyboard:meta+shift+9",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+0",
+                "win": "ctrl+alt+0",
+                "mac": "ctrl+alt+0",
+                "command": "church-slavonic-keyboard:meta+0",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+0",
+                "win": "ctrl+alt+shift+0",
+                "mac": "ctrl+alt+shift+0",
+                "command": "church-slavonic-keyboard:meta+shift+0",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+OEM_MINUS",
+                "win": "ctrl+alt+OEM_MINUS",
+                "mac": "ctrl+alt+OEM_MINUS",
+                "command": "church-slavonic-keyboard:meta+OEM_MINUS",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+OEM_MINUS",
+                "win": "ctrl+alt+shift+OEM_MINUS",
+                "mac": "ctrl+alt+shift+OEM_MINUS",
+                "command": "church-slavonic-keyboard:meta+shift+OEM_MINUS",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+OEM_PLUS",
+                "win": "ctrl+alt+OEM_PLUS",
+                "mac": "ctrl+alt+OEM_PLUS",
+                "command": "church-slavonic-keyboard:meta+OEM_PLUS",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+OEM_PLUS",
+                "win": "ctrl+alt+shift+OEM_PLUS",
+                "mac": "ctrl+alt+shift+OEM_PLUS",
+                "command": "church-slavonic-keyboard:meta+shift+OEM_PLUS",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+q",
+                "win": "ctrl+alt+q",
+                "mac": "ctrl+alt+q",
+                "command": "church-slavonic-keyboard:meta+q",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+q",
+                "win": "ctrl+alt+shift+q",
+                "mac": "ctrl+alt+shift+q",
+                "command": "church-slavonic-keyboard:meta+shift+q",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+w",
+                "win": "ctrl+alt+w",
+                "mac": "ctrl+alt+w",
+                "command": "church-slavonic-keyboard:meta+w",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+w",
+                "win": "ctrl+alt+shift+w",
+                "mac": "ctrl+alt+shift+w",
+                "command": "church-slavonic-keyboard:meta+shift+w",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+e",
+                "win": "ctrl+alt+e",
+                "mac": "ctrl+alt+e",
+                "command": "church-slavonic-keyboard:meta+e",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+e",
+                "win": "ctrl+alt+shift+e",
+                "mac": "ctrl+alt+shift+e",
+                "command": "church-slavonic-keyboard:meta+shift+e",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+r",
+                "win": "ctrl+alt+r",
+                "mac": "ctrl+alt+r",
+                "command": "church-slavonic-keyboard:meta+r",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+r",
+                "win": "ctrl+alt+shift+r",
+                "mac": "ctrl+alt+shift+r",
+                "command": "church-slavonic-keyboard:meta+shift+r",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+t",
+                "win": "ctrl+alt+t",
+                "mac": "ctrl+alt+t",
+                "command": "church-slavonic-keyboard:meta+t",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+t",
+                "win": "ctrl+alt+shift+t",
+                "mac": "ctrl+alt+shift+t",
+                "command": "church-slavonic-keyboard:meta+shift+t",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+y",
+                "win": "ctrl+alt+y",
+                "mac": "ctrl+alt+y",
+                "command": "church-slavonic-keyboard:meta+y",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+y",
+                "win": "ctrl+alt+shift+y",
+                "mac": "ctrl+alt+shift+y",
+                "command": "church-slavonic-keyboard:meta+shift+y",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+u",
+                "win": "ctrl+alt+u",
+                "mac": "ctrl+alt+u",
+                "command": "church-slavonic-keyboard:meta+u",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+u",
+                "win": "ctrl+alt+shift+u",
+                "mac": "ctrl+alt+shift+u",
+                "command": "church-slavonic-keyboard:meta+shift+u",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+i",
+                "win": "ctrl+alt+i",
+                "mac": "ctrl+alt+i",
+                "command": "church-slavonic-keyboard:meta+i",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+i",
+                "win": "ctrl+alt+shift+i",
+                "mac": "ctrl+alt+shift+i",
+                "command": "church-slavonic-keyboard:meta+shift+i",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+o",
+                "win": "ctrl+alt+o",
+                "mac": "ctrl+alt+o",
+                "command": "church-slavonic-keyboard:meta+o",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+o",
+                "win": "ctrl+alt+shift+o",
+                "mac": "ctrl+alt+shift+o",
+                "command": "church-slavonic-keyboard:meta+shift+o",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+p",
+                "win": "ctrl+alt+p",
+                "mac": "ctrl+alt+p",
+                "command": "church-slavonic-keyboard:meta+p",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+p",
+                "win": "ctrl+alt+shift+p",
+                "mac": "ctrl+alt+shift+p",
+                "command": "church-slavonic-keyboard:meta+shift+p",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+OEM_4",
+                "win": "ctrl+alt+OEM_4",
+                "mac": "ctrl+alt+OEM_4",
+                "command": "church-slavonic-keyboard:meta+OEM_4",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+OEM_4",
+                "win": "ctrl+alt+shift+OEM_4",
+                "mac": "ctrl+alt+shift+OEM_4",
+                "command": "church-slavonic-keyboard:meta+shift+OEM_4",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+OEM_6",
+                "win": "ctrl+alt+OEM_6",
+                "mac": "ctrl+alt+OEM_6",
+                "command": "church-slavonic-keyboard:meta+OEM_6",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+OEM_6",
+                "win": "ctrl+alt+shift+OEM_6",
+                "mac": "ctrl+alt+shift+OEM_6",
+                "command": "church-slavonic-keyboard:meta+shift+OEM_6",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+OEM_5",
+                "win": "ctrl+alt+OEM_5",
+                "mac": "ctrl+alt+OEM_5",
+                "command": "church-slavonic-keyboard:meta+OEM_5",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+OEM_5",
+                "win": "ctrl+alt+shift+OEM_5",
+                "mac": "ctrl+alt+shift+OEM_5",
+                "command": "church-slavonic-keyboard:meta+shift+OEM_5",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+a",
+                "win": "ctrl+alt+a",
+                "mac": "ctrl+alt+a",
+                "command": "church-slavonic-keyboard:meta+a",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+a",
+                "win": "ctrl+alt+shift+a",
+                "mac": "ctrl+alt+shift+a",
+                "command": "church-slavonic-keyboard:meta+shift+a",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+s",
+                "win": "ctrl+alt+s",
+                "mac": "ctrl+alt+s",
+                "command": "church-slavonic-keyboard:meta+s",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+s",
+                "win": "ctrl+alt+shift+s",
+                "mac": "ctrl+alt+shift+s",
+                "command": "church-slavonic-keyboard:meta+shift+s",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+d",
+                "win": "ctrl+alt+d",
+                "mac": "ctrl+alt+d",
+                "command": "church-slavonic-keyboard:meta+d",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+d",
+                "win": "ctrl+alt+shift+d",
+                "mac": "ctrl+alt+shift+d",
+                "command": "church-slavonic-keyboard:meta+shift+d",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+f",
+                "win": "ctrl+alt+f",
+                "mac": "ctrl+alt+f",
+                "command": "church-slavonic-keyboard:meta+f",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+f",
+                "win": "ctrl+alt+shift+f",
+                "mac": "ctrl+alt+shift+f",
+                "command": "church-slavonic-keyboard:meta+shift+f",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+g",
+                "win": "ctrl+alt+g",
+                "mac": "ctrl+alt+g",
+                "command": "church-slavonic-keyboard:meta+g",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+g",
+                "win": "ctrl+alt+shift+g",
+                "mac": "ctrl+alt+shift+g",
+                "command": "church-slavonic-keyboard:meta+shift+g",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+h",
+                "win": "ctrl+alt+h",
+                "mac": "ctrl+alt+h",
+                "command": "church-slavonic-keyboard:meta+h",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+j",
+                "win": "ctrl+alt+j",
+                "mac": "ctrl+alt+j",
+                "command": "church-slavonic-keyboard:meta+j",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+j",
+                "win": "ctrl+alt+shift+j",
+                "mac": "ctrl+alt+shift+j",
+                "command": "church-slavonic-keyboard:meta+shift+j",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+k",
+                "win": "ctrl+alt+k",
+                "mac": "ctrl+alt+k",
+                "command": "church-slavonic-keyboard:meta+k",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+l",
+                "win": "ctrl+alt+l",
+                "mac": "ctrl+alt+l",
+                "command": "church-slavonic-keyboard:meta+l",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+l",
+                "win": "ctrl+alt+shift+l",
+                "mac": "ctrl+alt+shift+l",
+                "command": "church-slavonic-keyboard:meta+shift+l",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+OEM_1",
+                "win": "ctrl+alt+OEM_1",
+                "mac": "ctrl+alt+OEM_1",
+                "command": "church-slavonic-keyboard:meta+OEM_1",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+OEM_7",
+                "win": "ctrl+alt+OEM_7",
+                "mac": "ctrl+alt+OEM_7",
+                "command": "church-slavonic-keyboard:meta+OEM_7",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+OEM_7",
+                "win": "ctrl+alt+shift+OEM_7",
+                "mac": "ctrl+alt+shift+OEM_7",
+                "command": "church-slavonic-keyboard:meta+shift+OEM_7",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+z",
+                "win": "ctrl+alt+z",
+                "mac": "ctrl+alt+z",
+                "command": "church-slavonic-keyboard:meta+z",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+z",
+                "win": "ctrl+alt+shift+z",
+                "mac": "ctrl+alt+shift+z",
+                "command": "church-slavonic-keyboard:meta+shift+z",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+x",
+                "win": "ctrl+alt+x",
+                "mac": "ctrl+alt+x",
+                "command": "church-slavonic-keyboard:meta+x",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+x",
+                "win": "ctrl+alt+shift+x",
+                "mac": "ctrl+alt+shift+x",
+                "command": "church-slavonic-keyboard:meta+shift+x",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+c",
+                "win": "ctrl+alt+c",
+                "mac": "ctrl+alt+c",
+                "command": "church-slavonic-keyboard:meta+c",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+c",
+                "win": "ctrl+alt+shift+c",
+                "mac": "ctrl+alt+shift+c",
+                "command": "church-slavonic-keyboard:meta+shift+c",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+v",
+                "win": "ctrl+alt+v",
+                "mac": "ctrl+alt+v",
+                "command": "church-slavonic-keyboard:meta+v",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+v",
+                "win": "ctrl+alt+shift+v",
+                "mac": "ctrl+alt+shift+v",
+                "command": "church-slavonic-keyboard:meta+shift+v",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+b",
+                "win": "ctrl+alt+b",
+                "mac": "ctrl+alt+b",
+                "command": "church-slavonic-keyboard:meta+b",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+b",
+                "win": "ctrl+alt+shift+b",
+                "mac": "ctrl+alt+shift+b",
+                "command": "church-slavonic-keyboard:meta+shift+b",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+n",
+                "win": "ctrl+alt+n",
+                "mac": "ctrl+alt+n",
+                "command": "church-slavonic-keyboard:meta+n",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+n",
+                "win": "ctrl+alt+shift+n",
+                "mac": "ctrl+alt+shift+n",
+                "command": "church-slavonic-keyboard:meta+shift+n",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+m",
+                "win": "ctrl+alt+m",
+                "mac": "ctrl+alt+m",
+                "command": "church-slavonic-keyboard:meta+m",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+m",
+                "win": "ctrl+alt+shift+m",
+                "mac": "ctrl+alt+shift+m",
+                "command": "church-slavonic-keyboard:meta+shift+m",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+OEM_COMMA",
+                "win": "ctrl+alt+OEM_COMMA",
+                "mac": "ctrl+alt+OEM_COMMA",
+                "command": "church-slavonic-keyboard:meta+OEM_COMMA",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+OEM_PERIOD",
+                "win": "ctrl+alt+OEM_PERIOD",
+                "mac": "ctrl+alt+OEM_PERIOD",
+                "command": "church-slavonic-keyboard:meta+OEM_PERIOD",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+OEM_PERIOD",
+                "win": "ctrl+alt+shift+OEM_PERIOD",
+                "mac": "ctrl+alt+shift+OEM_PERIOD",
+                "command": "church-slavonic-keyboard:meta+shift+OEM_PERIOD",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+OEM_2",
+                "win": "ctrl+alt+OEM_2",
+                "mac": "ctrl+alt+OEM_2",
+                "command": "church-slavonic-keyboard:meta+OEM_2",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+shift+OEM_2",
+                "win": "ctrl+alt+shift+OEM_2",
+                "mac": "ctrl+alt+shift+OEM_2",
+                "command": "church-slavonic-keyboard:meta+shift+OEM_2",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` f",
+                "win": "` f",
+                "mac": "` f",
+                "command": "church-slavonic-keyboard:deadf",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` shift+f",
+                "win": "` shift+f",
+                "mac": "` shift+f",
+                "command": "church-slavonic-keyboard:deadshift+f",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` OEM_COMMA",
+                "win": "` OEM_COMMA",
+                "mac": "` OEM_COMMA",
+                "command": "church-slavonic-keyboard:deadOEM_COMMA",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` shift+OEM_COMMA",
+                "win": "` shift+OEM_COMMA",
+                "mac": "` shift+OEM_COMMA",
+                "command": "church-slavonic-keyboard:deadshift+OEM_COMMA",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` d",
+                "win": "` d",
+                "mac": "` d",
+                "command": "church-slavonic-keyboard:deadd",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` shift+d",
+                "win": "` shift+d",
+                "mac": "` shift+d",
+                "command": "church-slavonic-keyboard:deadshift+d",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` u",
+                "win": "` u",
+                "mac": "` u",
+                "command": "church-slavonic-keyboard:deadu",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` shift+u",
+                "win": "` shift+u",
+                "mac": "` shift+u",
+                "command": "church-slavonic-keyboard:deadshift+u",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` l",
+                "win": "` l",
+                "mac": "` l",
+                "command": "church-slavonic-keyboard:deadl",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` shift+l",
+                "win": "` shift+l",
+                "mac": "` shift+l",
+                "command": "church-slavonic-keyboard:deadshift+l",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` t",
+                "win": "` t",
+                "mac": "` t",
+                "command": "church-slavonic-keyboard:deadt",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` shift+t",
+                "win": "` shift+t",
+                "mac": "` shift+t",
+                "command": "church-slavonic-keyboard:deadshift+t",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` OEM_1",
+                "win": "` OEM_1",
+                "mac": "` OEM_1",
+                "command": "church-slavonic-keyboard:deadOEM_1",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` shift+OEM_1",
+                "win": "` shift+OEM_1",
+                "mac": "` shift+OEM_1",
+                "command": "church-slavonic-keyboard:deadshift+OEM_1",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` p",
+                "win": "` p",
+                "mac": "` p",
+                "command": "church-slavonic-keyboard:deadp",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` shift+p",
+                "win": "` shift+p",
+                "mac": "` shift+p",
+                "command": "church-slavonic-keyboard:deadshift+p",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` b",
+                "win": "` b",
+                "mac": "` b",
+                "command": "church-slavonic-keyboard:deadb",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` shift+b",
+                "win": "` shift+b",
+                "mac": "` shift+b",
+                "command": "church-slavonic-keyboard:deadshift+b",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` q",
+                "win": "` q",
+                "mac": "` q",
+                "command": "church-slavonic-keyboard:deadq",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` shift+q",
+                "win": "` shift+q",
+                "mac": "` shift+q",
+                "command": "church-slavonic-keyboard:deadshift+q",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` r",
+                "win": "` r",
+                "mac": "` r",
+                "command": "church-slavonic-keyboard:deadr",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` shift+r",
+                "win": "` shift+r",
+                "mac": "` shift+r",
+                "command": "church-slavonic-keyboard:deadshift+r",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` k",
+                "win": "` k",
+                "mac": "` k",
+                "command": "church-slavonic-keyboard:deadk",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` shift+k",
+                "win": "` shift+k",
+                "mac": "` shift+k",
+                "command": "church-slavonic-keyboard:deadshift+k",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` v",
+                "win": "` v",
+                "mac": "` v",
+                "command": "church-slavonic-keyboard:deadv",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` shift+v",
+                "win": "` shift+v",
+                "mac": "` shift+v",
+                "command": "church-slavonic-keyboard:deadshift+v",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` y",
+                "win": "` y",
+                "mac": "` y",
+                "command": "church-slavonic-keyboard:deady",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` shift+y",
+                "win": "` shift+y",
+                "mac": "` shift+y",
+                "command": "church-slavonic-keyboard:deadshift+y",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` j",
+                "win": "` j",
+                "mac": "` j",
+                "command": "church-slavonic-keyboard:deadj",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` shift+j",
+                "win": "` shift+j",
+                "mac": "` shift+j",
+                "command": "church-slavonic-keyboard:deadshift+j",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` g",
+                "win": "` g",
+                "mac": "` g",
+                "command": "church-slavonic-keyboard:deadg",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` shift+g",
+                "win": "` shift+g",
+                "mac": "` shift+g",
+                "command": "church-slavonic-keyboard:deadshift+g",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` h",
+                "win": "` h",
+                "mac": "` h",
+                "command": "church-slavonic-keyboard:deadh",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` shift+h",
+                "win": "` shift+h",
+                "mac": "` shift+h",
+                "command": "church-slavonic-keyboard:deadshift+h",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` c",
+                "win": "` c",
+                "mac": "` c",
+                "command": "church-slavonic-keyboard:deadc",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` shift+c",
+                "win": "` shift+c",
+                "mac": "` shift+c",
+                "command": "church-slavonic-keyboard:deadshift+c",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` n",
+                "win": "` n",
+                "mac": "` n",
+                "command": "church-slavonic-keyboard:deadn",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` shift+n",
+                "win": "` shift+n",
+                "mac": "` shift+n",
+                "command": "church-slavonic-keyboard:deadshift+n",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` e",
+                "win": "` e",
+                "mac": "` e",
+                "command": "church-slavonic-keyboard:deade",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` shift+e",
+                "win": "` shift+e",
+                "mac": "` shift+e",
+                "command": "church-slavonic-keyboard:deadshift+e",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` a",
+                "win": "` a",
+                "mac": "` a",
+                "command": "church-slavonic-keyboard:deada",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` shift+a",
+                "win": "` shift+a",
+                "mac": "` shift+a",
+                "command": "church-slavonic-keyboard:deadshift+a",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` OEM_4",
+                "win": "` OEM_4",
+                "mac": "` OEM_4",
+                "command": "church-slavonic-keyboard:deadOEM_4",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` shift+OEM_4",
+                "win": "` shift+OEM_4",
+                "mac": "` shift+OEM_4",
+                "command": "church-slavonic-keyboard:deadshift+OEM_4",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` w",
+                "win": "` w",
+                "mac": "` w",
+                "command": "church-slavonic-keyboard:deadw",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` shift+w",
+                "win": "` shift+w",
+                "mac": "` shift+w",
+                "command": "church-slavonic-keyboard:deadshift+w",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` x",
+                "win": "` x",
+                "mac": "` x",
+                "command": "church-slavonic-keyboard:deadx",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` shift+x",
+                "win": "` shift+x",
+                "mac": "` shift+x",
+                "command": "church-slavonic-keyboard:deadshift+x",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` i",
+                "win": "` i",
+                "mac": "` i",
+                "command": "church-slavonic-keyboard:deadi",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` shift+i",
+                "win": "` shift+i",
+                "mac": "` shift+i",
+                "command": "church-slavonic-keyboard:deadshift+i",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` o",
+                "win": "` o",
+                "mac": "` o",
+                "command": "church-slavonic-keyboard:deado",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` shift+o",
+                "win": "` shift+o",
+                "mac": "` shift+o",
+                "command": "church-slavonic-keyboard:deadshift+o",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` OEM_6",
+                "win": "` OEM_6",
+                "mac": "` OEM_6",
+                "command": "church-slavonic-keyboard:deadOEM_6",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` shift+OEM_6",
+                "win": "` shift+OEM_6",
+                "mac": "` shift+OEM_6",
+                "command": "church-slavonic-keyboard:deadshift+OEM_6",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` s",
+                "win": "` s",
+                "mac": "` s",
+                "command": "church-slavonic-keyboard:deads",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` shift+s",
+                "win": "` shift+s",
+                "mac": "` shift+s",
+                "command": "church-slavonic-keyboard:deadshift+s",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` m",
+                "win": "` m",
+                "mac": "` m",
+                "command": "church-slavonic-keyboard:deadm",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` shift+m",
+                "win": "` shift+m",
+                "mac": "` shift+m",
+                "command": "church-slavonic-keyboard:deadshift+m",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` OEM_PERIOD",
+                "win": "` OEM_PERIOD",
+                "mac": "` OEM_PERIOD",
+                "command": "church-slavonic-keyboard:deadOEM_PERIOD",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` shift+OEM_PERIOD",
+                "win": "` shift+OEM_PERIOD",
+                "mac": "` shift+OEM_PERIOD",
+                "command": "church-slavonic-keyboard:deadshift+OEM_PERIOD",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` meta+t",
+                "win": "` ctrl+alt+t",
+                "mac": "` ctrl+atl+t",
+                "command": "church-slavonic-keyboard:dead+meta+t",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` meta+shift+t",
+                "win": "` ctrl+alt+shift+t",
+                "mac": "` ctrl+atl+shift+t",
+                "command": "church-slavonic-keyboard:dead+meta+shift+t",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` meta+b",
+                "win": "` ctrl+alt+b",
+                "mac": "` ctrl+atl+b",
+                "command": "church-slavonic-keyboard:dead+meta+b",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` meta+shift+b",
+                "win": "` ctrl+alt+shift+b",
+                "mac": "` ctrl+atl+shift+b",
+                "command": "church-slavonic-keyboard:dead+meta+shift+b",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` meta+j",
+                "win": "` ctrl+alt+j",
+                "mac": "` ctrl+atl+j",
+                "command": "church-slavonic-keyboard:dead+meta+j",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` meta+shift+j",
+                "win": "` ctrl+alt+shift+j",
+                "mac": "` ctrl+atl+shift+j",
+                "command": "church-slavonic-keyboard:dead+meta+shift+j",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` meta+0",
+                "win": "` ctrl+alt+0",
+                "mac": "` ctrl+atl+0",
+                "command": "church-slavonic-keyboard:dead+meta+0",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` meta+shift+0",
+                "win": "` ctrl+alt+shift+0",
+                "mac": "` ctrl+atl+shift+0",
+                "command": "church-slavonic-keyboard:dead+meta+shift+0",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` meta+9",
+                "win": "` ctrl+alt+9",
+                "mac": "` ctrl+atl+9",
+                "command": "church-slavonic-keyboard:dead+meta+9",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` meta+shift+9",
+                "win": "` ctrl+alt+shift+9",
+                "mac": "` ctrl+atl+shift+9",
+                "command": "church-slavonic-keyboard:dead+meta+shift+9",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` meta+OEM_MINUS",
+                "win": "` ctrl+alt+OEM_MINUS",
+                "mac": "` ctrl+atl+OEM_MINUS",
+                "command": "church-slavonic-keyboard:dead+meta+OEM_MINUS",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` meta+shift+OEM_MINUS",
+                "win": "` ctrl+alt+shift+OEM_MINUS",
+                "mac": "` ctrl+atl+shift+OEM_MINUS",
+                "command": "church-slavonic-keyboard:dead+meta+shift+OEM_MINUS",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` meta+n",
+                "win": "` ctrl+alt+n",
+                "mac": "` ctrl+atl+n",
+                "command": "church-slavonic-keyboard:dead+meta+n",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` meta+shift+n",
+                "win": "` ctrl+alt+shift+n",
+                "mac": "` ctrl+atl+shift+n",
+                "command": "church-slavonic-keyboard:dead+meta+shift+n",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` meta+e",
+                "win": "` ctrl+alt+e",
+                "mac": "` ctrl+atl+e",
+                "command": "church-slavonic-keyboard:dead+meta+e",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` meta+shift+e",
+                "win": "` ctrl+alt+shift+e",
+                "mac": "` ctrl+atl+shift+e",
+                "command": "church-slavonic-keyboard:dead+meta+shift+e",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` meta+OEM_7",
+                "win": "` ctrl+alt+OEM_7",
+                "mac": "` ctrl+atl+OEM_7",
+                "command": "church-slavonic-keyboard:dead+meta+OEM_7",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` meta+shift+OEM_7",
+                "win": "` ctrl+alt+shift+OEM_7",
+                "mac": "` ctrl+atl+shift+OEM_7",
+                "command": "church-slavonic-keyboard:dead+meta+shift+OEM_7",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` meta+z",
+                "win": "` ctrl+alt+z",
+                "mac": "` ctrl+atl+z",
+                "command": "church-slavonic-keyboard:dead+meta+z",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` meta+shift+z",
+                "win": "` ctrl+alt+shift+z",
+                "mac": "` ctrl+atl+shift+z",
+                "command": "church-slavonic-keyboard:dead+meta+shift+z",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` meta+f",
+                "win": "` ctrl+alt+f",
+                "mac": "` ctrl+atl+f",
+                "command": "church-slavonic-keyboard:dead+meta+f",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` meta+shift+f",
+                "win": "` ctrl+alt+shift+f",
+                "mac": "` ctrl+atl+shift+f",
+                "command": "church-slavonic-keyboard:dead+meta+shift+f",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` meta+OEM_PERIOD",
+                "win": "` ctrl+alt+OEM_PERIOD",
+                "mac": "` ctrl+atl+OEM_PERIOD",
+                "command": "church-slavonic-keyboard:dead+meta+OEM_PERIOD",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` meta+shift+OEM_PERIOD",
+                "win": "` ctrl+alt+shift+OEM_PERIOD",
+                "mac": "` ctrl+atl+shift+OEM_PERIOD",
+                "command": "church-slavonic-keyboard:dead+meta+shift+OEM_PERIOD",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` meta+a",
+                "win": "` ctrl+alt+a",
+                "mac": "` ctrl+atl+a",
+                "command": "church-slavonic-keyboard:dead+meta+a",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` meta+shift+a",
+                "win": "` ctrl+alt+shift+a",
+                "mac": "` ctrl+atl+shift+a",
+                "command": "church-slavonic-keyboard:dead+meta+shift+a",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` meta+c",
+                "win": "` ctrl+alt+c",
+                "mac": "` ctrl+atl+c",
+                "command": "church-slavonic-keyboard:dead+meta+c",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "` meta+shift+c",
+                "win": "` ctrl+alt+shift+c",
+                "mac": "` ctrl+atl+shift+c",
+                "command": "church-slavonic-keyboard:dead+meta+shift+c",
+                "when": "editorTextFocus && cu.active"
+            },
+            {
+                "key": "meta+space",
+                "mac": "ctrl+alt+space",
+                "win": "ctrl+alt+space",
+                "command": "church-slavonic-toggle"
+            }
+        ],
+        "commands": [
+            {
+                "command": "church-slavonic-keyboard:shift+OEM_3",
+                "title": "CU Stroke: shift+OEM_3"
+            },
+            {
+                "command": "church-slavonic-keyboard:1",
+                "title": "CU Stroke: 1"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+1",
+                "title": "CU Stroke: shift+1"
+            },
+            {
+                "command": "church-slavonic-keyboard:2",
+                "title": "CU Stroke: 2"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+2",
+                "title": "CU Stroke: shift+2"
+            },
+            {
+                "command": "church-slavonic-keyboard:3",
+                "title": "CU Stroke: 3"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+3",
+                "title": "CU Stroke: shift+3"
+            },
+            {
+                "command": "church-slavonic-keyboard:4",
+                "title": "CU Stroke: 4"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+4",
+                "title": "CU Stroke: shift+4"
+            },
+            {
+                "command": "church-slavonic-keyboard:5",
+                "title": "CU Stroke: 5"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+5",
+                "title": "CU Stroke: shift+5"
+            },
+            {
+                "command": "church-slavonic-keyboard:6",
+                "title": "CU Stroke: 6"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+6",
+                "title": "CU Stroke: shift+6"
+            },
+            {
+                "command": "church-slavonic-keyboard:7",
+                "title": "CU Stroke: 7"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+7",
+                "title": "CU Stroke: shift+7"
+            },
+            {
+                "command": "church-slavonic-keyboard:8",
+                "title": "CU Stroke: 8"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+8",
+                "title": "CU Stroke: shift+8"
+            },
+            {
+                "command": "church-slavonic-keyboard:9",
+                "title": "CU Stroke: 9"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+9",
+                "title": "CU Stroke: shift+9"
+            },
+            {
+                "command": "church-slavonic-keyboard:0",
+                "title": "CU Stroke: 0"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+0",
+                "title": "CU Stroke: shift+0"
+            },
+            {
+                "command": "church-slavonic-keyboard:OEM_MINUS",
+                "title": "CU Stroke: OEM_MINUS"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+OEM_MINUS",
+                "title": "CU Stroke: shift+OEM_MINUS"
+            },
+            {
+                "command": "church-slavonic-keyboard:OEM_PLUS",
+                "title": "CU Stroke: OEM_PLUS"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+OEM_PLUS",
+                "title": "CU Stroke: shift+OEM_PLUS"
+            },
+            {
+                "command": "church-slavonic-keyboard:q",
+                "title": "CU Stroke: q"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+q",
+                "title": "CU Stroke: shift+q"
+            },
+            {
+                "command": "church-slavonic-keyboard:w",
+                "title": "CU Stroke: w"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+w",
+                "title": "CU Stroke: shift+w"
+            },
+            {
+                "command": "church-slavonic-keyboard:e",
+                "title": "CU Stroke: e"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+e",
+                "title": "CU Stroke: shift+e"
+            },
+            {
+                "command": "church-slavonic-keyboard:r",
+                "title": "CU Stroke: r"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+r",
+                "title": "CU Stroke: shift+r"
+            },
+            {
+                "command": "church-slavonic-keyboard:t",
+                "title": "CU Stroke: t"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+t",
+                "title": "CU Stroke: shift+t"
+            },
+            {
+                "command": "church-slavonic-keyboard:y",
+                "title": "CU Stroke: y"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+y",
+                "title": "CU Stroke: shift+y"
+            },
+            {
+                "command": "church-slavonic-keyboard:u",
+                "title": "CU Stroke: u"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+u",
+                "title": "CU Stroke: shift+u"
+            },
+            {
+                "command": "church-slavonic-keyboard:i",
+                "title": "CU Stroke: i"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+i",
+                "title": "CU Stroke: shift+i"
+            },
+            {
+                "command": "church-slavonic-keyboard:o",
+                "title": "CU Stroke: o"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+o",
+                "title": "CU Stroke: shift+o"
+            },
+            {
+                "command": "church-slavonic-keyboard:p",
+                "title": "CU Stroke: p"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+p",
+                "title": "CU Stroke: shift+p"
+            },
+            {
+                "command": "church-slavonic-keyboard:OEM_4",
+                "title": "CU Stroke: OEM_4"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+OEM_4",
+                "title": "CU Stroke: shift+OEM_4"
+            },
+            {
+                "command": "church-slavonic-keyboard:OEM_6",
+                "title": "CU Stroke: OEM_6"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+OEM_6",
+                "title": "CU Stroke: shift+OEM_6"
+            },
+            {
+                "command": "church-slavonic-keyboard:OEM_5",
+                "title": "CU Stroke: OEM_5"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+OEM_5",
+                "title": "CU Stroke: shift+OEM_5"
+            },
+            {
+                "command": "church-slavonic-keyboard:a",
+                "title": "CU Stroke: a"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+a",
+                "title": "CU Stroke: shift+a"
+            },
+            {
+                "command": "church-slavonic-keyboard:s",
+                "title": "CU Stroke: s"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+s",
+                "title": "CU Stroke: shift+s"
+            },
+            {
+                "command": "church-slavonic-keyboard:d",
+                "title": "CU Stroke: d"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+d",
+                "title": "CU Stroke: shift+d"
+            },
+            {
+                "command": "church-slavonic-keyboard:f",
+                "title": "CU Stroke: f"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+f",
+                "title": "CU Stroke: shift+f"
+            },
+            {
+                "command": "church-slavonic-keyboard:g",
+                "title": "CU Stroke: g"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+g",
+                "title": "CU Stroke: shift+g"
+            },
+            {
+                "command": "church-slavonic-keyboard:h",
+                "title": "CU Stroke: h"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+h",
+                "title": "CU Stroke: shift+h"
+            },
+            {
+                "command": "church-slavonic-keyboard:j",
+                "title": "CU Stroke: j"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+j",
+                "title": "CU Stroke: shift+j"
+            },
+            {
+                "command": "church-slavonic-keyboard:k",
+                "title": "CU Stroke: k"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+k",
+                "title": "CU Stroke: shift+k"
+            },
+            {
+                "command": "church-slavonic-keyboard:l",
+                "title": "CU Stroke: l"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+l",
+                "title": "CU Stroke: shift+l"
+            },
+            {
+                "command": "church-slavonic-keyboard:OEM_1",
+                "title": "CU Stroke: OEM_1"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+OEM_1",
+                "title": "CU Stroke: shift+OEM_1"
+            },
+            {
+                "command": "church-slavonic-keyboard:OEM_7",
+                "title": "CU Stroke: OEM_7"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+OEM_7",
+                "title": "CU Stroke: shift+OEM_7"
+            },
+            {
+                "command": "church-slavonic-keyboard:z",
+                "title": "CU Stroke: z"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+z",
+                "title": "CU Stroke: shift+z"
+            },
+            {
+                "command": "church-slavonic-keyboard:x",
+                "title": "CU Stroke: x"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+x",
+                "title": "CU Stroke: shift+x"
+            },
+            {
+                "command": "church-slavonic-keyboard:c",
+                "title": "CU Stroke: c"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+c",
+                "title": "CU Stroke: shift+c"
+            },
+            {
+                "command": "church-slavonic-keyboard:v",
+                "title": "CU Stroke: v"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+v",
+                "title": "CU Stroke: shift+v"
+            },
+            {
+                "command": "church-slavonic-keyboard:b",
+                "title": "CU Stroke: b"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+b",
+                "title": "CU Stroke: shift+b"
+            },
+            {
+                "command": "church-slavonic-keyboard:n",
+                "title": "CU Stroke: n"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+n",
+                "title": "CU Stroke: shift+n"
+            },
+            {
+                "command": "church-slavonic-keyboard:m",
+                "title": "CU Stroke: m"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+m",
+                "title": "CU Stroke: shift+m"
+            },
+            {
+                "command": "church-slavonic-keyboard:OEM_COMMA",
+                "title": "CU Stroke: OEM_COMMA"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+OEM_COMMA",
+                "title": "CU Stroke: shift+OEM_COMMA"
+            },
+            {
+                "command": "church-slavonic-keyboard:OEM_PERIOD",
+                "title": "CU Stroke: OEM_PERIOD"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+OEM_PERIOD",
+                "title": "CU Stroke: shift+OEM_PERIOD"
+            },
+            {
+                "command": "church-slavonic-keyboard:OEM_2",
+                "title": "CU Stroke: OEM_2"
+            },
+            {
+                "command": "church-slavonic-keyboard:shift+OEM_2",
+                "title": "CU Stroke: shift+OEM_2"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+OEM_3",
+                "title": "CU Stroke: meta+OEM_3"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+OEM_3",
+                "title": "CU Stroke: meta+shift+OEM_3"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+1",
+                "title": "CU Stroke: meta+1"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+1",
+                "title": "CU Stroke: meta+shift+1"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+2",
+                "title": "CU Stroke: meta+2"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+2",
+                "title": "CU Stroke: meta+shift+2"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+3",
+                "title": "CU Stroke: meta+3"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+3",
+                "title": "CU Stroke: meta+shift+3"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+4",
+                "title": "CU Stroke: meta+4"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+4",
+                "title": "CU Stroke: meta+shift+4"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+5",
+                "title": "CU Stroke: meta+5"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+5",
+                "title": "CU Stroke: meta+shift+5"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+6",
+                "title": "CU Stroke: meta+6"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+6",
+                "title": "CU Stroke: meta+shift+6"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+7",
+                "title": "CU Stroke: meta+7"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+7",
+                "title": "CU Stroke: meta+shift+7"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+8",
+                "title": "CU Stroke: meta+8"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+8",
+                "title": "CU Stroke: meta+shift+8"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+9",
+                "title": "CU Stroke: meta+9"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+9",
+                "title": "CU Stroke: meta+shift+9"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+0",
+                "title": "CU Stroke: meta+0"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+0",
+                "title": "CU Stroke: meta+shift+0"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+OEM_MINUS",
+                "title": "CU Stroke: meta+OEM_MINUS"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+OEM_MINUS",
+                "title": "CU Stroke: meta+shift+OEM_MINUS"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+OEM_PLUS",
+                "title": "CU Stroke: meta+OEM_PLUS"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+OEM_PLUS",
+                "title": "CU Stroke: meta+shift+OEM_PLUS"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+q",
+                "title": "CU Stroke: meta+q"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+q",
+                "title": "CU Stroke: meta+shift+q"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+w",
+                "title": "CU Stroke: meta+w"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+w",
+                "title": "CU Stroke: meta+shift+w"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+e",
+                "title": "CU Stroke: meta+e"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+e",
+                "title": "CU Stroke: meta+shift+e"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+r",
+                "title": "CU Stroke: meta+r"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+r",
+                "title": "CU Stroke: meta+shift+r"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+t",
+                "title": "CU Stroke: meta+t"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+t",
+                "title": "CU Stroke: meta+shift+t"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+y",
+                "title": "CU Stroke: meta+y"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+y",
+                "title": "CU Stroke: meta+shift+y"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+u",
+                "title": "CU Stroke: meta+u"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+u",
+                "title": "CU Stroke: meta+shift+u"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+i",
+                "title": "CU Stroke: meta+i"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+i",
+                "title": "CU Stroke: meta+shift+i"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+o",
+                "title": "CU Stroke: meta+o"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+o",
+                "title": "CU Stroke: meta+shift+o"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+p",
+                "title": "CU Stroke: meta+p"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+p",
+                "title": "CU Stroke: meta+shift+p"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+OEM_4",
+                "title": "CU Stroke: meta+OEM_4"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+OEM_4",
+                "title": "CU Stroke: meta+shift+OEM_4"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+OEM_6",
+                "title": "CU Stroke: meta+OEM_6"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+OEM_6",
+                "title": "CU Stroke: meta+shift+OEM_6"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+OEM_5",
+                "title": "CU Stroke: meta+OEM_5"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+OEM_5",
+                "title": "CU Stroke: meta+shift+OEM_5"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+a",
+                "title": "CU Stroke: meta+a"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+a",
+                "title": "CU Stroke: meta+shift+a"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+s",
+                "title": "CU Stroke: meta+s"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+s",
+                "title": "CU Stroke: meta+shift+s"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+d",
+                "title": "CU Stroke: meta+d"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+d",
+                "title": "CU Stroke: meta+shift+d"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+f",
+                "title": "CU Stroke: meta+f"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+f",
+                "title": "CU Stroke: meta+shift+f"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+g",
+                "title": "CU Stroke: meta+g"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+g",
+                "title": "CU Stroke: meta+shift+g"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+h",
+                "title": "CU Stroke: meta+h"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+j",
+                "title": "CU Stroke: meta+j"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+j",
+                "title": "CU Stroke: meta+shift+j"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+k",
+                "title": "CU Stroke: meta+k"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+l",
+                "title": "CU Stroke: meta+l"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+l",
+                "title": "CU Stroke: meta+shift+l"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+OEM_1",
+                "title": "CU Stroke: meta+OEM_1"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+OEM_7",
+                "title": "CU Stroke: meta+OEM_7"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+OEM_7",
+                "title": "CU Stroke: meta+shift+OEM_7"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+z",
+                "title": "CU Stroke: meta+z"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+z",
+                "title": "CU Stroke: meta+shift+z"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+x",
+                "title": "CU Stroke: meta+x"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+x",
+                "title": "CU Stroke: meta+shift+x"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+c",
+                "title": "CU Stroke: meta+c"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+c",
+                "title": "CU Stroke: meta+shift+c"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+v",
+                "title": "CU Stroke: meta+v"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+v",
+                "title": "CU Stroke: meta+shift+v"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+b",
+                "title": "CU Stroke: meta+b"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+b",
+                "title": "CU Stroke: meta+shift+b"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+n",
+                "title": "CU Stroke: meta+n"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+n",
+                "title": "CU Stroke: meta+shift+n"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+m",
+                "title": "CU Stroke: meta+m"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+m",
+                "title": "CU Stroke: meta+shift+m"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+OEM_COMMA",
+                "title": "CU Stroke: meta+OEM_COMMA"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+OEM_PERIOD",
+                "title": "CU Stroke: meta+OEM_PERIOD"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+OEM_PERIOD",
+                "title": "CU Stroke: meta+shift+OEM_PERIOD"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+OEM_2",
+                "title": "CU Stroke: meta+OEM_2"
+            },
+            {
+                "command": "church-slavonic-keyboard:meta+shift+OEM_2",
+                "title": "CU Stroke: meta+shift+OEM_2"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadf",
+                "title": "CU Stroke: deadf"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadshift+f",
+                "title": "CU Stroke: deadshift+f"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadOEM_COMMA",
+                "title": "CU Stroke: deadOEM_COMMA"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadshift+OEM_COMMA",
+                "title": "CU Stroke: deadshift+OEM_COMMA"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadd",
+                "title": "CU Stroke: deadd"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadshift+d",
+                "title": "CU Stroke: deadshift+d"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadu",
+                "title": "CU Stroke: deadu"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadshift+u",
+                "title": "CU Stroke: deadshift+u"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadl",
+                "title": "CU Stroke: deadl"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadshift+l",
+                "title": "CU Stroke: deadshift+l"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadt",
+                "title": "CU Stroke: deadt"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadshift+t",
+                "title": "CU Stroke: deadshift+t"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadOEM_1",
+                "title": "CU Stroke: deadOEM_1"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadshift+OEM_1",
+                "title": "CU Stroke: deadshift+OEM_1"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadp",
+                "title": "CU Stroke: deadp"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadshift+p",
+                "title": "CU Stroke: deadshift+p"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadb",
+                "title": "CU Stroke: deadb"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadshift+b",
+                "title": "CU Stroke: deadshift+b"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadq",
+                "title": "CU Stroke: deadq"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadshift+q",
+                "title": "CU Stroke: deadshift+q"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadr",
+                "title": "CU Stroke: deadr"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadshift+r",
+                "title": "CU Stroke: deadshift+r"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadk",
+                "title": "CU Stroke: deadk"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadshift+k",
+                "title": "CU Stroke: deadshift+k"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadv",
+                "title": "CU Stroke: deadv"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadshift+v",
+                "title": "CU Stroke: deadshift+v"
+            },
+            {
+                "command": "church-slavonic-keyboard:deady",
+                "title": "CU Stroke: deady"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadshift+y",
+                "title": "CU Stroke: deadshift+y"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadj",
+                "title": "CU Stroke: deadj"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadshift+j",
+                "title": "CU Stroke: deadshift+j"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadg",
+                "title": "CU Stroke: deadg"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadshift+g",
+                "title": "CU Stroke: deadshift+g"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadh",
+                "title": "CU Stroke: deadh"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadshift+h",
+                "title": "CU Stroke: deadshift+h"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadc",
+                "title": "CU Stroke: deadc"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadshift+c",
+                "title": "CU Stroke: deadshift+c"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadn",
+                "title": "CU Stroke: deadn"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadshift+n",
+                "title": "CU Stroke: deadshift+n"
+            },
+            {
+                "command": "church-slavonic-keyboard:deade",
+                "title": "CU Stroke: deade"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadshift+e",
+                "title": "CU Stroke: deadshift+e"
+            },
+            {
+                "command": "church-slavonic-keyboard:deada",
+                "title": "CU Stroke: deada"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadshift+a",
+                "title": "CU Stroke: deadshift+a"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadOEM_4",
+                "title": "CU Stroke: deadOEM_4"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadshift+OEM_4",
+                "title": "CU Stroke: deadshift+OEM_4"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadw",
+                "title": "CU Stroke: deadw"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadshift+w",
+                "title": "CU Stroke: deadshift+w"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadx",
+                "title": "CU Stroke: deadx"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadshift+x",
+                "title": "CU Stroke: deadshift+x"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadi",
+                "title": "CU Stroke: deadi"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadshift+i",
+                "title": "CU Stroke: deadshift+i"
+            },
+            {
+                "command": "church-slavonic-keyboard:deado",
+                "title": "CU Stroke: deado"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadshift+o",
+                "title": "CU Stroke: deadshift+o"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadOEM_6",
+                "title": "CU Stroke: deadOEM_6"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadshift+OEM_6",
+                "title": "CU Stroke: deadshift+OEM_6"
+            },
+            {
+                "command": "church-slavonic-keyboard:deads",
+                "title": "CU Stroke: deads"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadshift+s",
+                "title": "CU Stroke: deadshift+s"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadm",
+                "title": "CU Stroke: deadm"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadshift+m",
+                "title": "CU Stroke: deadshift+m"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadOEM_PERIOD",
+                "title": "CU Stroke: deadOEM_PERIOD"
+            },
+            {
+                "command": "church-slavonic-keyboard:deadshift+OEM_PERIOD",
+                "title": "CU Stroke: deadshift+OEM_PERIOD"
+            },
+            {
+                "command": "church-slavonic-keyboard:dead+meta+t",
+                "title": "CU Stroke: dead+meta+t"
+            },
+            {
+                "command": "church-slavonic-keyboard:dead+meta+shift+t",
+                "title": "CU Stroke: dead+meta+shift+t"
+            },
+            {
+                "command": "church-slavonic-keyboard:dead+meta+b",
+                "title": "CU Stroke: dead+meta+b"
+            },
+            {
+                "command": "church-slavonic-keyboard:dead+meta+shift+b",
+                "title": "CU Stroke: dead+meta+shift+b"
+            },
+            {
+                "command": "church-slavonic-keyboard:dead+meta+j",
+                "title": "CU Stroke: dead+meta+j"
+            },
+            {
+                "command": "church-slavonic-keyboard:dead+meta+shift+j",
+                "title": "CU Stroke: dead+meta+shift+j"
+            },
+            {
+                "command": "church-slavonic-keyboard:dead+meta+0",
+                "title": "CU Stroke: dead+meta+0"
+            },
+            {
+                "command": "church-slavonic-keyboard:dead+meta+shift+0",
+                "title": "CU Stroke: dead+meta+shift+0"
+            },
+            {
+                "command": "church-slavonic-keyboard:dead+meta+9",
+                "title": "CU Stroke: dead+meta+9"
+            },
+            {
+                "command": "church-slavonic-keyboard:dead+meta+shift+9",
+                "title": "CU Stroke: dead+meta+shift+9"
+            },
+            {
+                "command": "church-slavonic-keyboard:dead+meta+OEM_MINUS",
+                "title": "CU Stroke: dead+meta+OEM_MINUS"
+            },
+            {
+                "command": "church-slavonic-keyboard:dead+meta+shift+OEM_MINUS",
+                "title": "CU Stroke: dead+meta+shift+OEM_MINUS"
+            },
+            {
+                "command": "church-slavonic-keyboard:dead+meta+n",
+                "title": "CU Stroke: dead+meta+n"
+            },
+            {
+                "command": "church-slavonic-keyboard:dead+meta+shift+n",
+                "title": "CU Stroke: dead+meta+shift+n"
+            },
+            {
+                "command": "church-slavonic-keyboard:dead+meta+e",
+                "title": "CU Stroke: dead+meta+e"
+            },
+            {
+                "command": "church-slavonic-keyboard:dead+meta+shift+e",
+                "title": "CU Stroke: dead+meta+shift+e"
+            },
+            {
+                "command": "church-slavonic-keyboard:dead+meta+OEM_7",
+                "title": "CU Stroke: dead+meta+OEM_7"
+            },
+            {
+                "command": "church-slavonic-keyboard:dead+meta+shift+OEM_7",
+                "title": "CU Stroke: dead+meta+shift+OEM_7"
+            },
+            {
+                "command": "church-slavonic-keyboard:dead+meta+z",
+                "title": "CU Stroke: dead+meta+z"
+            },
+            {
+                "command": "church-slavonic-keyboard:dead+meta+shift+z",
+                "title": "CU Stroke: dead+meta+shift+z"
+            },
+            {
+                "command": "church-slavonic-keyboard:dead+meta+f",
+                "title": "CU Stroke: dead+meta+f"
+            },
+            {
+                "command": "church-slavonic-keyboard:dead+meta+shift+f",
+                "title": "CU Stroke: dead+meta+shift+f"
+            },
+            {
+                "command": "church-slavonic-keyboard:dead+meta+OEM_PERIOD",
+                "title": "CU Stroke: dead+meta+OEM_PERIOD"
+            },
+            {
+                "command": "church-slavonic-keyboard:dead+meta+shift+OEM_PERIOD",
+                "title": "CU Stroke: dead+meta+shift+OEM_PERIOD"
+            },
+            {
+                "command": "church-slavonic-keyboard:dead+meta+a",
+                "title": "CU Stroke: dead+meta+a"
+            },
+            {
+                "command": "church-slavonic-keyboard:dead+meta+shift+a",
+                "title": "CU Stroke: dead+meta+shift+a"
+            },
+            {
+                "command": "church-slavonic-keyboard:dead+meta+c",
+                "title": "CU Stroke: dead+meta+c"
+            },
+            {
+                "command": "church-slavonic-keyboard:dead+meta+shift+c",
+                "title": "CU Stroke: dead+meta+shift+c"
+            },
+            {
+                "command": "church-slavonic-toggle",
+                "title": "Church Slavonic Keyboard: Toggle"
+            }
+        ]
     },
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install",
@@ -3026,9 +3025,7 @@
         "vscode": "^1.1.6",
         "eslint": "^4.11.0",
         "@types/node": "^7.0.43",
-        "@types/mocha": "^2.2.42"
-    },
-    "dependencies": {
+        "@types/mocha": "^2.2.42",
         "vsce": "^1.41.0"
     }
 }
