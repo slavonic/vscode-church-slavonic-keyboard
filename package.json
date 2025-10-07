@@ -3025,9 +3025,9 @@
     "devDependencies": {
         "typescript": "^2.6.1",
         "vscode": "^1.1.6",
-        "eslint": "^4.11.0",
+        "eslint": "^9.37.0",
         "@types/node": "^7.0.43",
         "@types/mocha": "^2.2.42",
-        "vsce": "^1.41.0"
+        "vsce": "^1.103.1"
     }
 }
