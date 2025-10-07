@@ -83,7 +83,7 @@ makeIt({
     title: 'meta+',
     key: 'meta+',
     win: 'ctrl+alt+',
-    linux: 'ctrl+alt+',
+    linux: 'ctrl+meta+',
     mac: 'ctrl+alt+',
 },
     cudef.mod
@@ -99,7 +99,7 @@ makeIt({
     title: 'dead+meta+',
     key: '` meta+',
     win: '` ctrl+alt+',
-    linux: '` ctrl+alt+',
+    linux: '` ctrl+meta+',
     mac: '` ctrl+alt+',
 }, cudef.deadMod
 )
@@ -108,7 +108,7 @@ keybindings.push({
     key: 'meta+space',
     mac: 'ctrl+alt+space',
     win: 'ctrl+alt+space',
-    linux: 'ctrl+alt+space',
+    linux: 'ctrl+meta+space',
     command: 'church-slavonic-toggle'
 })
 

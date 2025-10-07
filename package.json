@@ -2,7 +2,7 @@
     "name": "vscode-church-slavonic-keyboard",
     "displayName": "vscode-church-slavonic-keyboard",
     "description": "Church Slavonic soft keyboard",
-    "version": "0.0.9",
+    "version": "0.0.10",
     "repository": {
         "type": "git",
         "url": "https://github.com/slavonic/vscode-church-slavonic-keyboard"
@@ -769,7 +769,7 @@
     {
         "key": "meta+OEM_3",
         "win": "ctrl+alt+OEM_3",
-        "linux": "ctrl+alt+OEM_3",
+        "linux": "ctrl+meta+OEM_3",
         "mac": "ctrl+alt+OEM_3",
         "command": "church-slavonic-keyboard:meta+OEM_3",
         "when": "editorTextFocus && cu.active"
@@ -777,7 +777,7 @@
     {
         "key": "meta+shift+OEM_3",
         "win": "ctrl+alt+shift+OEM_3",
-        "linux": "ctrl+alt+shift+OEM_3",
+        "linux": "ctrl+meta+shift+OEM_3",
         "mac": "ctrl+alt+shift+OEM_3",
         "command": "church-slavonic-keyboard:meta+shift+OEM_3",
         "when": "editorTextFocus && cu.active"
@@ -785,7 +785,7 @@
     {
         "key": "meta+1",
         "win": "ctrl+alt+1",
-        "linux": "ctrl+alt+1",
+        "linux": "ctrl+meta+1",
         "mac": "ctrl+alt+1",
         "command": "church-slavonic-keyboard:meta+1",
         "when": "editorTextFocus && cu.active"
@@ -793,7 +793,7 @@
     {
         "key": "meta+shift+1",
         "win": "ctrl+alt+shift+1",
-        "linux": "ctrl+alt+shift+1",
+        "linux": "ctrl+meta+shift+1",
         "mac": "ctrl+alt+shift+1",
         "command": "church-slavonic-keyboard:meta+shift+1",
         "when": "editorTextFocus && cu.active"
@@ -801,7 +801,7 @@
     {
         "key": "meta+2",
         "win": "ctrl+alt+2",
-        "linux": "ctrl+alt+2",
+        "linux": "ctrl+meta+2",
         "mac": "ctrl+alt+2",
         "command": "church-slavonic-keyboard:meta+2",
         "when": "editorTextFocus && cu.active"
@@ -809,7 +809,7 @@
     {
         "key": "meta+shift+2",
         "win": "ctrl+alt+shift+2",
-        "linux": "ctrl+alt+shift+2",
+        "linux": "ctrl+meta+shift+2",
         "mac": "ctrl+alt+shift+2",
         "command": "church-slavonic-keyboard:meta+shift+2",
         "when": "editorTextFocus && cu.active"
@@ -817,7 +817,7 @@
     {
         "key": "meta+3",
         "win": "ctrl+alt+3",
-        "linux": "ctrl+alt+3",
+        "linux": "ctrl+meta+3",
         "mac": "ctrl+alt+3",
         "command": "church-slavonic-keyboard:meta+3",
         "when": "editorTextFocus && cu.active"
@@ -825,7 +825,7 @@
     {
         "key": "meta+shift+3",
         "win": "ctrl+alt+shift+3",
-        "linux": "ctrl+alt+shift+3",
+        "linux": "ctrl+meta+shift+3",
         "mac": "ctrl+alt+shift+3",
         "command": "church-slavonic-keyboard:meta+shift+3",
         "when": "editorTextFocus && cu.active"
@@ -833,7 +833,7 @@
     {
         "key": "meta+4",
         "win": "ctrl+alt+4",
-        "linux": "ctrl+alt+4",
+        "linux": "ctrl+meta+4",
         "mac": "ctrl+alt+4",
         "command": "church-slavonic-keyboard:meta+4",
         "when": "editorTextFocus && cu.active"
@@ -841,7 +841,7 @@
     {
         "key": "meta+shift+4",
         "win": "ctrl+alt+shift+4",
-        "linux": "ctrl+alt+shift+4",
+        "linux": "ctrl+meta+shift+4",
         "mac": "ctrl+alt+shift+4",
         "command": "church-slavonic-keyboard:meta+shift+4",
         "when": "editorTextFocus && cu.active"
@@ -849,7 +849,7 @@
     {
         "key": "meta+5",
         "win": "ctrl+alt+5",
-        "linux": "ctrl+alt+5",
+        "linux": "ctrl+meta+5",
         "mac": "ctrl+alt+5",
         "command": "church-slavonic-keyboard:meta+5",
         "when": "editorTextFocus && cu.active"
@@ -857,7 +857,7 @@
     {
         "key": "meta+shift+5",
         "win": "ctrl+alt+shift+5",
-        "linux": "ctrl+alt+shift+5",
+        "linux": "ctrl+meta+shift+5",
         "mac": "ctrl+alt+shift+5",
         "command": "church-slavonic-keyboard:meta+shift+5",
         "when": "editorTextFocus && cu.active"
@@ -865,7 +865,7 @@
     {
         "key": "meta+6",
         "win": "ctrl+alt+6",
-        "linux": "ctrl+alt+6",
+        "linux": "ctrl+meta+6",
         "mac": "ctrl+alt+6",
         "command": "church-slavonic-keyboard:meta+6",
         "when": "editorTextFocus && cu.active"
@@ -873,7 +873,7 @@
     {
         "key": "meta+shift+6",
         "win": "ctrl+alt+shift+6",
-        "linux": "ctrl+alt+shift+6",
+        "linux": "ctrl+meta+shift+6",
         "mac": "ctrl+alt+shift+6",
         "command": "church-slavonic-keyboard:meta+shift+6",
         "when": "editorTextFocus && cu.active"
@@ -881,7 +881,7 @@
     {
         "key": "meta+7",
         "win": "ctrl+alt+7",
-        "linux": "ctrl+alt+7",
+        "linux": "ctrl+meta+7",
         "mac": "ctrl+alt+7",
         "command": "church-slavonic-keyboard:meta+7",
         "when": "editorTextFocus && cu.active"
@@ -889,7 +889,7 @@
     {
         "key": "meta+shift+7",
         "win": "ctrl+alt+shift+7",
-        "linux": "ctrl+alt+shift+7",
+        "linux": "ctrl+meta+shift+7",
         "mac": "ctrl+alt+shift+7",
         "command": "church-slavonic-keyboard:meta+shift+7",
         "when": "editorTextFocus && cu.active"
@@ -897,7 +897,7 @@
     {
         "key": "meta+8",
         "win": "ctrl+alt+8",
-        "linux": "ctrl+alt+8",
+        "linux": "ctrl+meta+8",
         "mac": "ctrl+alt+8",
         "command": "church-slavonic-keyboard:meta+8",
         "when": "editorTextFocus && cu.active"
@@ -905,7 +905,7 @@
     {
         "key": "meta+shift+8",
         "win": "ctrl+alt+shift+8",
-        "linux": "ctrl+alt+shift+8",
+        "linux": "ctrl+meta+shift+8",
         "mac": "ctrl+alt+shift+8",
         "command": "church-slavonic-keyboard:meta+shift+8",
         "when": "editorTextFocus && cu.active"
@@ -913,7 +913,7 @@
     {
         "key": "meta+9",
         "win": "ctrl+alt+9",
-        "linux": "ctrl+alt+9",
+        "linux": "ctrl+meta+9",
         "mac": "ctrl+alt+9",
         "command": "church-slavonic-keyboard:meta+9",
         "when": "editorTextFocus && cu.active"
@@ -921,7 +921,7 @@
     {
         "key": "meta+shift+9",
         "win": "ctrl+alt+shift+9",
-        "linux": "ctrl+alt+shift+9",
+        "linux": "ctrl+meta+shift+9",
         "mac": "ctrl+alt+shift+9",
         "command": "church-slavonic-keyboard:meta+shift+9",
         "when": "editorTextFocus && cu.active"
@@ -929,7 +929,7 @@
     {
         "key": "meta+0",
         "win": "ctrl+alt+0",
-        "linux": "ctrl+alt+0",
+        "linux": "ctrl+meta+0",
         "mac": "ctrl+alt+0",
         "command": "church-slavonic-keyboard:meta+0",
         "when": "editorTextFocus && cu.active"
@@ -937,7 +937,7 @@
     {
         "key": "meta+shift+0",
         "win": "ctrl+alt+shift+0",
-        "linux": "ctrl+alt+shift+0",
+        "linux": "ctrl+meta+shift+0",
         "mac": "ctrl+alt+shift+0",
         "command": "church-slavonic-keyboard:meta+shift+0",
         "when": "editorTextFocus && cu.active"
@@ -945,7 +945,7 @@
     {
         "key": "meta+OEM_MINUS",
         "win": "ctrl+alt+OEM_MINUS",
-        "linux": "ctrl+alt+OEM_MINUS",
+        "linux": "ctrl+meta+OEM_MINUS",
         "mac": "ctrl+alt+OEM_MINUS",
         "command": "church-slavonic-keyboard:meta+OEM_MINUS",
         "when": "editorTextFocus && cu.active"
@@ -953,7 +953,7 @@
     {
         "key": "meta+shift+OEM_MINUS",
         "win": "ctrl+alt+shift+OEM_MINUS",
-        "linux": "ctrl+alt+shift+OEM_MINUS",
+        "linux": "ctrl+meta+shift+OEM_MINUS",
         "mac": "ctrl+alt+shift+OEM_MINUS",
         "command": "church-slavonic-keyboard:meta+shift+OEM_MINUS",
         "when": "editorTextFocus && cu.active"
@@ -961,7 +961,7 @@
     {
         "key": "meta+OEM_PLUS",
         "win": "ctrl+alt+OEM_PLUS",
-        "linux": "ctrl+alt+OEM_PLUS",
+        "linux": "ctrl+meta+OEM_PLUS",
         "mac": "ctrl+alt+OEM_PLUS",
         "command": "church-slavonic-keyboard:meta+OEM_PLUS",
         "when": "editorTextFocus && cu.active"
@@ -969,7 +969,7 @@
     {
         "key": "meta+shift+OEM_PLUS",
         "win": "ctrl+alt+shift+OEM_PLUS",
-        "linux": "ctrl+alt+shift+OEM_PLUS",
+        "linux": "ctrl+meta+shift+OEM_PLUS",
         "mac": "ctrl+alt+shift+OEM_PLUS",
         "command": "church-slavonic-keyboard:meta+shift+OEM_PLUS",
         "when": "editorTextFocus && cu.active"
@@ -977,7 +977,7 @@
     {
         "key": "meta+q",
         "win": "ctrl+alt+q",
-        "linux": "ctrl+alt+q",
+        "linux": "ctrl+meta+q",
         "mac": "ctrl+alt+q",
         "command": "church-slavonic-keyboard:meta+q",
         "when": "editorTextFocus && cu.active"
@@ -985,7 +985,7 @@
     {
         "key": "meta+shift+q",
         "win": "ctrl+alt+shift+q",
-        "linux": "ctrl+alt+shift+q",
+        "linux": "ctrl+meta+shift+q",
         "mac": "ctrl+alt+shift+q",
         "command": "church-slavonic-keyboard:meta+shift+q",
         "when": "editorTextFocus && cu.active"
@@ -993,7 +993,7 @@
     {
         "key": "meta+w",
         "win": "ctrl+alt+w",
-        "linux": "ctrl+alt+w",
+        "linux": "ctrl+meta+w",
         "mac": "ctrl+alt+w",
         "command": "church-slavonic-keyboard:meta+w",
         "when": "editorTextFocus && cu.active"
@@ -1001,7 +1001,7 @@
     {
         "key": "meta+shift+w",
         "win": "ctrl+alt+shift+w",
-        "linux": "ctrl+alt+shift+w",
+        "linux": "ctrl+meta+shift+w",
         "mac": "ctrl+alt+shift+w",
         "command": "church-slavonic-keyboard:meta+shift+w",
         "when": "editorTextFocus && cu.active"
@@ -1009,7 +1009,7 @@
     {
         "key": "meta+e",
         "win": "ctrl+alt+e",
-        "linux": "ctrl+alt+e",
+        "linux": "ctrl+meta+e",
         "mac": "ctrl+alt+e",
         "command": "church-slavonic-keyboard:meta+e",
         "when": "editorTextFocus && cu.active"
@@ -1017,7 +1017,7 @@
     {
         "key": "meta+shift+e",
         "win": "ctrl+alt+shift+e",
-        "linux": "ctrl+alt+shift+e",
+        "linux": "ctrl+meta+shift+e",
         "mac": "ctrl+alt+shift+e",
         "command": "church-slavonic-keyboard:meta+shift+e",
         "when": "editorTextFocus && cu.active"
@@ -1025,7 +1025,7 @@
     {
         "key": "meta+r",
         "win": "ctrl+alt+r",
-        "linux": "ctrl+alt+r",
+        "linux": "ctrl+meta+r",
         "mac": "ctrl+alt+r",
         "command": "church-slavonic-keyboard:meta+r",
         "when": "editorTextFocus && cu.active"
@@ -1033,7 +1033,7 @@
     {
         "key": "meta+shift+r",
         "win": "ctrl+alt+shift+r",
-        "linux": "ctrl+alt+shift+r",
+        "linux": "ctrl+meta+shift+r",
         "mac": "ctrl+alt+shift+r",
         "command": "church-slavonic-keyboard:meta+shift+r",
         "when": "editorTextFocus && cu.active"
@@ -1041,7 +1041,7 @@
     {
         "key": "meta+t",
         "win": "ctrl+alt+t",
-        "linux": "ctrl+alt+t",
+        "linux": "ctrl+meta+t",
         "mac": "ctrl+alt+t",
         "command": "church-slavonic-keyboard:meta+t",
         "when": "editorTextFocus && cu.active"
@@ -1049,7 +1049,7 @@
     {
         "key": "meta+shift+t",
         "win": "ctrl+alt+shift+t",
-        "linux": "ctrl+alt+shift+t",
+        "linux": "ctrl+meta+shift+t",
         "mac": "ctrl+alt+shift+t",
         "command": "church-slavonic-keyboard:meta+shift+t",
         "when": "editorTextFocus && cu.active"
@@ -1057,7 +1057,7 @@
     {
         "key": "meta+y",
         "win": "ctrl+alt+y",
-        "linux": "ctrl+alt+y",
+        "linux": "ctrl+meta+y",
         "mac": "ctrl+alt+y",
         "command": "church-slavonic-keyboard:meta+y",
         "when": "editorTextFocus && cu.active"
@@ -1065,7 +1065,7 @@
     {
         "key": "meta+shift+y",
         "win": "ctrl+alt+shift+y",
-        "linux": "ctrl+alt+shift+y",
+        "linux": "ctrl+meta+shift+y",
         "mac": "ctrl+alt+shift+y",
         "command": "church-slavonic-keyboard:meta+shift+y",
         "when": "editorTextFocus && cu.active"
@@ -1073,7 +1073,7 @@
     {
         "key": "meta+u",
         "win": "ctrl+alt+u",
-        "linux": "ctrl+alt+u",
+        "linux": "ctrl+meta+u",
         "mac": "ctrl+alt+u",
         "command": "church-slavonic-keyboard:meta+u",
         "when": "editorTextFocus && cu.active"
@@ -1081,7 +1081,7 @@
     {
         "key": "meta+shift+u",
         "win": "ctrl+alt+shift+u",
-        "linux": "ctrl+alt+shift+u",
+        "linux": "ctrl+meta+shift+u",
         "mac": "ctrl+alt+shift+u",
         "command": "church-slavonic-keyboard:meta+shift+u",
         "when": "editorTextFocus && cu.active"
@@ -1089,7 +1089,7 @@
     {
         "key": "meta+i",
         "win": "ctrl+alt+i",
-        "linux": "ctrl+alt+i",
+        "linux": "ctrl+meta+i",
         "mac": "ctrl+alt+i",
         "command": "church-slavonic-keyboard:meta+i",
         "when": "editorTextFocus && cu.active"
@@ -1097,7 +1097,7 @@
     {
         "key": "meta+shift+i",
         "win": "ctrl+alt+shift+i",
-        "linux": "ctrl+alt+shift+i",
+        "linux": "ctrl+meta+shift+i",
         "mac": "ctrl+alt+shift+i",
         "command": "church-slavonic-keyboard:meta+shift+i",
         "when": "editorTextFocus && cu.active"
@@ -1105,7 +1105,7 @@
     {
         "key": "meta+o",
         "win": "ctrl+alt+o",
-        "linux": "ctrl+alt+o",
+        "linux": "ctrl+meta+o",
         "mac": "ctrl+alt+o",
         "command": "church-slavonic-keyboard:meta+o",
         "when": "editorTextFocus && cu.active"
@@ -1113,7 +1113,7 @@
     {
         "key": "meta+shift+o",
         "win": "ctrl+alt+shift+o",
-        "linux": "ctrl+alt+shift+o",
+        "linux": "ctrl+meta+shift+o",
         "mac": "ctrl+alt+shift+o",
         "command": "church-slavonic-keyboard:meta+shift+o",
         "when": "editorTextFocus && cu.active"
@@ -1121,7 +1121,7 @@
     {
         "key": "meta+p",
         "win": "ctrl+alt+p",
-        "linux": "ctrl+alt+p",
+        "linux": "ctrl+meta+p",
         "mac": "ctrl+alt+p",
         "command": "church-slavonic-keyboard:meta+p",
         "when": "editorTextFocus && cu.active"
@@ -1129,7 +1129,7 @@
     {
         "key": "meta+shift+p",
         "win": "ctrl+alt+shift+p",
-        "linux": "ctrl+alt+shift+p",
+        "linux": "ctrl+meta+shift+p",
         "mac": "ctrl+alt+shift+p",
         "command": "church-slavonic-keyboard:meta+shift+p",
         "when": "editorTextFocus && cu.active"
@@ -1137,7 +1137,7 @@
     {
         "key": "meta+OEM_4",
         "win": "ctrl+alt+OEM_4",
-        "linux": "ctrl+alt+OEM_4",
+        "linux": "ctrl+meta+OEM_4",
         "mac": "ctrl+alt+OEM_4",
         "command": "church-slavonic-keyboard:meta+OEM_4",
         "when": "editorTextFocus && cu.active"
@@ -1145,7 +1145,7 @@
     {
         "key": "meta+shift+OEM_4",
         "win": "ctrl+alt+shift+OEM_4",
-        "linux": "ctrl+alt+shift+OEM_4",
+        "linux": "ctrl+meta+shift+OEM_4",
         "mac": "ctrl+alt+shift+OEM_4",
         "command": "church-slavonic-keyboard:meta+shift+OEM_4",
         "when": "editorTextFocus && cu.active"
@@ -1153,7 +1153,7 @@
     {
         "key": "meta+OEM_6",
         "win": "ctrl+alt+OEM_6",
-        "linux": "ctrl+alt+OEM_6",
+        "linux": "ctrl+meta+OEM_6",
         "mac": "ctrl+alt+OEM_6",
         "command": "church-slavonic-keyboard:meta+OEM_6",
         "when": "editorTextFocus && cu.active"
@@ -1161,7 +1161,7 @@
     {
         "key": "meta+shift+OEM_6",
         "win": "ctrl+alt+shift+OEM_6",
-        "linux": "ctrl+alt+shift+OEM_6",
+        "linux": "ctrl+meta+shift+OEM_6",
         "mac": "ctrl+alt+shift+OEM_6",
         "command": "church-slavonic-keyboard:meta+shift+OEM_6",
         "when": "editorTextFocus && cu.active"
@@ -1169,7 +1169,7 @@
     {
         "key": "meta+OEM_5",
         "win": "ctrl+alt+OEM_5",
-        "linux": "ctrl+alt+OEM_5",
+        "linux": "ctrl+meta+OEM_5",
         "mac": "ctrl+alt+OEM_5",
         "command": "church-slavonic-keyboard:meta+OEM_5",
         "when": "editorTextFocus && cu.active"
@@ -1177,7 +1177,7 @@
     {
         "key": "meta+shift+OEM_5",
         "win": "ctrl+alt+shift+OEM_5",
-        "linux": "ctrl+alt+shift+OEM_5",
+        "linux": "ctrl+meta+shift+OEM_5",
         "mac": "ctrl+alt+shift+OEM_5",
         "command": "church-slavonic-keyboard:meta+shift+OEM_5",
         "when": "editorTextFocus && cu.active"
@@ -1185,7 +1185,7 @@
     {
         "key": "meta+a",
         "win": "ctrl+alt+a",
-        "linux": "ctrl+alt+a",
+        "linux": "ctrl+meta+a",
         "mac": "ctrl+alt+a",
         "command": "church-slavonic-keyboard:meta+a",
         "when": "editorTextFocus && cu.active"
@@ -1193,7 +1193,7 @@
     {
         "key": "meta+shift+a",
         "win": "ctrl+alt+shift+a",
-        "linux": "ctrl+alt+shift+a",
+        "linux": "ctrl+meta+shift+a",
         "mac": "ctrl+alt+shift+a",
         "command": "church-slavonic-keyboard:meta+shift+a",
         "when": "editorTextFocus && cu.active"
@@ -1201,7 +1201,7 @@
     {
         "key": "meta+s",
         "win": "ctrl+alt+s",
-        "linux": "ctrl+alt+s",
+        "linux": "ctrl+meta+s",
         "mac": "ctrl+alt+s",
         "command": "church-slavonic-keyboard:meta+s",
         "when": "editorTextFocus && cu.active"
@@ -1209,7 +1209,7 @@
     {
         "key": "meta+shift+s",
         "win": "ctrl+alt+shift+s",
-        "linux": "ctrl+alt+shift+s",
+        "linux": "ctrl+meta+shift+s",
         "mac": "ctrl+alt+shift+s",
         "command": "church-slavonic-keyboard:meta+shift+s",
         "when": "editorTextFocus && cu.active"
@@ -1217,7 +1217,7 @@
     {
         "key": "meta+d",
         "win": "ctrl+alt+d",
-        "linux": "ctrl+alt+d",
+        "linux": "ctrl+meta+d",
         "mac": "ctrl+alt+d",
         "command": "church-slavonic-keyboard:meta+d",
         "when": "editorTextFocus && cu.active"
@@ -1225,7 +1225,7 @@
     {
         "key": "meta+shift+d",
         "win": "ctrl+alt+shift+d",
-        "linux": "ctrl+alt+shift+d",
+        "linux": "ctrl+meta+shift+d",
         "mac": "ctrl+alt+shift+d",
         "command": "church-slavonic-keyboard:meta+shift+d",
         "when": "editorTextFocus && cu.active"
@@ -1233,7 +1233,7 @@
     {
         "key": "meta+f",
         "win": "ctrl+alt+f",
-        "linux": "ctrl+alt+f",
+        "linux": "ctrl+meta+f",
         "mac": "ctrl+alt+f",
         "command": "church-slavonic-keyboard:meta+f",
         "when": "editorTextFocus && cu.active"
@@ -1241,7 +1241,7 @@
     {
         "key": "meta+shift+f",
         "win": "ctrl+alt+shift+f",
-        "linux": "ctrl+alt+shift+f",
+        "linux": "ctrl+meta+shift+f",
         "mac": "ctrl+alt+shift+f",
         "command": "church-slavonic-keyboard:meta+shift+f",
         "when": "editorTextFocus && cu.active"
@@ -1249,7 +1249,7 @@
     {
         "key": "meta+g",
         "win": "ctrl+alt+g",
-        "linux": "ctrl+alt+g",
+        "linux": "ctrl+meta+g",
         "mac": "ctrl+alt+g",
         "command": "church-slavonic-keyboard:meta+g",
         "when": "editorTextFocus && cu.active"
@@ -1257,7 +1257,7 @@
     {
         "key": "meta+shift+g",
         "win": "ctrl+alt+shift+g",
-        "linux": "ctrl+alt+shift+g",
+        "linux": "ctrl+meta+shift+g",
         "mac": "ctrl+alt+shift+g",
         "command": "church-slavonic-keyboard:meta+shift+g",
         "when": "editorTextFocus && cu.active"
@@ -1265,7 +1265,7 @@
     {
         "key": "meta+h",
         "win": "ctrl+alt+h",
-        "linux": "ctrl+alt+h",
+        "linux": "ctrl+meta+h",
         "mac": "ctrl+alt+h",
         "command": "church-slavonic-keyboard:meta+h",
         "when": "editorTextFocus && cu.active"
@@ -1273,7 +1273,7 @@
     {
         "key": "meta+j",
         "win": "ctrl+alt+j",
-        "linux": "ctrl+alt+j",
+        "linux": "ctrl+meta+j",
         "mac": "ctrl+alt+j",
         "command": "church-slavonic-keyboard:meta+j",
         "when": "editorTextFocus && cu.active"
@@ -1281,7 +1281,7 @@
     {
         "key": "meta+shift+j",
         "win": "ctrl+alt+shift+j",
-        "linux": "ctrl+alt+shift+j",
+        "linux": "ctrl+meta+shift+j",
         "mac": "ctrl+alt+shift+j",
         "command": "church-slavonic-keyboard:meta+shift+j",
         "when": "editorTextFocus && cu.active"
@@ -1289,7 +1289,7 @@
     {
         "key": "meta+k",
         "win": "ctrl+alt+k",
-        "linux": "ctrl+alt+k",
+        "linux": "ctrl+meta+k",
         "mac": "ctrl+alt+k",
         "command": "church-slavonic-keyboard:meta+k",
         "when": "editorTextFocus && cu.active"
@@ -1297,7 +1297,7 @@
     {
         "key": "meta+l",
         "win": "ctrl+alt+l",
-        "linux": "ctrl+alt+l",
+        "linux": "ctrl+meta+l",
         "mac": "ctrl+alt+l",
         "command": "church-slavonic-keyboard:meta+l",
         "when": "editorTextFocus && cu.active"
@@ -1305,7 +1305,7 @@
     {
         "key": "meta+shift+l",
         "win": "ctrl+alt+shift+l",
-        "linux": "ctrl+alt+shift+l",
+        "linux": "ctrl+meta+shift+l",
         "mac": "ctrl+alt+shift+l",
         "command": "church-slavonic-keyboard:meta+shift+l",
         "when": "editorTextFocus && cu.active"
@@ -1313,7 +1313,7 @@
     {
         "key": "meta+OEM_1",
         "win": "ctrl+alt+OEM_1",
-        "linux": "ctrl+alt+OEM_1",
+        "linux": "ctrl+meta+OEM_1",
         "mac": "ctrl+alt+OEM_1",
         "command": "church-slavonic-keyboard:meta+OEM_1",
         "when": "editorTextFocus && cu.active"
@@ -1321,7 +1321,7 @@
     {
         "key": "meta+OEM_7",
         "win": "ctrl+alt+OEM_7",
-        "linux": "ctrl+alt+OEM_7",
+        "linux": "ctrl+meta+OEM_7",
         "mac": "ctrl+alt+OEM_7",
         "command": "church-slavonic-keyboard:meta+OEM_7",
         "when": "editorTextFocus && cu.active"
@@ -1329,7 +1329,7 @@
     {
         "key": "meta+shift+OEM_7",
         "win": "ctrl+alt+shift+OEM_7",
-        "linux": "ctrl+alt+shift+OEM_7",
+        "linux": "ctrl+meta+shift+OEM_7",
         "mac": "ctrl+alt+shift+OEM_7",
         "command": "church-slavonic-keyboard:meta+shift+OEM_7",
         "when": "editorTextFocus && cu.active"
@@ -1337,7 +1337,7 @@
     {
         "key": "meta+z",
         "win": "ctrl+alt+z",
-        "linux": "ctrl+alt+z",
+        "linux": "ctrl+meta+z",
         "mac": "ctrl+alt+z",
         "command": "church-slavonic-keyboard:meta+z",
         "when": "editorTextFocus && cu.active"
@@ -1345,7 +1345,7 @@
     {
         "key": "meta+shift+z",
         "win": "ctrl+alt+shift+z",
-        "linux": "ctrl+alt+shift+z",
+        "linux": "ctrl+meta+shift+z",
         "mac": "ctrl+alt+shift+z",
         "command": "church-slavonic-keyboard:meta+shift+z",
         "when": "editorTextFocus && cu.active"
@@ -1353,7 +1353,7 @@
     {
         "key": "meta+x",
         "win": "ctrl+alt+x",
-        "linux": "ctrl+alt+x",
+        "linux": "ctrl+meta+x",
         "mac": "ctrl+alt+x",
         "command": "church-slavonic-keyboard:meta+x",
         "when": "editorTextFocus && cu.active"
@@ -1361,7 +1361,7 @@
     {
         "key": "meta+shift+x",
         "win": "ctrl+alt+shift+x",
-        "linux": "ctrl+alt+shift+x",
+        "linux": "ctrl+meta+shift+x",
         "mac": "ctrl+alt+shift+x",
         "command": "church-slavonic-keyboard:meta+shift+x",
         "when": "editorTextFocus && cu.active"
@@ -1369,7 +1369,7 @@
     {
         "key": "meta+c",
         "win": "ctrl+alt+c",
-        "linux": "ctrl+alt+c",
+        "linux": "ctrl+meta+c",
         "mac": "ctrl+alt+c",
         "command": "church-slavonic-keyboard:meta+c",
         "when": "editorTextFocus && cu.active"
@@ -1377,7 +1377,7 @@
     {
         "key": "meta+shift+c",
         "win": "ctrl+alt+shift+c",
-        "linux": "ctrl+alt+shift+c",
+        "linux": "ctrl+meta+shift+c",
         "mac": "ctrl+alt+shift+c",
         "command": "church-slavonic-keyboard:meta+shift+c",
         "when": "editorTextFocus && cu.active"
@@ -1385,7 +1385,7 @@
     {
         "key": "meta+v",
         "win": "ctrl+alt+v",
-        "linux": "ctrl+alt+v",
+        "linux": "ctrl+meta+v",
         "mac": "ctrl+alt+v",
         "command": "church-slavonic-keyboard:meta+v",
         "when": "editorTextFocus && cu.active"
@@ -1393,7 +1393,7 @@
     {
         "key": "meta+shift+v",
         "win": "ctrl+alt+shift+v",
-        "linux": "ctrl+alt+shift+v",
+        "linux": "ctrl+meta+shift+v",
         "mac": "ctrl+alt+shift+v",
         "command": "church-slavonic-keyboard:meta+shift+v",
         "when": "editorTextFocus && cu.active"
@@ -1401,7 +1401,7 @@
     {
         "key": "meta+b",
         "win": "ctrl+alt+b",
-        "linux": "ctrl+alt+b",
+        "linux": "ctrl+meta+b",
         "mac": "ctrl+alt+b",
         "command": "church-slavonic-keyboard:meta+b",
         "when": "editorTextFocus && cu.active"
@@ -1409,7 +1409,7 @@
     {
         "key": "meta+shift+b",
         "win": "ctrl+alt+shift+b",
-        "linux": "ctrl+alt+shift+b",
+        "linux": "ctrl+meta+shift+b",
         "mac": "ctrl+alt+shift+b",
         "command": "church-slavonic-keyboard:meta+shift+b",
         "when": "editorTextFocus && cu.active"
@@ -1417,7 +1417,7 @@
     {
         "key": "meta+n",
         "win": "ctrl+alt+n",
-        "linux": "ctrl+alt+n",
+        "linux": "ctrl+meta+n",
         "mac": "ctrl+alt+n",
         "command": "church-slavonic-keyboard:meta+n",
         "when": "editorTextFocus && cu.active"
@@ -1425,7 +1425,7 @@
     {
         "key": "meta+shift+n",
         "win": "ctrl+alt+shift+n",
-        "linux": "ctrl+alt+shift+n",
+        "linux": "ctrl+meta+shift+n",
         "mac": "ctrl+alt+shift+n",
         "command": "church-slavonic-keyboard:meta+shift+n",
         "when": "editorTextFocus && cu.active"
@@ -1433,7 +1433,7 @@
     {
         "key": "meta+m",
         "win": "ctrl+alt+m",
-        "linux": "ctrl+alt+m",
+        "linux": "ctrl+meta+m",
         "mac": "ctrl+alt+m",
         "command": "church-slavonic-keyboard:meta+m",
         "when": "editorTextFocus && cu.active"
@@ -1441,7 +1441,7 @@
     {
         "key": "meta+shift+m",
         "win": "ctrl+alt+shift+m",
-        "linux": "ctrl+alt+shift+m",
+        "linux": "ctrl+meta+shift+m",
         "mac": "ctrl+alt+shift+m",
         "command": "church-slavonic-keyboard:meta+shift+m",
         "when": "editorTextFocus && cu.active"
@@ -1449,7 +1449,7 @@
     {
         "key": "meta+OEM_COMMA",
         "win": "ctrl+alt+OEM_COMMA",
-        "linux": "ctrl+alt+OEM_COMMA",
+        "linux": "ctrl+meta+OEM_COMMA",
         "mac": "ctrl+alt+OEM_COMMA",
         "command": "church-slavonic-keyboard:meta+OEM_COMMA",
         "when": "editorTextFocus && cu.active"
@@ -1457,7 +1457,7 @@
     {
         "key": "meta+OEM_PERIOD",
         "win": "ctrl+alt+OEM_PERIOD",
-        "linux": "ctrl+alt+OEM_PERIOD",
+        "linux": "ctrl+meta+OEM_PERIOD",
         "mac": "ctrl+alt+OEM_PERIOD",
         "command": "church-slavonic-keyboard:meta+OEM_PERIOD",
         "when": "editorTextFocus && cu.active"
@@ -1465,7 +1465,7 @@
     {
         "key": "meta+shift+OEM_PERIOD",
         "win": "ctrl+alt+shift+OEM_PERIOD",
-        "linux": "ctrl+alt+shift+OEM_PERIOD",
+        "linux": "ctrl+meta+shift+OEM_PERIOD",
         "mac": "ctrl+alt+shift+OEM_PERIOD",
         "command": "church-slavonic-keyboard:meta+shift+OEM_PERIOD",
         "when": "editorTextFocus && cu.active"
@@ -1473,7 +1473,7 @@
     {
         "key": "meta+OEM_2",
         "win": "ctrl+alt+OEM_2",
-        "linux": "ctrl+alt+OEM_2",
+        "linux": "ctrl+meta+OEM_2",
         "mac": "ctrl+alt+OEM_2",
         "command": "church-slavonic-keyboard:meta+OEM_2",
         "when": "editorTextFocus && cu.active"
@@ -1481,7 +1481,7 @@
     {
         "key": "meta+shift+OEM_2",
         "win": "ctrl+alt+shift+OEM_2",
-        "linux": "ctrl+alt+shift+OEM_2",
+        "linux": "ctrl+meta+shift+OEM_2",
         "mac": "ctrl+alt+shift+OEM_2",
         "command": "church-slavonic-keyboard:meta+shift+OEM_2",
         "when": "editorTextFocus && cu.active"
@@ -1969,7 +1969,7 @@
     {
         "key": "` meta+t",
         "win": "` ctrl+alt+t",
-        "linux": "` ctrl+alt+t",
+        "linux": "` ctrl+meta+t",
         "mac": "` ctrl+alt+t",
         "command": "church-slavonic-keyboard:dead+meta+t",
         "when": "editorTextFocus && cu.active"
@@ -1977,7 +1977,7 @@
     {
         "key": "` meta+shift+t",
         "win": "` ctrl+alt+shift+t",
-        "linux": "` ctrl+alt+shift+t",
+        "linux": "` ctrl+meta+shift+t",
         "mac": "` ctrl+alt+shift+t",
         "command": "church-slavonic-keyboard:dead+meta+shift+t",
         "when": "editorTextFocus && cu.active"
@@ -1985,7 +1985,7 @@
     {
         "key": "` meta+b",
         "win": "` ctrl+alt+b",
-        "linux": "` ctrl+alt+b",
+        "linux": "` ctrl+meta+b",
         "mac": "` ctrl+alt+b",
         "command": "church-slavonic-keyboard:dead+meta+b",
         "when": "editorTextFocus && cu.active"
@@ -1993,7 +1993,7 @@
     {
         "key": "` meta+shift+b",
         "win": "` ctrl+alt+shift+b",
-        "linux": "` ctrl+alt+shift+b",
+        "linux": "` ctrl+meta+shift+b",
         "mac": "` ctrl+alt+shift+b",
         "command": "church-slavonic-keyboard:dead+meta+shift+b",
         "when": "editorTextFocus && cu.active"
@@ -2001,7 +2001,7 @@
     {
         "key": "` meta+j",
         "win": "` ctrl+alt+j",
-        "linux": "` ctrl+alt+j",
+        "linux": "` ctrl+meta+j",
         "mac": "` ctrl+alt+j",
         "command": "church-slavonic-keyboard:dead+meta+j",
         "when": "editorTextFocus && cu.active"
@@ -2009,7 +2009,7 @@
     {
         "key": "` meta+shift+j",
         "win": "` ctrl+alt+shift+j",
-        "linux": "` ctrl+alt+shift+j",
+        "linux": "` ctrl+meta+shift+j",
         "mac": "` ctrl+alt+shift+j",
         "command": "church-slavonic-keyboard:dead+meta+shift+j",
         "when": "editorTextFocus && cu.active"
@@ -2017,7 +2017,7 @@
     {
         "key": "` meta+0",
         "win": "` ctrl+alt+0",
-        "linux": "` ctrl+alt+0",
+        "linux": "` ctrl+meta+0",
         "mac": "` ctrl+alt+0",
         "command": "church-slavonic-keyboard:dead+meta+0",
         "when": "editorTextFocus && cu.active"
@@ -2025,7 +2025,7 @@
     {
         "key": "` meta+shift+0",
         "win": "` ctrl+alt+shift+0",
-        "linux": "` ctrl+alt+shift+0",
+        "linux": "` ctrl+meta+shift+0",
         "mac": "` ctrl+alt+shift+0",
         "command": "church-slavonic-keyboard:dead+meta+shift+0",
         "when": "editorTextFocus && cu.active"
@@ -2033,7 +2033,7 @@
     {
         "key": "` meta+9",
         "win": "` ctrl+alt+9",
-        "linux": "` ctrl+alt+9",
+        "linux": "` ctrl+meta+9",
         "mac": "` ctrl+alt+9",
         "command": "church-slavonic-keyboard:dead+meta+9",
         "when": "editorTextFocus && cu.active"
@@ -2041,7 +2041,7 @@
     {
         "key": "` meta+shift+9",
         "win": "` ctrl+alt+shift+9",
-        "linux": "` ctrl+alt+shift+9",
+        "linux": "` ctrl+meta+shift+9",
         "mac": "` ctrl+alt+shift+9",
         "command": "church-slavonic-keyboard:dead+meta+shift+9",
         "when": "editorTextFocus && cu.active"
@@ -2049,7 +2049,7 @@
     {
         "key": "` meta+OEM_MINUS",
         "win": "` ctrl+alt+OEM_MINUS",
-        "linux": "` ctrl+alt+OEM_MINUS",
+        "linux": "` ctrl+meta+OEM_MINUS",
         "mac": "` ctrl+alt+OEM_MINUS",
         "command": "church-slavonic-keyboard:dead+meta+OEM_MINUS",
         "when": "editorTextFocus && cu.active"
@@ -2057,7 +2057,7 @@
     {
         "key": "` meta+shift+OEM_MINUS",
         "win": "` ctrl+alt+shift+OEM_MINUS",
-        "linux": "` ctrl+alt+shift+OEM_MINUS",
+        "linux": "` ctrl+meta+shift+OEM_MINUS",
         "mac": "` ctrl+alt+shift+OEM_MINUS",
         "command": "church-slavonic-keyboard:dead+meta+shift+OEM_MINUS",
         "when": "editorTextFocus && cu.active"
@@ -2065,7 +2065,7 @@
     {
         "key": "` meta+n",
         "win": "` ctrl+alt+n",
-        "linux": "` ctrl+alt+n",
+        "linux": "` ctrl+meta+n",
         "mac": "` ctrl+alt+n",
         "command": "church-slavonic-keyboard:dead+meta+n",
         "when": "editorTextFocus && cu.active"
@@ -2073,7 +2073,7 @@
     {
         "key": "` meta+shift+n",
         "win": "` ctrl+alt+shift+n",
-        "linux": "` ctrl+alt+shift+n",
+        "linux": "` ctrl+meta+shift+n",
         "mac": "` ctrl+alt+shift+n",
         "command": "church-slavonic-keyboard:dead+meta+shift+n",
         "when": "editorTextFocus && cu.active"
@@ -2081,7 +2081,7 @@
     {
         "key": "` meta+e",
         "win": "` ctrl+alt+e",
-        "linux": "` ctrl+alt+e",
+        "linux": "` ctrl+meta+e",
         "mac": "` ctrl+alt+e",
         "command": "church-slavonic-keyboard:dead+meta+e",
         "when": "editorTextFocus && cu.active"
@@ -2089,7 +2089,7 @@
     {
         "key": "` meta+shift+e",
         "win": "` ctrl+alt+shift+e",
-        "linux": "` ctrl+alt+shift+e",
+        "linux": "` ctrl+meta+shift+e",
         "mac": "` ctrl+alt+shift+e",
         "command": "church-slavonic-keyboard:dead+meta+shift+e",
         "when": "editorTextFocus && cu.active"
@@ -2097,7 +2097,7 @@
     {
         "key": "` meta+OEM_7",
         "win": "` ctrl+alt+OEM_7",
-        "linux": "` ctrl+alt+OEM_7",
+        "linux": "` ctrl+meta+OEM_7",
         "mac": "` ctrl+alt+OEM_7",
         "command": "church-slavonic-keyboard:dead+meta+OEM_7",
         "when": "editorTextFocus && cu.active"
@@ -2105,7 +2105,7 @@
     {
         "key": "` meta+shift+OEM_7",
         "win": "` ctrl+alt+shift+OEM_7",
-        "linux": "` ctrl+alt+shift+OEM_7",
+        "linux": "` ctrl+meta+shift+OEM_7",
         "mac": "` ctrl+alt+shift+OEM_7",
         "command": "church-slavonic-keyboard:dead+meta+shift+OEM_7",
         "when": "editorTextFocus && cu.active"
@@ -2113,7 +2113,7 @@
     {
         "key": "` meta+z",
         "win": "` ctrl+alt+z",
-        "linux": "` ctrl+alt+z",
+        "linux": "` ctrl+meta+z",
         "mac": "` ctrl+alt+z",
         "command": "church-slavonic-keyboard:dead+meta+z",
         "when": "editorTextFocus && cu.active"
@@ -2121,7 +2121,7 @@
     {
         "key": "` meta+shift+z",
         "win": "` ctrl+alt+shift+z",
-        "linux": "` ctrl+alt+shift+z",
+        "linux": "` ctrl+meta+shift+z",
         "mac": "` ctrl+alt+shift+z",
         "command": "church-slavonic-keyboard:dead+meta+shift+z",
         "when": "editorTextFocus && cu.active"
@@ -2129,7 +2129,7 @@
     {
         "key": "` meta+f",
         "win": "` ctrl+alt+f",
-        "linux": "` ctrl+alt+f",
+        "linux": "` ctrl+meta+f",
         "mac": "` ctrl+alt+f",
         "command": "church-slavonic-keyboard:dead+meta+f",
         "when": "editorTextFocus && cu.active"
@@ -2137,7 +2137,7 @@
     {
         "key": "` meta+shift+f",
         "win": "` ctrl+alt+shift+f",
-        "linux": "` ctrl+alt+shift+f",
+        "linux": "` ctrl+meta+shift+f",
         "mac": "` ctrl+alt+shift+f",
         "command": "church-slavonic-keyboard:dead+meta+shift+f",
         "when": "editorTextFocus && cu.active"
@@ -2145,7 +2145,7 @@
     {
         "key": "` meta+OEM_PERIOD",
         "win": "` ctrl+alt+OEM_PERIOD",
-        "linux": "` ctrl+alt+OEM_PERIOD",
+        "linux": "` ctrl+meta+OEM_PERIOD",
         "mac": "` ctrl+alt+OEM_PERIOD",
         "command": "church-slavonic-keyboard:dead+meta+OEM_PERIOD",
         "when": "editorTextFocus && cu.active"
@@ -2153,7 +2153,7 @@
     {
         "key": "` meta+shift+OEM_PERIOD",
         "win": "` ctrl+alt+shift+OEM_PERIOD",
-        "linux": "` ctrl+alt+shift+OEM_PERIOD",
+        "linux": "` ctrl+meta+shift+OEM_PERIOD",
         "mac": "` ctrl+alt+shift+OEM_PERIOD",
         "command": "church-slavonic-keyboard:dead+meta+shift+OEM_PERIOD",
         "when": "editorTextFocus && cu.active"
@@ -2161,7 +2161,7 @@
     {
         "key": "` meta+a",
         "win": "` ctrl+alt+a",
-        "linux": "` ctrl+alt+a",
+        "linux": "` ctrl+meta+a",
         "mac": "` ctrl+alt+a",
         "command": "church-slavonic-keyboard:dead+meta+a",
         "when": "editorTextFocus && cu.active"
@@ -2169,7 +2169,7 @@
     {
         "key": "` meta+shift+a",
         "win": "` ctrl+alt+shift+a",
-        "linux": "` ctrl+alt+shift+a",
+        "linux": "` ctrl+meta+shift+a",
         "mac": "` ctrl+alt+shift+a",
         "command": "church-slavonic-keyboard:dead+meta+shift+a",
         "when": "editorTextFocus && cu.active"
@@ -2177,7 +2177,7 @@
     {
         "key": "` meta+c",
         "win": "` ctrl+alt+c",
-        "linux": "` ctrl+alt+c",
+        "linux": "` ctrl+meta+c",
         "mac": "` ctrl+alt+c",
         "command": "church-slavonic-keyboard:dead+meta+c",
         "when": "editorTextFocus && cu.active"
@@ -2185,7 +2185,7 @@
     {
         "key": "` meta+shift+c",
         "win": "` ctrl+alt+shift+c",
-        "linux": "` ctrl+alt+shift+c",
+        "linux": "` ctrl+meta+shift+c",
         "mac": "` ctrl+alt+shift+c",
         "command": "church-slavonic-keyboard:dead+meta+shift+c",
         "when": "editorTextFocus && cu.active"
@@ -2194,7 +2194,7 @@
         "key": "meta+space",
         "mac": "ctrl+alt+space",
         "win": "ctrl+alt+space",
-        "linux": "ctrl+alt+space",
+        "linux": "ctrl+meta+space",
         "command": "church-slavonic-toggle"
     }
 ],
