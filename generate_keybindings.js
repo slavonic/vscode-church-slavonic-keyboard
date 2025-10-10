@@ -1,9 +1,9 @@
-const fs = require('fs');
-const cudef = require('./cudef')
+import fs from 'node:fs';
+import * as cudef from './cudef.js';
 
-const keybindings = []
-const commands = []
-const symbolMap = {}
+const keybindings = [];
+const commands = [];
+const symbolMap = {};
 
 function asString(val) {
     const data = []
@@ -29,6 +29,7 @@ function makeIt(mod, defs) {
             const k1 = {
                 key: mod.key + kb,
                 win: mod.win + kb,
+                linux: mod.linux + kb,
                 mac: mod.mac + kb,
                 command: 'church-slavonic-keyboard:' + mod.title + kb,
                 when: 'editorTextFocus && cu.active'
@@ -50,6 +51,7 @@ function makeIt(mod, defs) {
             const k2 = {
                 key: mod.key + 'shift+' + kb,
                 win: mod.win + 'shift+' + kb,
+                linux: mod.linux + 'shift+' + kb,
                 mac: mod.mac + 'shift+' + kb,
                 command: 'church-slavonic-keyboard:' + mod.title + 'shift+' + kb,
                 when: 'editorTextFocus && cu.active'
@@ -72,6 +74,7 @@ makeIt({
     title: '',
     key: '',
     win: '',
+    linux: '',
     mac: '',
 },
     cudef.plain
@@ -80,6 +83,7 @@ makeIt({
     title: 'meta+',
     key: 'meta+',
     win: 'ctrl+alt+',
+    linux: 'ctrl+meta+',
     mac: 'ctrl+alt+',
 },
     cudef.mod
@@ -88,13 +92,15 @@ makeIt({
     title: 'dead',
     key: '` ',
     win: '` ',
+    linux: '` ',
     mac: '` ',
 }, cudef.deadPlain)
 makeIt({
     title: 'dead+meta+',
     key: '` meta+',
     win: '` ctrl+alt+',
-    mac: '` ctrl+atl+',
+    linux: '` ctrl+meta+',
+    mac: '` ctrl+alt+',
 }, cudef.deadMod
 )
 
@@ -102,6 +108,7 @@ keybindings.push({
     key: 'meta+space',
     mac: 'ctrl+alt+space',
     win: 'ctrl+alt+space',
+    linux: 'ctrl+meta+space',
     command: 'church-slavonic-toggle'
 })
 
@@ -110,7 +117,7 @@ commands.push({
     title: 'Church Slavonic Keyboard: Toggle'
 })
 
-var text = {
+const text = {
     keybindings: JSON.stringify(keybindings, null, 4),
     commands: JSON.stringify(commands, null, 4),
     symbolMap: JSON.stringify(symbolMap, null, 4)
