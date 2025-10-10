@@ -1,6 +1,6 @@
-const vscode = require('vscode');
-const symbolMap = require('./symbol-map');
-const keyMap = require('./key-map');
+import * as vscode from 'vscode';
+import { symbolMap } from './symbol-map.js';
+import { keyMap } from './key-map.js';
 
 var active = false;
 var statusBarItem = null;
@@ -11,7 +11,7 @@ function insertSymbol(symbol) {
     });
 }
 
-function activate(context) {
+export function activate(context) {
 
     function registerCommand(name, func) {
         const disposable = vscode.commands.registerCommand(name, func);
@@ -42,8 +42,5 @@ function activate(context) {
     vscode.commands.executeCommand('setContext', 'cu.active', active);
 }
 
-exports.activate = activate;
-
-function deactivate() { }
-exports.deactivate = deactivate;
+export function deactivate() { }
 

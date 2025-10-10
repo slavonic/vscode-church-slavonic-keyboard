@@ -1,4 +1,4 @@
-module.exports = {
+export const keyMap = {
     "q": "й",
     "w": "ц",
     "e": "у",
