@@ -1,9 +1,9 @@
-const fs = require('fs');
-const cudef = require('./cudef')
+import fs from 'node:fs';
+import * as cudef from './cudef.js';
 
-const keybindings = []
-const commands = []
-const symbolMap = {}
+const keybindings = [];
+const commands = [];
+const symbolMap = {};
 
 function asString(val) {
     const data = []
@@ -117,7 +117,7 @@ commands.push({
     title: 'Church Slavonic Keyboard: Toggle'
 })
 
-var text = {
+const text = {
     keybindings: JSON.stringify(keybindings, null, 4),
     commands: JSON.stringify(commands, null, 4),
     symbolMap: JSON.stringify(symbolMap, null, 4)

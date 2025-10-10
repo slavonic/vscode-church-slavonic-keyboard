@@ -1,4 +1,4 @@
-const plain = [
+export const plain = [
     // row 0
 
     ['OEM_3', '', '~'],
@@ -56,7 +56,7 @@ const plain = [
     ['OEM_2', '.', ','],
 ];
 
-const mod = [
+export const mod = [
     // row 0
     ['OEM_3', '\u0451', '\u0401'],
     ['1', '\u0482', '\u200D'],
@@ -114,7 +114,7 @@ const mod = [
 
 ];
 
-const deadPlain = [
+export const deadPlain = [
     ['f', '\u2DF6', '\u2DF6'],
     ['OEM_COMMA', '\u2DE0', '\u2DE0'],
     ['d', '\u2DE1', '\u2DE1'],
@@ -147,7 +147,7 @@ const deadPlain = [
     ['OEM_PERIOD', '\u2DFB', '\u2DFB'],
 ];
 
-const deadMod = [
+export const deadMod = [
     ['t', '\uA674', '\uA674'],
     ['b', '\uA676', '\uA676'],
     ['j', '\u2DEA', '\u2DEA'],
@@ -163,10 +163,3 @@ const deadMod = [
     ['a', '\u2DF4', '\u2DF4'],
     ['c', '\u2DED', '\u2DED'],
 ]
-
-module.exports = {
-    plain,
-    mod,
-    deadPlain,
-    deadMod
-}

@@ -1,4 +1,4 @@
-module.exports = {
+export const symbolMap = {
     "church-slavonic-keyboard:shift+OEM_3": "~",
     "church-slavonic-keyboard:1": "1",
     "church-slavonic-keyboard:shift+1": "!",
